@@ -1,0 +1,41 @@
+{
+  "name": "cssbattle",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "author": "https://github.com/felipeog",
+  "license": "ISC",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "build": "parcel build",
+    "prepare": "husky install",
+    "pre-commit": "lint-staged"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.11.0",
+    "@typescript-eslint/parser": "^5.11.0",
+    "eslint": "^8.8.0",
+    "eslint-plugin-react": "^7.28.0",
+    "husky": "^7.0.0",
+    "lint-staged": "^12.3.3",
+    "parcel": "^2.2.1",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "prettier": "^2.5.1",
+    "typescript": "^4.5.5"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.{html,css}": [
+      "prettier --write"
+    ]
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

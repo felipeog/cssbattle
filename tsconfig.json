@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "target": "ES5"
+  },
+  "include": ["src/**/*"],
+  "exclude": [".parcel-cache", "dist", "node_modules"]
+}
