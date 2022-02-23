@@ -1,0 +1,4 @@
+.container {
+  border: none;
+  pointer-events: none;
+}
