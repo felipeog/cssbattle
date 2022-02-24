@@ -35,7 +35,7 @@ export function List({ challenges }: ListProps) {
 
   return (
     <ul
-      className={styles.container}
+      className={styles.list}
       style={{
         transform: `scale(${scale})`,
         transformOrigin: 'top left',

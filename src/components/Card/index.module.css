@@ -1,2 +1,5 @@
-.container {
+.iframe {
+  display: block;
+  border: none;
+  pointer-events: none;
 }
