@@ -1,19 +1,19 @@
 import { HTMLAttributes } from 'react'
 import parse from 'html-react-parser'
 
-import { Challenge } from '../../challenges/types'
+import { Target } from '../../targets/types'
 import { IFrame } from '../IFrame'
-import { CHALLENGE_DIMENSIONS } from '../../consts/challengeDimensions'
+import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
 import styles from './index.module.css'
 
-export type CardProps = HTMLAttributes<HTMLDivElement> & Challenge
+export type CardProps = HTMLAttributes<HTMLDivElement> & Target
 
 export function Card({ solution }: CardProps) {
   return (
     <IFrame
       className={styles.iframe}
-      width={CHALLENGE_DIMENSIONS.WIDTH}
-      height={CHALLENGE_DIMENSIONS.HEIGHT}
+      width={TARGET_DIMENSIONS.WIDTH}
+      height={TARGET_DIMENSIONS.HEIGHT}
     >
       {parse(solution)}
     </IFrame>

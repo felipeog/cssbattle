@@ -1,15 +1,15 @@
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 
-import { Challenge } from '../../challenges/types'
+import { Target } from '../../targets/types'
 import { Card } from '../Card'
 import styles from './index.module.css'
-import { CHALLENGE_DIMENSIONS } from '../../consts/challengeDimensions'
+import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
 
 export type ListProps = HTMLAttributes<HTMLUListElement> & {
-  challenges: Challenge[]
+  targets: Target[]
 }
 
-export function List({ challenges }: ListProps) {
+export function List({ targets }: ListProps) {
   const debounceRef = useRef<number>()
   const [availableWidth, setAvailableWidth] = useState(window.innerWidth)
 
@@ -29,8 +29,8 @@ export function List({ challenges }: ListProps) {
     }
   }, [])
 
-  const columnsNumber = Math.floor(availableWidth / CHALLENGE_DIMENSIONS.WIDTH)
-  const contentWidth = columnsNumber * CHALLENGE_DIMENSIONS.WIDTH
+  const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
+  const contentWidth = columnsNumber * TARGET_DIMENSIONS.WIDTH
   const scale = availableWidth / contentWidth
 
   return (
@@ -42,9 +42,9 @@ export function List({ challenges }: ListProps) {
         maxWidth: contentWidth,
       }}
     >
-      {challenges.map((challenge) => (
-        <li key={challenge.title}>
-          <Card {...challenge} />
+      {targets.map((target) => (
+        <li key={target.title}>
+          <Card {...target} />
         </li>
       ))}
     </ul>

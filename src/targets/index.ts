@@ -1,0 +1,6 @@
+export { default as target1 } from './001'
+export { default as target2 } from './002'
+export { default as target3 } from './003'
+export { default as target4 } from './004'
+export { default as target5 } from './005'
+export { default as target6 } from './006'

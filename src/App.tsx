@@ -1,12 +1,12 @@
-import * as rawChallenges from './challenges'
+import * as rawTargets from './targets'
 import { List } from './components/List'
 
 export function App() {
-  const challenges = Object.values(rawChallenges)
+  const targets = Object.values(rawTargets)
 
   return (
     <main className="App">
-      <List challenges={challenges} />
+      <List targets={targets} />
     </main>
   )
 }

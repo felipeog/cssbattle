@@ -3,7 +3,7 @@ export type Battle = {
   url: string
 }
 
-export type Challenge = {
+export type Target = {
   title: string
   url: string
   solution: string
