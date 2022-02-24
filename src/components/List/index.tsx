@@ -3,6 +3,7 @@ import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 import { Challenge } from '../../challenges/types'
 import { Card } from '../Card'
 import styles from './index.module.css'
+import { CHALLENGE_DIMENSIONS } from '../../consts/challengeDimensions'
 
 export type ListProps = HTMLAttributes<HTMLUListElement> & {
   challenges: Challenge[]
@@ -28,8 +29,8 @@ export function List({ challenges }: ListProps) {
     }
   }, [])
 
-  const columns = Math.floor(availableWidth / 400)
-  const contentWidth = columns * 400
+  const columnsNumber = Math.floor(availableWidth / CHALLENGE_DIMENSIONS.WIDTH)
+  const contentWidth = columnsNumber * CHALLENGE_DIMENSIONS.WIDTH
   const scale = availableWidth / contentWidth
 
   return (
