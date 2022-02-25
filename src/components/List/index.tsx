@@ -3,7 +3,7 @@ import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 import { Card } from '../Card'
 import { Target } from '../../types'
 import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
-import styles from './index.module.css'
+import * as styles from './index.module.css'
 
 export type ListProps = HTMLAttributes<HTMLUListElement> & {
   targets: Target[]

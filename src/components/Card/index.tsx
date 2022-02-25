@@ -4,7 +4,7 @@ import parse from 'html-react-parser'
 import { IFrame } from '../IFrame'
 import { Target } from '../../types'
 import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
-import styles from './index.module.css'
+import * as styles from './index.module.css'
 
 export type CardProps = HTMLAttributes<HTMLDivElement> & Target
 
