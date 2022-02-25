@@ -43,7 +43,7 @@ export function List({ targets }: ListProps) {
       }}
     >
       {targets.map((target) => (
-        <li key={target.title}>
+        <li key={target.targetId}>
           <Card {...target} />
         </li>
       ))}
