@@ -3,8 +3,5 @@ export default {
   url: 'https://cssbattle.dev/play/6',
   solution:
     '<a a><a b><a c><style>body{background:#E3516E}a{position:fixed;width:100;height:100;bottom:50%;left:100;border-top-left-radius:100%}a[a]{background:#51B5A9}a[b]{background:#FADE8B;transform:rotate(90deg)}a[c]{background:#F7F3D7;transform:rotate(-90deg)}a[b],a[c]{transform-origin:bottom right}</style>',
-  battle: {
-    title: 'Battle #1 - Pilot Battle',
-    url: 'https://cssbattle.dev/battle/1',
-  },
+  battleId: 'battle001',
 }

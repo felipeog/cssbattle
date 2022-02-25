@@ -1,6 +1,6 @@
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 
-import { Target } from '../../targets/types'
+import { Target } from '../../types'
 import { Card } from '../Card'
 import styles from './index.module.css'
 import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'

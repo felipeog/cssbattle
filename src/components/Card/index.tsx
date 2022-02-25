@@ -1,7 +1,7 @@
 import { HTMLAttributes } from 'react'
 import parse from 'html-react-parser'
 
-import { Target } from '../../targets/types'
+import { Target } from '../../types'
 import { IFrame } from '../IFrame'
 import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
 import styles from './index.module.css'
