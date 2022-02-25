@@ -1,9 +1,9 @@
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 
-import { Target } from '../../types'
 import { Card } from '../Card'
-import styles from './index.module.css'
+import { Target } from '../../types'
 import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
+import styles from './index.module.css'
 
 export type ListProps = HTMLAttributes<HTMLUListElement> & {
   targets: Target[]
@@ -37,9 +37,9 @@ export function List({ targets }: ListProps) {
     <ul
       className={styles.list}
       style={{
+        maxWidth: contentWidth,
         transform: `scale(${scale})`,
         transformOrigin: 'top left',
-        maxWidth: contentWidth,
       }}
     >
       {targets.map((target) => (

@@ -1,5 +1,5 @@
-import { TARGETS_MAP } from './consts/targetsMap'
 import { List } from './components/List'
+import { TARGETS_MAP } from './consts/targetsMap'
 
 export function App() {
   const targets = Object.values(TARGETS_MAP)
