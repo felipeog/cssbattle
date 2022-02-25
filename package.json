@@ -5,7 +5,7 @@
   "author": "https://github.com/felipeog",
   "license": "ISC",
   "scripts": {
-    "start": "parcel --no-cache",
+    "start": "parcel --no-cache --open",
     "build": "parcel build",
     "prepare": "husky install",
     "pre-commit": "lint-staged"
