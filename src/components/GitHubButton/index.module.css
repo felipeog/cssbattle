@@ -1,0 +1,21 @@
+.link {
+  position: fixed;
+  z-index: 10;
+  top: 1rem;
+  right: 1rem;
+  background-color: #181516;
+  border-radius: 50%;
+  opacity: 0.4;
+  transition: opacity 200ms;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+.logo {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.4rem;
+}
