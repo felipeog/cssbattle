@@ -21,7 +21,7 @@ export function List({ targets }: ListProps) {
     }, 100)
   }
 
-  function getListInlineStyle(availableWidth: number) {
+  function getScalingStyle(availableWidth: number) {
     if (availableWidth < TARGET_DIMENSIONS.WIDTH) {
       const scale = availableWidth / TARGET_DIMENSIONS.WIDTH
 
@@ -52,7 +52,7 @@ export function List({ targets }: ListProps) {
   }, [])
 
   return (
-    <ul className={styles.list} style={getListInlineStyle(availableWidth)}>
+    <ul className={styles.list} style={getScalingStyle(availableWidth)}>
       {targets.map((target) => (
         <li key={target.targetId}>
           <Card {...target} />
