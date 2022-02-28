@@ -28,14 +28,14 @@
   - [x] Target #19 - Cube
   - [x] Target #20 - Ticket
 - [x] Battle #4 - Display
-  - [x] Taget #21 - SitePoint Logo
-  - [x] Taget #22 - Cloud
-  - [x] Taget #23 - Boxception
-  - [x] Taget #24 - Switches
-  - [x] Taget #25 - Blossom
-  - [x] Taget #26 - Smiley
-  - [x] Taget #27 - Lock Up
-  - [x] Taget #28 - Cups & Balls
+  - [x] Target #21 - SitePoint Logo
+  - [x] Target #22 - Cloud
+  - [x] Target #23 - Boxception
+  - [x] Target #24 - Switches
+  - [x] Target #25 - Blossom
+  - [x] Target #26 - Smiley
+  - [x] Target #27 - Lock Up
+  - [x] Target #28 - Cups & Balls
 - [ ] Battle #5 - Inline
   - [ ] Target #29 - Suffocate
   - [ ] Target #30 - Horizon
