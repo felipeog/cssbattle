@@ -13,11 +13,17 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "overrides": [
     {
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "files": [".src/**/*.tsx"]
+    },
+    {
       "extends": ["plugin:react/recommended"],
-      "files": ["./**/*.tsx"],
+      "files": ["./src/**/*.tsx"],
       "rules": {
         "react/react-in-jsx-scope": "off"
       }
