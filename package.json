@@ -8,7 +8,9 @@
     "start": "parcel --no-cache --open",
     "build": "parcel build",
     "prepare": "husky install",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "generate-empty-targets": "node ./scripts/generateEmptyTargets.js",
+    "generate-targets-export": "node ./scripts/generateTargetsExport.js"
   },
   "dependencies": {
     "html-react-parser": "^1.4.8",

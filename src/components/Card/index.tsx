@@ -8,14 +8,30 @@ import * as styles from './index.module.css'
 
 export type CardProps = HTMLAttributes<HTMLDivElement> & Target
 
-export function Card({ solution }: CardProps) {
+export function Card({ solution, title }: CardProps) {
+  function render() {
+    if (!solution) {
+      return (
+        <div className={styles.empty}>
+          <p>{title}</p>
+        </div>
+      )
+    }
+
+    return (
+      <IFrame
+        className={styles.iframe}
+        width={TARGET_DIMENSIONS.WIDTH}
+        height={TARGET_DIMENSIONS.HEIGHT}
+      >
+        {parse(solution)}
+      </IFrame>
+    )
+  }
+
   return (
-    <IFrame
-      className={styles.iframe}
-      width={TARGET_DIMENSIONS.WIDTH}
-      height={TARGET_DIMENSIONS.HEIGHT}
-    >
-      {parse(solution)}
-    </IFrame>
+    <div className="Card" title={title}>
+      {render()}
+    </div>
   )
 }

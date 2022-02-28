@@ -1,4 +1,21 @@
 .iframe {
+  pointer-events: none;
   display: block;
   border: none;
+}
+
+.empty {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  background-color: #f8f8f8;
+  color: #aaa;
+  text-align: center;
+  border: 1px solid #ddd;
 }

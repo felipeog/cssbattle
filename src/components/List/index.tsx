@@ -54,7 +54,7 @@ export function List({ targets }: ListProps) {
   return (
     <ul className={styles.list} style={getScalingStyle(availableWidth)}>
       {targets.map((target) => (
-        <li key={target.targetId}>
+        <li key={target.id}>
           <Card {...target} />
         </li>
       ))}
