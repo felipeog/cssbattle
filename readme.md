@@ -32,7 +32,7 @@
   - [x] Taget #22 - Cloud
   - [x] Taget #23 - Boxception
   - [x] Taget #24 - Switches
-  - [x] Taget #25 - Blosson
+  - [x] Taget #25 - Blossom
   - [x] Taget #26 - Smiley
   - [x] Taget #27 - Lock Up
   - [x] Taget #28 - Cups & Balls
