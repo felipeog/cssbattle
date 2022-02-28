@@ -123,7 +123,7 @@ const targets = [
 const targetsFolderPath = path.resolve(__dirname, `../src/targets`)
 
 function getEmptyTargetContent(target, index) {
-  const targetId = `${String(index).padStart(3, '0')}`
+  const targetId = String(index).padStart(3, '0')
 
   return (
     `export default {\n` +
@@ -153,34 +153,28 @@ function createTargetsFolder() {
 }
 
 function createEmptyTargets() {
-  try {
-    targets.forEach((target, index) => {
-      const targetFileName = `${String(index + 1).padStart(3, '0')}.ts`
-      const targetFilePath = `${targetsFolderPath}/${targetFileName}`
+  targets.forEach((target, index) => {
+    const targetFileName = `${String(index + 1).padStart(3, '0')}.ts`
+    const targetFilePath = `${targetsFolderPath}/${targetFileName}`
 
-      if (fs.existsSync(targetFilePath)) {
-        console.log(`${target} already exists, skipping...`)
-      } else {
-        console.log(`${target} does not exist`)
-        console.log(`Creating ${target}...`)
+    if (fs.existsSync(targetFilePath)) {
+      console.log(`${target} already exists, skipping...`)
+    } else {
+      console.log(`${target} does not exist`)
+      console.log(`Creating ${target}...`)
 
-        try {
-          fs.writeFileSync(
-            `${targetsFolderPath}/${targetFileName}`,
-            getEmptyTargetContent(target, index + 1),
-          )
+      try {
+        fs.writeFileSync(
+          `${targetsFolderPath}/${targetFileName}`,
+          getEmptyTargetContent(target, index + 1),
+        )
 
-          console.log(`${target} created`)
-        } catch (err) {
-          throw Error(`Error creating ${target} file`, err)
-        }
+        console.log(`${target} created`)
+      } catch (err) {
+        throw Error(`Error creating ${target} file`, err)
       }
-    })
-
-    console.log('Targets files created')
-  } catch (err) {
-    throw Error('Error creating Target files', err)
-  }
+    }
+  })
 }
 
 createTargetsFolder()
