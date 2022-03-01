@@ -3,15 +3,14 @@ import * as path from 'path'
 
 import * as targetsMap from '../src/targets'
 
+const readmeFolderPath = path.resolve(__dirname, '../')
+const readmeFilePath = `${readmeFolderPath}/readme.md`
 const readmeHeader =
   `# [CSSBattle](https://cssbattle.dev)\n` +
   `\n` +
   `[@felipeog](https://cssbattle.dev/player/felipeog)\n` +
   `\n` +
   `## Checklist\n`
-
-const readmeFolderPath = path.resolve(__dirname, '../')
-const readmeFilePath = `${readmeFolderPath}/readme.md`
 
 if (fs.existsSync(readmeFilePath)) {
   console.log('Readme file already exists, overwriting...')

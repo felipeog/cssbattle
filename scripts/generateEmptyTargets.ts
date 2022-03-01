@@ -122,7 +122,7 @@ const targets = [
 ]
 const targetsFolderPath = path.resolve(__dirname, '../src/targets')
 
-function getEmptyTargetContent(target, index) {
+function getEmptyTargetContent(target: string, index: number) {
   const targetId = String(index).padStart(3, '0')
 
   return (
