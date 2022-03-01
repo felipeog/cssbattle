@@ -7,11 +7,11 @@
   "scripts": {
     "start": "parcel --no-cache --open",
     "build": "parcel build",
-    "prepare": "husky install",
-    "pre-commit": "lint-staged",
     "generate-empty-targets": "ts-node ./scripts/generateEmptyTargets.ts",
     "generate-targets-export": "ts-node ./scripts/generateTargetsExport.ts",
-    "generate-readme": "ts-node ./scripts/generateReadme.ts"
+    "generate-readme": "ts-node ./scripts/generateReadme.ts",
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
   },
   "dependencies": {
     "html-react-parser": "^1.4.8",

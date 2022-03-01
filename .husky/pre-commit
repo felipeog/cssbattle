@@ -1,4 +1,6 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-npm run pre-commit
+npm run generate-readme
+git add readme.md
+npm run lint-staged
