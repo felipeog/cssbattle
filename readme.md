@@ -33,7 +33,7 @@
 - [x] Target #27 - Lock Up
 - [x] Target #28 - Cups & Balls
 - [x] Target #29 - Suffocate
-- [ ] Target #30 - Horizon
+- [x] Target #30 - Horizon
 - [ ] Target #31 - Equals
 - [ ] Target #32 - Band-aid
 - [ ] Target #33 - Birdie
