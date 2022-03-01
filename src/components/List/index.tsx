@@ -11,7 +11,7 @@ export type ListProps = HTMLAttributes<HTMLUListElement> & {
 }
 
 export function List({ targets }: ListProps) {
-  const debounceRef = useRef<number>()
+  const debounceRef = useRef<NodeJS.Timeout>()
   const [availableWidth, setAvailableWidth] = useState(window.innerWidth)
 
   function handleResize() {
