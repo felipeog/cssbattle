@@ -1,13 +1,6 @@
-export type Battle = {
-  battleId: string
-  title: string
-  url: string
-}
-
 export type Target = {
-  targetId: string
+  id: string
   title: string
   url: string
   solution: string
-  battle: Battle
 }
