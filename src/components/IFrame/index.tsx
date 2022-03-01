@@ -8,7 +8,7 @@ export function IFrame({ children, ...props }: IFrameProps) {
   const [iframeRef, setIframeRef] = useState<HTMLIFrameElement>()
 
   const head = {
-    children: <style>{`body{overflow:hidden}`}</style>,
+    children: <style>{`body{overflow:hidden;background:#fff}`}</style>,
     container: iframeRef?.contentDocument?.head,
   }
   const body = {
