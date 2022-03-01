@@ -35,8 +35,8 @@
 - [x] Target #29 - Suffocate
 - [x] Target #30 - Horizon
 - [x] Target #31 - Equals
-- [ ] Target #32 - Band-aid
-- [ ] Target #33 - Birdie
+- [x] Target #32 - Band-aid
+- [x] Target #33 - Birdie
 - [ ] Target #34 - Christmas Tree
 - [ ] Target #35 - Ice Cream
 - [ ] Target #36 - Interleaved
