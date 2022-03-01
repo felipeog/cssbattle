@@ -9,16 +9,8 @@ import * as styles from './index.module.css'
 export type CardProps = HTMLAttributes<HTMLDivElement> & Target
 
 export function Card({ solution, title }: CardProps) {
-  function render() {
-    if (!solution) {
-      return (
-        <div className={styles.empty}>
-          <p>{title}</p>
-        </div>
-      )
-    }
-
-    return (
+  return (
+    <div className="Card" title={title}>
       <IFrame
         className={styles.iframe}
         width={TARGET_DIMENSIONS.WIDTH}
@@ -26,12 +18,6 @@ export function Card({ solution, title }: CardProps) {
       >
         {parse(solution)}
       </IFrame>
-    )
-  }
-
-  return (
-    <div className="Card" title={title}>
-      {render()}
     </div>
   )
 }

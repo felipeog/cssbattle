@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #aaa;
+  text-align: center;
+  border: 1px solid #e8e8e8;
+  border-top: none;
+  border-left: none;
+}

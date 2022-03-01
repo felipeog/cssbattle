@@ -1,6 +1,7 @@
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
 
 import { Card } from '../Card'
+import { EmptyCard } from '../EmptyCard'
 import { Target } from '../../types'
 import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
 import * as styles from './index.module.css'
@@ -43,6 +44,28 @@ export function List({ targets }: ListProps) {
     }
   }
 
+  function isInLastColumn(availableWidth: number, index: number) {
+    const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
+
+    if (columnsNumber <= 1) {
+      return true
+    }
+
+    return index % columnsNumber === 0
+  }
+
+  function isInLastRow(availableWidth: number, index: number) {
+    const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
+
+    if (columnsNumber <= 1) {
+      return index === targets.length
+    }
+
+    const paddedRows = Math.ceil(targets.length / columnsNumber) * columnsNumber
+
+    return index > paddedRows - columnsNumber
+  }
+
   useEffect(() => {
     window.addEventListener('resize', handleResize)
 
@@ -53,11 +76,23 @@ export function List({ targets }: ListProps) {
 
   return (
     <ul className={styles.list} style={getScalingStyle(availableWidth)}>
-      {targets.map((target) => (
-        <li key={target.id}>
-          <Card {...target} />
-        </li>
-      ))}
+      {targets.map((target, index) => {
+        if (!target.solution) {
+          return (
+            <EmptyCard
+              {...target}
+              isInLastColumn={isInLastColumn(availableWidth, index + 1)}
+              isInLastRow={isInLastRow(availableWidth, index + 1)}
+            />
+          )
+        }
+
+        return (
+          <li key={target.id}>
+            <Card {...target} />
+          </li>
+        )
+      })}
     </ul>
   )
 }
