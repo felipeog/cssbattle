@@ -8,9 +8,9 @@
   font-family: monospace;
   font-weight: bold;
   font-size: 1.2rem;
-  color: #aaa;
   text-align: center;
-  border: 1px solid #e8e8e8;
+  color: var(--gray300);
+  border: 1px solid var(--gray200);
   border-top: none;
   border-left: none;
 }

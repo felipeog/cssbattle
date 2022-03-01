@@ -1,0 +1,13 @@
+:root {
+  --gray100: #f8f8f8;
+  --gray200: #e8e8e8;
+  --gray300: #aaa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --gray100: #111;
+    --gray200: #222;
+    --gray300: #888;
+  }
+}
