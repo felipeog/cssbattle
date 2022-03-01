@@ -1,5 +1,5 @@
-const fs = require('fs')
-const path = require('path')
+import * as fs from 'fs'
+import * as path from 'path'
 
 const targets = [
   // battle 1
@@ -147,7 +147,7 @@ function createTargetsFolder() {
 
       console.log('Targets folder created')
     } catch (err) {
-      throw Error('Error creating Targets folder', err)
+      throw Error(`Error creating Targets folder: ${err}`)
     }
   }
 }
@@ -171,7 +171,7 @@ function createEmptyTargets() {
 
         console.log(`${target} created`)
       } catch (err) {
-        throw Error(`Error creating ${target} file`, err)
+        throw Error(`Error creating ${target} file: ${err}`)
       }
     }
   })

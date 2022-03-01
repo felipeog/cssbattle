@@ -1,5 +1,5 @@
-const fs = require('fs')
-const path = require('path')
+import * as fs from 'fs'
+import * as path from 'path'
 
 const targetsFolderPath = path.resolve(__dirname, `../src/targets`)
 const targetsExportFilePath = `${targetsFolderPath}/index.ts`
@@ -23,5 +23,5 @@ try {
 
   console.log(`Export file created`)
 } catch (err) {
-  throw Error(`Error creating Export file`, err)
+  throw Error(`Error creating Export file: ${err}`)
 }
