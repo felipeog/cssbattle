@@ -37,7 +37,7 @@
 - [x] Target #31 - Equals
 - [x] Target #32 - Band-aid
 - [x] Target #33 - Birdie
-- [ ] Target #34 - Christmas Tree
+- [x] Target #34 - Christmas Tree
 - [ ] Target #35 - Ice Cream
 - [ ] Target #36 - Interleaved
 - [ ] Target #37 - Tunnel
