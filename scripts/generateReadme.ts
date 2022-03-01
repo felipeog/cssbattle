@@ -10,7 +10,7 @@ const readmeHeader =
   `\n` +
   `## Checklist\n`
 
-const readmeFolderPath = path.resolve(__dirname, `../`)
+const readmeFolderPath = path.resolve(__dirname, '../')
 const readmeFilePath = `${readmeFolderPath}/readme.md`
 
 if (fs.existsSync(readmeFilePath)) {
@@ -30,7 +30,7 @@ const readmeContent = `${readmeHeader}\n${readmeChecklist}\n`
 try {
   fs.writeFileSync(`${readmeFilePath}`, readmeContent)
 
-  console.log(`Readme file created`)
+  console.log('Readme file created')
 } catch (err) {
   throw Error(`Error creating Readme file: ${err}`)
 }

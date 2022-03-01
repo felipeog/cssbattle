@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 import * as path from 'path'
 
-const targetsFolderPath = path.resolve(__dirname, `../src/targets`)
+const targetsFolderPath = path.resolve(__dirname, '../src/targets')
 const targetsExportFilePath = `${targetsFolderPath}/index.ts`
 
 if (fs.existsSync(targetsExportFilePath)) {
@@ -19,9 +19,9 @@ const exportFileContent = formattedFileNames
   .join('')
 
 try {
-  fs.writeFileSync(`${targetsExportFilePath}`, exportFileContent)
+  fs.writeFileSync(targetsExportFilePath, exportFileContent)
 
-  console.log(`Export file created`)
+  console.log('Export file created')
 } catch (err) {
   throw Error(`Error creating Export file: ${err}`)
 }

@@ -120,7 +120,7 @@ const targets = [
   'Gift Box',
   'CSSBattle',
 ]
-const targetsFolderPath = path.resolve(__dirname, `../src/targets`)
+const targetsFolderPath = path.resolve(__dirname, '../src/targets')
 
 function getEmptyTargetContent(target, index) {
   const targetId = String(index).padStart(3, '0')
