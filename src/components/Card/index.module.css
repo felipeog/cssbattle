@@ -1,4 +1,5 @@
 .iframe {
+  background: #fff;
   pointer-events: none;
   display: block;
   border: none;
