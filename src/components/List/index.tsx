@@ -80,9 +80,10 @@ export function List({ targets }: ListProps) {
         if (!target.solution) {
           return (
             <EmptyCard
-              {...target}
+              key={target.id}
               isInLastColumn={isInLastColumn(availableWidth, index + 1)}
               isInLastRow={isInLastRow(availableWidth, index + 1)}
+              {...target}
             />
           )
         }
