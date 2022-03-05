@@ -41,7 +41,7 @@
 - [x] Target #35 - Ice Cream
 - [x] Target #36 - Interleaved
 - [x] Target #37 - Tunnel
-- [ ] Target #38 - Not Simply Square
+- [x] Target #38 - Not Simply Square
 - [ ] Target #39 - Sunset
 - [ ] Target #40 - Letter B
 - [ ] Target #41 - Fox Head
