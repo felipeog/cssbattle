@@ -39,7 +39,7 @@
 - [x] Target #33 - Birdie
 - [x] Target #34 - Christmas Tree
 - [x] Target #35 - Ice Cream
-- [ ] Target #36 - Interleaved
+- [x] Target #36 - Interleaved
 - [ ] Target #37 - Tunnel
 - [ ] Target #38 - Not Simply Square
 - [ ] Target #39 - Sunset
