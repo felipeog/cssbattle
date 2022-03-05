@@ -40,7 +40,7 @@
 - [x] Target #34 - Christmas Tree
 - [x] Target #35 - Ice Cream
 - [x] Target #36 - Interleaved
-- [ ] Target #37 - Tunnel
+- [x] Target #37 - Tunnel
 - [ ] Target #38 - Not Simply Square
 - [ ] Target #39 - Sunset
 - [ ] Target #40 - Letter B
