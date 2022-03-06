@@ -44,7 +44,7 @@
 - [x] Target #38 - Not Simply Square
 - [x] Target #39 - Sunset
 - [x] Target #40 - Letter B
-- [ ] Target #41 - Fox Head
+- [x] Target #41 - Fox Head
 - [ ] Target #42 - Baby
 - [ ] Target #43 - Wrench
 - [ ] Target #44 - Stripes
