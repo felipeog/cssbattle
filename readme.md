@@ -42,7 +42,7 @@
 - [x] Target #36 - Interleaved
 - [x] Target #37 - Tunnel
 - [x] Target #38 - Not Simply Square
-- [ ] Target #39 - Sunset
+- [x] Target #39 - Sunset
 - [ ] Target #40 - Letter B
 - [ ] Target #41 - Fox Head
 - [ ] Target #42 - Baby
