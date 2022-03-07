@@ -46,7 +46,7 @@
 - [x] Target #40 - Letter B
 - [x] Target #41 - Fox Head
 - [x] Target #42 - Baby
-- [ ] Target #43 - Wrench
+- [x] Target #43 - Wrench
 - [ ] Target #44 - Stripes
 - [ ] Target #45 - Magical Tree
 - [ ] Target #46 - Mountains
