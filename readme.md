@@ -47,7 +47,7 @@
 - [x] Target #41 - Fox Head
 - [x] Target #42 - Baby
 - [x] Target #43 - Wrench
-- [ ] Target #44 - Stripes
+- [x] Target #44 - Stripes
 - [ ] Target #45 - Magical Tree
 - [ ] Target #46 - Mountains
 - [ ] Target #47 - Corona Virus
