@@ -45,7 +45,7 @@
 - [x] Target #39 - Sunset
 - [x] Target #40 - Letter B
 - [x] Target #41 - Fox Head
-- [ ] Target #42 - Baby
+- [x] Target #42 - Baby
 - [ ] Target #43 - Wrench
 - [ ] Target #44 - Stripes
 - [ ] Target #45 - Magical Tree
