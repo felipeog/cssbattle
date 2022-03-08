@@ -48,8 +48,8 @@
 - [x] Target #42 - Baby
 - [x] Target #43 - Wrench
 - [x] Target #44 - Stripes
-- [ ] Target #45 - Magical Tree
-- [ ] Target #46 - Mountains
+- [x] Target #45 - Magical Tree
+- [x] Target #46 - Mountains
 - [ ] Target #47 - Corona Virus
 - [ ] Target #48 - Wash Your Hands
 - [ ] Target #49 - Stay at Home
