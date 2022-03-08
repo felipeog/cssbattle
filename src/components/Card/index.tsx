@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react'
-import parse from 'html-react-parser'
 
 import { IFrame } from '../IFrame'
 import { Target } from '../../types'
@@ -15,9 +14,8 @@ export function Card({ solution, title }: CardProps) {
         className={styles.iframe}
         width={TARGET_DIMENSIONS.WIDTH}
         height={TARGET_DIMENSIONS.HEIGHT}
-      >
-        {parse(solution)}
-      </IFrame>
+        solution={solution}
+      />
     </div>
   )
 }

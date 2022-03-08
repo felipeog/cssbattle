@@ -1,25 +1,16 @@
-import { IframeHTMLAttributes, useState } from 'react'
-import { createPortal } from 'react-dom'
+import { IframeHTMLAttributes } from 'react'
 
-export type IFrameProps = IframeHTMLAttributes<HTMLIFrameElement>
+export type IFrameProps = IframeHTMLAttributes<HTMLIFrameElement> & {
+  solution: string
+}
 
-// https://dev.to/graftini/rendering-in-an-iframe-in-a-react-app-2boa
-export function IFrame({ children, ...props }: IFrameProps) {
-  const [iframeRef, setIframeRef] = useState<HTMLIFrameElement>()
-
-  const head = {
-    children: <style>{`body{overflow:hidden}`}</style>,
-    container: iframeRef?.contentDocument?.head,
-  }
-  const body = {
-    children: children,
-    container: iframeRef?.contentDocument?.body,
-  }
+// https://stackoverflow.com/a/52873226
+export function IFrame({ solution, ...props }: IFrameProps) {
+  const head = '<head><style>body{overflow:hidden}</style></head>'
+  const body = `<body>${solution}</body>`
+  const html = `<html>${head}${body}</html>`
 
   return (
-    <iframe ref={setIframeRef} {...props}>
-      {head.container && createPortal(head.children, head.container)}
-      {body.container && createPortal(body.children, body.container)}
-    </iframe>
+    <iframe src={'data:text/html,' + encodeURIComponent(html)} {...props} />
   )
 }
