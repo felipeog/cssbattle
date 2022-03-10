@@ -2,7 +2,8 @@
   "compilerOptions": {
     "jsx": "react-jsx",
     "target": "es2021",
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*"],
   "exclude": [".parcel-cache", "dist", "node_modules"]

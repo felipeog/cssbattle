@@ -12,7 +12,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react", "@typescript-eslint"],
+  "plugins": ["react", "@typescript-eslint", "jest"],
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "overrides": [
     {
@@ -21,6 +21,10 @@
       "rules": {
         "react/react-in-jsx-scope": "off"
       }
+    },
+    {
+      "extends": ["plugin:jest/all"],
+      "files": ["./src/tests/**/*.spec.ts"]
     }
   ]
 }
