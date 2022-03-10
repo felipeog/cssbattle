@@ -30,6 +30,6 @@ try {
   fs.writeFileSync(`${readmeFilePath}`, readmeContent)
 
   console.log('Readme file created')
-} catch (err) {
-  throw Error(`Error creating Readme file: ${err}`)
+} catch (error) {
+  throw Error(`Error creating Readme file: ${error}`)
 }

@@ -146,8 +146,8 @@ function createTargetsFolder() {
       fs.mkdirSync(targetsFolderPath, { recursive: true })
 
       console.log('Targets folder created')
-    } catch (err) {
-      throw Error(`Error creating Targets folder: ${err}`)
+    } catch (error) {
+      throw Error(`Error creating Targets folder: ${error}`)
     }
   }
 }
@@ -170,8 +170,8 @@ function createEmptyTargets() {
         )
 
         console.log(`${target} created`)
-      } catch (err) {
-        throw Error(`Error creating ${target} file: ${err}`)
+      } catch (error) {
+        throw Error(`Error creating ${target} file: ${error}`)
       }
     }
   })
