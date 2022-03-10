@@ -50,7 +50,7 @@
 - [x] Target #44 - Stripes
 - [x] Target #45 - Magical Tree
 - [x] Target #46 - Mountains
-- [ ] Target #47 - Corona Virus
+- [x] Target #47 - Corona Virus
 - [ ] Target #48 - Wash Your Hands
 - [ ] Target #49 - Stay at Home
 - [ ] Target #50 - Use Hand Sanitizer
