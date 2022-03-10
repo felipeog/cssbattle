@@ -22,6 +22,6 @@ try {
   fs.writeFileSync(targetsExportFilePath, exportFileContent)
 
   console.log('Export file created')
-} catch (err) {
-  throw Error(`Error creating Export file: ${err}`)
+} catch (error) {
+  throw Error(`Error creating Export file: ${error}`)
 }
