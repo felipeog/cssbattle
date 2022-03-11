@@ -32,7 +32,7 @@ async function createSolutionImage(solution: string) {
 
     fs.writeFileSync(path.resolve(__dirname, './solution.png'), image, 'base64')
   } catch (error) {
-    throw Error(`createSolutionImage:${error}`)
+    throw Error(`createSolutionImage: ${error}`)
   }
 }
 
