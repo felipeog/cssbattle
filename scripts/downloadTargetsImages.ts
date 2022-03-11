@@ -9,19 +9,15 @@ const targetsImagesFolderPath = path.resolve(
 
 function createTargetsImagesFolder() {
   if (fs.existsSync(targetsImagesFolderPath)) {
-    console.log('Images folder already exists')
-  } else {
-    console.log('Images folder does not exist')
-    console.log('Creating images folder...')
-
-    try {
-      fs.mkdirSync(targetsImagesFolderPath, { recursive: true })
-
-      console.log('Images folder created')
-    } catch (error) {
-      throw Error(`Error creating Images folder: ${error}`)
-    }
+    return console.log('Images folder already exists')
   }
+
+  console.log('Images folder does not exist')
+  console.log('Creating images folder...')
+
+  fs.mkdirSync(targetsImagesFolderPath, { recursive: true })
+
+  console.log('Images folder created')
 }
 
 async function downloadTargetImage(targetFileName: string) {
@@ -40,7 +36,7 @@ async function downloadTargetImage(targetFileName: string) {
 
     console.log(`${targetFileName} downloaded successfully`)
   } catch (error) {
-    throw Error(`Axios error: ${error}`)
+    throw Error(`downloadTargetImage(${targetFileName}): ${error}`)
   }
 }
 
@@ -51,15 +47,17 @@ async function downloadTargetsImages() {
 
     if (fs.existsSync(targetFilePath)) {
       console.log(`${targetFileName} already exists, skipping...`)
-    } else {
-      try {
-        console.log(`${targetFileName} does not exist`)
-        console.log(`Downloading ${targetFileName}...`)
 
-        await downloadTargetImage(targetFileName)
-      } catch (error) {
-        throw Error(`Error downloading ${targetFileName}: ${error}`)
-      }
+      continue
+    }
+
+    try {
+      console.log(`${targetFileName} does not exist`)
+      console.log(`Downloading ${targetFileName}...`)
+
+      await downloadTargetImage(targetFileName)
+    } catch (error) {
+      throw Error(`downloadTargetsImages: ${error}`)
     }
   }
 }

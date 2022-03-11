@@ -137,45 +137,37 @@ function getEmptyTargetContent(target: string, index: number) {
 
 function createTargetsFolder() {
   if (fs.existsSync(targetsFolderPath)) {
-    console.log('Targets folder already exists')
-  } else {
-    console.log('Targets folder does not exist')
-    console.log('Creating Targets folder...')
-
-    try {
-      fs.mkdirSync(targetsFolderPath, { recursive: true })
-
-      console.log('Targets folder created')
-    } catch (error) {
-      throw Error(`Error creating Targets folder: ${error}`)
-    }
+    return console.log('Targets folder already exists')
   }
+
+  console.log('Targets folder does not exist')
+  console.log('Creating Targets folder...')
+
+  fs.mkdirSync(targetsFolderPath, { recursive: true })
+
+  console.log('Targets folder created')
 }
 
-function createEmptyTargets() {
+function generateEmptyTargets() {
   targets.forEach((target, index) => {
     const targetFileName = `${String(index + 1).padStart(3, '0')}.ts`
     const targetFilePath = `${targetsFolderPath}/${targetFileName}`
 
     if (fs.existsSync(targetFilePath)) {
-      console.log(`${target} already exists, skipping...`)
-    } else {
-      console.log(`${target} does not exist`)
-      console.log(`Creating ${target}...`)
-
-      try {
-        fs.writeFileSync(
-          `${targetsFolderPath}/${targetFileName}`,
-          getEmptyTargetContent(target, index + 1),
-        )
-
-        console.log(`${target} created`)
-      } catch (error) {
-        throw Error(`Error creating ${target} file: ${error}`)
-      }
+      return console.log(`${target} already exists, skipping...`)
     }
+
+    console.log(`${target} does not exist`)
+    console.log(`Creating ${target}...`)
+
+    fs.writeFileSync(
+      `${targetsFolderPath}/${targetFileName}`,
+      getEmptyTargetContent(target, index + 1),
+    )
+
+    console.log(`${target} created`)
   })
 }
 
 createTargetsFolder()
-createEmptyTargets()
+generateEmptyTargets()

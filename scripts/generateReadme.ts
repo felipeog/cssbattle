@@ -12,24 +12,24 @@ const readmeHeader =
   `\n` +
   `## Checklist\n`
 
-if (fs.existsSync(readmeFilePath)) {
-  console.log('Readme file already exists, overwriting...')
-}
+function generateReadme() {
+  if (fs.existsSync(readmeFilePath)) {
+    console.log('Readme file already exists, overwriting...')
+  }
 
-const targets = Object.values(targetsMap)
-const readmeChecklist = targets
-  .map((target) => {
-    const isDone = !!target.solution.length
+  const targets = Object.values(targetsMap)
+  const readmeChecklist = targets
+    .map((target) => {
+      const isDone = !!target.solution.length
 
-    return `- [${isDone ? 'x' : ' '}] ${target.title}`
-  })
-  .join('\n')
-const readmeContent = `${readmeHeader}\n${readmeChecklist}\n`
+      return `- [${isDone ? 'x' : ' '}] ${target.title}`
+    })
+    .join('\n')
+  const readmeContent = `${readmeHeader}\n${readmeChecklist}\n`
 
-try {
   fs.writeFileSync(`${readmeFilePath}`, readmeContent)
 
   console.log('Readme file created')
-} catch (error) {
-  throw Error(`Error creating Readme file: ${error}`)
 }
+
+generateReadme()
