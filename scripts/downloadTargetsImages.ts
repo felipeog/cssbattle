@@ -21,6 +21,8 @@ function createTargetsImagesFolder() {
 }
 
 async function downloadTargetImage(targetFileName: string) {
+  console.log(`Downloading ${targetFileName}...`)
+
   try {
     const { data } = await axios.get(
       `https://cssbattle.dev/targets/${targetFileName}`,
@@ -53,7 +55,6 @@ async function downloadTargetsImages() {
 
     try {
       console.log(`${targetFileName} does not exist`)
-      console.log(`Downloading ${targetFileName}...`)
 
       await downloadTargetImage(targetFileName)
     } catch (error) {
