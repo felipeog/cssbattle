@@ -14,6 +14,8 @@ export function List({ targets }: ListProps) {
   const debounceRef = useRef<NodeJS.Timeout>()
   const [availableWidth, setAvailableWidth] = useState(window.innerWidth)
 
+  const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
+
   function handleResize() {
     clearTimeout(debounceRef.current)
 
@@ -22,7 +24,7 @@ export function List({ targets }: ListProps) {
     }, 100)
   }
 
-  function getScalingStyle(availableWidth: number) {
+  function getScalingStyle() {
     if (availableWidth < TARGET_DIMENSIONS.WIDTH) {
       const scale = availableWidth / TARGET_DIMENSIONS.WIDTH
 
@@ -33,7 +35,6 @@ export function List({ targets }: ListProps) {
       }
     }
 
-    const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
     const width = columnsNumber * TARGET_DIMENSIONS.WIDTH
     const scale = availableWidth / width
 
@@ -44,26 +45,22 @@ export function List({ targets }: ListProps) {
     }
   }
 
-  function isInLastColumn(availableWidth: number, index: number) {
-    const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
-
+  function isInLastColumn(columnNumber: number) {
     if (columnsNumber <= 1) {
       return true
     }
 
-    return index % columnsNumber === 0
+    return columnNumber % columnsNumber === 0
   }
 
-  function isInLastRow(availableWidth: number, index: number) {
-    const columnsNumber = Math.floor(availableWidth / TARGET_DIMENSIONS.WIDTH)
-
+  function isInLastRow(rowNumber: number) {
     if (columnsNumber <= 1) {
-      return index === targets.length
+      return rowNumber === targets.length
     }
 
     const paddedRows = Math.ceil(targets.length / columnsNumber) * columnsNumber
 
-    return index > paddedRows - columnsNumber
+    return rowNumber > paddedRows - columnsNumber
   }
 
   useEffect(() => {
@@ -75,14 +72,14 @@ export function List({ targets }: ListProps) {
   }, [])
 
   return (
-    <ul className={styles.list} style={getScalingStyle(availableWidth)}>
+    <ul className={styles.list} style={getScalingStyle()}>
       {targets.map((target, index) => {
         if (!target.solution) {
           return (
             <EmptyCard
               key={target.id}
-              isInLastColumn={isInLastColumn(availableWidth, index + 1)}
-              isInLastRow={isInLastRow(availableWidth, index + 1)}
+              isInLastColumn={isInLastColumn(index + 1)}
+              isInLastRow={isInLastRow(index + 1)}
               {...target}
             />
           )
