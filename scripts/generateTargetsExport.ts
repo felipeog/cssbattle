@@ -24,7 +24,7 @@ function generateTargetsExport() {
 
     console.log('Export file created')
   } catch (error) {
-    throw Error(`Error creating Export file: ${error}`)
+    throw Error(`generateTargetsExport: ${error}`)
   }
 }
 
