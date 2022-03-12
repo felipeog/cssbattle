@@ -12,11 +12,12 @@ export function Card({ solution, title }: CardProps) {
   const cardRef = useRef()
   const [isIntersecting, setIsIntersecting] = useState(false)
 
+  function handleObserverChange(entries: IntersectionObserverEntry[]) {
+    setIsIntersecting(entries?.[0]?.isIntersecting)
+  }
+
   useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      console.log(entries[0].isIntersecting)
-      setIsIntersecting(entries[0].isIntersecting)
-    })
+    const observer = new IntersectionObserver(handleObserverChange)
 
     observer.observe(cardRef.current)
 
