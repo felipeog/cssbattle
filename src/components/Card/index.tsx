@@ -10,13 +10,17 @@ export type CardProps = HTMLAttributes<HTMLDivElement> & Target
 
 export function Card({ solution, title }: CardProps) {
   const cardRef = useRef()
-  const [isIntersecting, setIsIntersecting] = useState(false)
+  const [isIntersecting, setIsIntersecting] = useState(true)
 
   function handleObserverChange(entries: IntersectionObserverEntry[]) {
     setIsIntersecting(entries?.[0]?.isIntersecting)
   }
 
   useEffect(() => {
+    if (!window?.IntersectionObserver) {
+      return
+    }
+
     const observer = new IntersectionObserver(handleObserverChange, {
       rootMargin: '100px',
     })
