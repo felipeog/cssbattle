@@ -13,8 +13,14 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint", "jest"],
-  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "overrides": [
+    {
+      "extends": [
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended"
+      ],
+      "files": ["./src", "./scripts"]
+    },
     {
       "extends": ["plugin:react/recommended"],
       "files": ["./src/**/*.tsx"],
