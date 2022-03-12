@@ -79,7 +79,6 @@ export function List({ targets }: ListProps) {
           return (
             <li key={target.id}>
               <EmptyCard
-                key={target.id}
                 isInLastColumn={isInLastColumn(index + 1)}
                 isInLastRow={isInLastRow(index + 1)}
                 {...target}
