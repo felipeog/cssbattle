@@ -30,7 +30,7 @@ function getPixelsMismatch(
   return pixelsMismatch
 }
 
-describe.each(SOLVED_TARGETS)('$id pixels mismatch', ({ id }) => {
+describe.each(SOLVED_TARGETS)('$title pixels mismatch', ({ id }) => {
   const fileName = `${Number(id)}.png`
   const pixelsMismatch = getPixelsMismatch(
     path.resolve(__dirname, `./targetsImages/${fileName}`),
