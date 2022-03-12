@@ -52,8 +52,8 @@
 - [x] Target #46 - Mountains
 - [x] Target #47 - Corona Virus
 - [x] Target #48 - Wash Your Hands
-- [ ] Target #49 - Stay at Home
-- [ ] Target #50 - Use Hand Sanitizer
+- [x] Target #49 - Stay at Home
+- [x] Target #50 - Use Hand Sanitizer
 - [ ] Target #51 - Wear a Mask
 - [ ] Target #52 - Break the Chain
 - [ ] Target #53 - Pastel Logo
