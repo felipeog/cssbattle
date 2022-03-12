@@ -17,7 +17,9 @@ export function Card({ solution, title }: CardProps) {
   }
 
   useEffect(() => {
-    const observer = new IntersectionObserver(handleObserverChange)
+    const observer = new IntersectionObserver(handleObserverChange, {
+      rootMargin: '100px',
+    })
 
     observer.observe(cardRef.current)
 
