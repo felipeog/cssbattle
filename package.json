@@ -7,11 +7,12 @@
   "scripts": {
     "start": "parcel --no-cache --open",
     "build": "parcel build",
-    "test": "jest",
+    "test": "npm run generate-solutions-images && jest",
     "ts-node": "ts-node",
     "download-targets-images": "ts-node ./scripts/downloadTargetsImages.ts",
     "generate-empty-targets": "ts-node ./scripts/generateEmptyTargets.ts",
     "generate-readme": "ts-node ./scripts/generateReadme.ts",
+    "generate-solutions-images": "ts-node ./scripts/generateSolutionsImages.ts",
     "generate-targets-export": "ts-node ./scripts/generateTargetsExport.ts",
     "lint-staged": "lint-staged",
     "prepare": "husky install"

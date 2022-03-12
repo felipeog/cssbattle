@@ -1,5 +1,5 @@
 dist
 node_modules
-src/tests/solution.png
+src/tests/solutionsImages/*.png
 .DS_Store
 .parcel-cache
