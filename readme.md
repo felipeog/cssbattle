@@ -57,7 +57,7 @@
 - [x] Target #51 - Wear a Mask
 - [x] Target #52 - Break the Chain
 - [x] Target #53 - Pastel Logo
-- [ ] Target #54 - Black Lives Matter
+- [x] Target #54 - Black Lives Matter
 - [ ] Target #55 - Windmill
 - [ ] Target #56 - Skull
 - [ ] Target #57 - Pillars
