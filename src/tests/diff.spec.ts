@@ -31,20 +31,20 @@ function getPixelsMismatch(
   return pixelsMismatch
 }
 
-function getChangedSolutions() {
+function getAvailableTargets() {
   const solutionsIds = fs
     .readdirSync(solutionsImagesFolderPath)
-    .map((solutionFileName) =>
-      solutionFileName.replace('.png', '').padStart(3, '0'),
+    .map((solutionImageFileName) =>
+      solutionImageFileName.replace('.png', '').padStart(3, '0'),
     )
-  const changedSolutions = SOLVED_TARGETS.filter(({ id }) =>
+  const availableTargets = SOLVED_TARGETS.filter(({ id }) =>
     solutionsIds.includes(id),
   )
 
-  return changedSolutions
+  return availableTargets
 }
 
-describe.each(getChangedSolutions())('$title pixels mismatch', ({ id }) => {
+describe.each(getAvailableTargets())('$title pixels mismatch', ({ id }) => {
   const fileName = `${Number(id)}.png`
   const pixelsMismatch = getPixelsMismatch(
     path.resolve(__dirname, `./targetsImages/${fileName}`),
