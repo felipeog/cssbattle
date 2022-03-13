@@ -40,6 +40,7 @@ export function Card({ solution, title }: CardProps) {
           width={TARGET_DIMENSIONS.WIDTH}
           height={TARGET_DIMENSIONS.HEIGHT}
           solution={solution}
+          title={title}
         />
       ) : (
         <PlaceholderCard />
