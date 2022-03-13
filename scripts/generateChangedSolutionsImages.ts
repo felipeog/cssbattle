@@ -1,3 +1,4 @@
+import { exec } from 'child_process'
 import * as fs from 'fs'
 import * as path from 'path'
 import htmlToImage from 'node-html-to-image'
@@ -7,6 +8,7 @@ import { SOLVED_TARGETS } from '../src/consts/solvedTargets'
 import { Target } from '../src/types'
 import { TARGET_DIMENSIONS } from '../src/consts/targetDimensions'
 
+const targetsFolderPath = path.resolve(__dirname, '../src/targets')
 const solutionsFolderPath = path.resolve(
   __dirname,
   '../src/tests/solutionsImages',
@@ -23,6 +25,22 @@ function createSolutionsImagesFolder() {
   fs.mkdirSync(solutionsFolderPath, { recursive: true })
 
   console.log('Solutions folder created')
+}
+
+function cleanSolutionsImagesFolder() {
+  const fileNames = fs.readdirSync(solutionsFolderPath)
+
+  if (!fileNames?.length) {
+    return console.log('Solutions folder is clean, skipping...')
+  }
+
+  fileNames.forEach((fileName) => {
+    console.log(`Removing ${fileName}...`)
+
+    fs.rmSync(`${solutionsFolderPath}/${fileName}`)
+
+    console.log(`${fileName} removed`)
+  })
 }
 
 async function createSolutionImageFromTarget({ title, solution, id }: Target) {
@@ -53,17 +71,45 @@ async function createSolutionImageFromTarget({ title, solution, id }: Target) {
   }
 }
 
-async function generateSolutionsImages() {
-  for (let index = 0; index < SOLVED_TARGETS.length; index++) {
-    const target = SOLVED_TARGETS[index]
+function getChangedSolutionsIds(): Promise<string[]> {
+  const validStatuses = ['M', 'A', '?']
 
-    try {
+  return new Promise((resolve, reject) => {
+    exec(
+      `git status --porcelain ${targetsFolderPath}`,
+      (error, stdout, stderr) => {
+        if (error || stderr) {
+          reject(`getChangedSolutionsIds: ${error || stderr}`)
+        }
+
+        const changedFiles = stdout
+          .split('\n')
+          .filter((statusRow) => validStatuses.includes(statusRow.charAt(1)))
+          .map((statusRow) => statusRow.slice(15, 18))
+
+        resolve(changedFiles ?? [])
+      },
+    )
+  })
+}
+
+async function generateChangedSolutionsImages() {
+  try {
+    const changedSolutionsIds = await getChangedSolutionsIds()
+    const changedSolutions = SOLVED_TARGETS.filter(({ id }) =>
+      changedSolutionsIds.includes(id),
+    )
+
+    for (let index = 0; index < changedSolutions.length; index++) {
+      const target = changedSolutions[index]
+
       await createSolutionImageFromTarget(target)
-    } catch (error) {
-      throw Error(`generateSolutionsImages: ${error}`)
     }
+  } catch (error) {
+    throw Error(`generateChangedSolutionsImages: ${error}`)
   }
 }
 
 createSolutionsImagesFolder()
-generateSolutionsImages()
+cleanSolutionsImagesFolder()
+generateChangedSolutionsImages()

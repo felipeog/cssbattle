@@ -6,6 +6,7 @@ import * as pixelmatch from 'pixelmatch'
 import { SOLVED_TARGETS } from '../consts/solvedTargets'
 import { TARGET_DIMENSIONS } from '../consts/targetDimensions'
 
+const solutionsImagesFolderPath = path.resolve(__dirname, './solutionsImages')
 const maximumPixelsMismatch =
   TARGET_DIMENSIONS.WIDTH * TARGET_DIMENSIONS.HEIGHT * 0.001
 
@@ -30,7 +31,20 @@ function getPixelsMismatch(
   return pixelsMismatch
 }
 
-describe.each(SOLVED_TARGETS)('$title pixels mismatch', ({ id }) => {
+function getChangedSolutions() {
+  const solutionsIds = fs
+    .readdirSync(solutionsImagesFolderPath)
+    .map((solutionFileName) =>
+      solutionFileName.replace('.png', '').padStart(3, '0'),
+    )
+  const changedSolutions = SOLVED_TARGETS.filter(({ id }) =>
+    solutionsIds.includes(id),
+  )
+
+  return changedSolutions
+}
+
+describe.each(getChangedSolutions())('$title pixels mismatch', ({ id }) => {
   const fileName = `${Number(id)}.png`
   const pixelsMismatch = getPixelsMismatch(
     path.resolve(__dirname, `./targetsImages/${fileName}`),
