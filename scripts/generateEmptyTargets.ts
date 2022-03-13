@@ -1,6 +1,8 @@
 import * as fs from 'fs'
 import * as path from 'path'
 
+import { createFolder } from './utils/createFolder'
+
 const targets = [
   // battle 1
   'Simply Square',
@@ -135,19 +137,6 @@ function getEmptyTargetContent(target: string, index: number) {
   )
 }
 
-function createTargetsFolder() {
-  if (fs.existsSync(targetsFolderPath)) {
-    return console.log('Targets folder already exists')
-  }
-
-  console.log('Targets folder does not exist')
-  console.log('Creating Targets folder...')
-
-  fs.mkdirSync(targetsFolderPath, { recursive: true })
-
-  console.log('Targets folder created')
-}
-
 function generateEmptyTargets() {
   targets.forEach((target, index) => {
     const targetFileName = `${String(index + 1).padStart(3, '0')}.ts`
@@ -169,5 +158,8 @@ function generateEmptyTargets() {
   })
 }
 
-createTargetsFolder()
+createFolder({
+  path: targetsFolderPath,
+  label: 'Targets',
+})
 generateEmptyTargets()

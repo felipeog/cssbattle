@@ -2,23 +2,12 @@ import * as fs from 'fs'
 import * as path from 'path'
 import axios from 'axios'
 
+import { createFolder } from './utils/createFolder'
+
 const targetsImagesFolderPath = path.resolve(
   __dirname,
   '../src/tests/targetsImages',
 )
-
-function createTargetsImagesFolder() {
-  if (fs.existsSync(targetsImagesFolderPath)) {
-    return console.log('Images folder already exists')
-  }
-
-  console.log('Images folder does not exist')
-  console.log('Creating images folder...')
-
-  fs.mkdirSync(targetsImagesFolderPath, { recursive: true })
-
-  console.log('Images folder created')
-}
 
 async function downloadTargetImage(targetFileName: string) {
   console.log(`Downloading ${targetFileName}...`)
@@ -63,5 +52,8 @@ async function downloadTargetsImages() {
   }
 }
 
-createTargetsImagesFolder()
+createFolder({
+  path: targetsImagesFolderPath,
+  label: 'Images',
+})
 downloadTargetsImages()

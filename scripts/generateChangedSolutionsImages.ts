@@ -2,7 +2,7 @@ import { exec } from 'child_process'
 import * as path from 'path'
 
 import { SOLVED_TARGETS } from '../src/consts/solvedTargets'
-import { clearFolder } from './utils/clearFolder'
+import { deleteFolder } from './utils/deleteFolder'
 import { createFolder } from './utils/createFolder'
 import { createSolutionImageFromTarget } from './utils/createSolutionImageFromTarget'
 
@@ -35,22 +35,36 @@ function getChangedSolutionsIds(): Promise<string[]> {
 }
 
 async function generateChangedSolutionsImages() {
+  console.log('Generating changed Solutions')
+
   try {
     const changedSolutionsIds = await getChangedSolutionsIds()
     const availableTargets = SOLVED_TARGETS.filter(({ id }) =>
       changedSolutionsIds.includes(id),
     )
 
+    if (!availableTargets.length) {
+      return console.log('No changed Solutions found')
+    }
+
     for (let index = 0; index < availableTargets.length; index++) {
       const target = availableTargets[index]
 
       await createSolutionImageFromTarget(target)
     }
+
+    console.log('Changed Solutions generated')
   } catch (error) {
     throw Error(`generateChangedSolutionsImages: ${error}`)
   }
 }
 
-clearFolder({ path: solutionsFolderPath, label: 'Solutions' })
-createFolder({ path: solutionsFolderPath, label: 'Solutions' })
+deleteFolder({
+  path: solutionsFolderPath,
+  label: 'Solutions',
+})
+createFolder({
+  path: solutionsFolderPath,
+  label: 'Solutions',
+})
 generateChangedSolutionsImages()

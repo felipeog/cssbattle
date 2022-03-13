@@ -10,6 +10,8 @@ const solutionsFolderPath = path.resolve(
 )
 
 async function generateAllSolutionsImages() {
+  console.log('Generating all Solutions')
+
   for (let index = 0; index < SOLVED_TARGETS.length; index++) {
     const target = SOLVED_TARGETS[index]
 
@@ -19,7 +21,12 @@ async function generateAllSolutionsImages() {
       throw Error(`generateAllSolutionsImages: ${error}`)
     }
   }
+
+  console.log('All Solutions generated')
 }
 
-createFolder({ path: solutionsFolderPath, label: 'Solutions' })
+createFolder({
+  path: solutionsFolderPath,
+  label: 'Solutions',
+})
 generateAllSolutionsImages()
