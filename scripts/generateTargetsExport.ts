@@ -10,14 +10,15 @@ function generateTargetsExport() {
   }
 
   const fileNames = fs.readdirSync(targetsFolderPath)
-  const formattedFileNames = fileNames
-    .map((fileName) => fileName.replace('.ts', ''))
-    .filter((fileName) => !isNaN(Number(fileName)))
-  const exportFileContent = formattedFileNames
-    .map((fileName) => {
-      return `export { default as target${fileName} } from './${fileName}'\n`
-    })
-    .join('')
+  const exportFileContent = fileNames.reduce((fileContent, fileName) => {
+    const formattedFileName = fileName.replace('.ts', '')
+
+    if (isNaN(Number(formattedFileName))) {
+      return fileContent
+    }
+
+    return `${fileContent}export { default as target${formattedFileName} } from './${formattedFileName}'\n`
+  }, '')
 
   try {
     fs.writeFileSync(targetsExportFilePath, exportFileContent)
