@@ -56,7 +56,7 @@
 - [x] Target #50 - Use Hand Sanitizer
 - [x] Target #51 - Wear a Mask
 - [x] Target #52 - Break the Chain
-- [ ] Target #53 - Pastel Logo
+- [x] Target #53 - Pastel Logo
 - [ ] Target #54 - Black Lives Matter
 - [ ] Target #55 - Windmill
 - [ ] Target #56 - Skull
