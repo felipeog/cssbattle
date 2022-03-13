@@ -1,4 +1,5 @@
 import { HTMLAttributes } from 'react'
+import classNames from 'classnames'
 
 import { Target } from '../../types'
 import * as styles from './index.module.css'
@@ -22,7 +23,10 @@ export function EmptyCard({
   }
 
   return (
-    <div className={styles.container} style={getBorderStyle()}>
+    <div
+      className={classNames('EmptyCard', styles.container)}
+      style={getBorderStyle()}
+    >
       <p>{title}</p>
     </div>
   )

@@ -1,4 +1,5 @@
 import { HTMLAttributes, useEffect, useRef, useState } from 'react'
+import classNames from 'classnames'
 
 import { Card } from '../Card'
 import { EmptyCard } from '../EmptyCard'
@@ -72,16 +73,17 @@ export function List({ targets }: ListProps) {
   }, [])
 
   return (
-    <ul className={styles.list} style={getScalingStyle()}>
+    <ul className={classNames('List', styles.list)} style={getScalingStyle()}>
       {targets.map((target, index) => {
         if (!target.solution) {
           return (
-            <EmptyCard
-              key={target.id}
-              isInLastColumn={isInLastColumn(index + 1)}
-              isInLastRow={isInLastRow(index + 1)}
-              {...target}
-            />
+            <li key={target.id}>
+              <EmptyCard
+                isInLastColumn={isInLastColumn(index + 1)}
+                isInLastRow={isInLastRow(index + 1)}
+                {...target}
+              />
+            </li>
           )
         }
 
