@@ -21,8 +21,9 @@ function generateReadme() {
   const readmeChecklist = targets
     .map((target) => {
       const isDone = !!target.solution.length
+      const formattedTitle = target.title.replace('#', '<span>#</span>')
 
-      return `- [${isDone ? 'x' : ' '}] ${target.title}`
+      return `- [${isDone ? 'x' : ' '}] ${formattedTitle}`
     })
     .join('\n')
   const readmeContent = `${readmeHeader}\n${readmeChecklist}\n`
