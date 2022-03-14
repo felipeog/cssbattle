@@ -60,8 +60,8 @@
 - [x] Target <span>#</span>54 - Black Lives Matter
 - [x] Target <span>#</span>55 - Windmill
 - [x] Target <span>#</span>56 - Skull
-- [ ] Target <span>#</span>57 - Pillars
-- [ ] Target <span>#</span>58 - Rose
+- [x] Target <span>#</span>57 - Pillars
+- [x] Target <span>#</span>58 - Rose
 - [ ] Target <span>#</span>59 - Earth
 - [ ] Target <span>#</span>60 - Evil Triangles
 - [ ] Target <span>#</span>61 - ImprovMX
