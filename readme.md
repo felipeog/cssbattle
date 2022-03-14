@@ -58,8 +58,8 @@
 - [x] Target #52 - Break the Chain
 - [x] Target #53 - Pastel Logo
 - [x] Target #54 - Black Lives Matter
-- [ ] Target #55 - Windmill
-- [ ] Target #56 - Skull
+- [x] Target #55 - Windmill
+- [x] Target #56 - Skull
 - [ ] Target #57 - Pillars
 - [ ] Target #58 - Rose
 - [ ] Target #59 - Earth
