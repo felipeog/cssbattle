@@ -62,8 +62,8 @@
 - [x] Target <span>#</span>56 - Skull
 - [x] Target <span>#</span>57 - Pillars
 - [x] Target <span>#</span>58 - Rose
-- [ ] Target <span>#</span>59 - Earth
-- [ ] Target <span>#</span>60 - Evil Triangles
+- [x] Target <span>#</span>59 - Earth
+- [x] Target <span>#</span>60 - Evil Triangles
 - [ ] Target <span>#</span>61 - ImprovMX
 - [ ] Target <span>#</span>62 - Sunset
 - [ ] Target <span>#</span>63 - Command Key
