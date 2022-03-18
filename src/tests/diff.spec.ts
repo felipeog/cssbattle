@@ -31,20 +31,20 @@ function getPixelsMismatch(
   return pixelsMismatch
 }
 
-function getAvailableTargets() {
+function getTargetsToTest() {
   const solutionsIds = fs
     .readdirSync(solutionsImagesFolderPath)
     .map((solutionImageFileName) =>
       solutionImageFileName.replace('.png', '').padStart(3, '0'),
     )
-  const availableTargets = SOLVED_TARGETS.filter(({ id }) =>
+  const targetsToTest = SOLVED_TARGETS.filter(({ id }) =>
     solutionsIds.includes(id),
   )
 
-  return availableTargets
+  return targetsToTest
 }
 
-describe.each(getAvailableTargets())('$title pixels mismatch', ({ id }) => {
+describe.each(getTargetsToTest())('$title pixels mismatch', ({ id }) => {
   const fileName = `${Number(id)}.png`
   const pixelsMismatch = getPixelsMismatch(
     path.resolve(__dirname, `./targetsImages/${fileName}`),

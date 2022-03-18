@@ -39,16 +39,16 @@ async function generateChangedSolutionsImages() {
 
   try {
     const changedSolutionsIds = await getChangedSolutionsIds()
-    const availableTargets = SOLVED_TARGETS.filter(({ id }) =>
+    const targetsToGenerate = SOLVED_TARGETS.filter(({ id }) =>
       changedSolutionsIds.includes(id),
     )
 
-    if (!availableTargets.length) {
+    if (!targetsToGenerate.length) {
       return console.log('No changed Solutions found')
     }
 
-    for (let index = 0; index < availableTargets.length; index++) {
-      const target = availableTargets[index]
+    for (let index = 0; index < targetsToGenerate.length; index++) {
+      const target = targetsToGenerate[index]
 
       await createSolutionImageFromTarget(target)
     }
