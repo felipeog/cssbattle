@@ -66,8 +66,8 @@
 - [x] Target <span>#</span>60 - Evil Triangles
 - [x] Target <span>#</span>61 - ImprovMX
 - [x] Target <span>#</span>62 - Sunset
-- [ ] Target <span>#</span>63 - Command Key
-- [ ] Target <span>#</span>64 - Door Knob
+- [x] Target <span>#</span>63 - Command Key
+- [x] Target <span>#</span>64 - Door Knob
 - [ ] Target <span>#</span>65 - Max Volume
 - [ ] Target <span>#</span>66 - Batmicky
 - [ ] Target <span>#</span>67 - Video Reel
