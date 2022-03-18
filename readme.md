@@ -64,8 +64,8 @@
 - [x] Target <span>#</span>58 - Rose
 - [x] Target <span>#</span>59 - Earth
 - [x] Target <span>#</span>60 - Evil Triangles
-- [ ] Target <span>#</span>61 - ImprovMX
-- [ ] Target <span>#</span>62 - Sunset
+- [x] Target <span>#</span>61 - ImprovMX
+- [x] Target <span>#</span>62 - Sunset
 - [ ] Target <span>#</span>63 - Command Key
 - [ ] Target <span>#</span>64 - Door Knob
 - [ ] Target <span>#</span>65 - Max Volume
