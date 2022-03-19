@@ -70,8 +70,8 @@
 - [x] Target <span>#</span>64 - Door Knob
 - [x] Target <span>#</span>65 - Max Volume
 - [x] Target <span>#</span>66 - Batmicky
-- [ ] Target <span>#</span>67 - Video Reel
-- [ ] Target <span>#</span>68 - Bell
+- [x] Target <span>#</span>67 - Video Reel
+- [x] Target <span>#</span>68 - Bell
 - [ ] Target <span>#</span>69 - PushOwl
 - [ ] Target <span>#</span>70 - Froggy
 - [ ] Target <span>#</span>71 - Elephant
