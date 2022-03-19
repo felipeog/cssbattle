@@ -68,8 +68,8 @@
 - [x] Target <span>#</span>62 - Sunset
 - [x] Target <span>#</span>63 - Command Key
 - [x] Target <span>#</span>64 - Door Knob
-- [ ] Target <span>#</span>65 - Max Volume
-- [ ] Target <span>#</span>66 - Batmicky
+- [x] Target <span>#</span>65 - Max Volume
+- [x] Target <span>#</span>66 - Batmicky
 - [ ] Target <span>#</span>67 - Video Reel
 - [ ] Target <span>#</span>68 - Bell
 - [ ] Target <span>#</span>69 - PushOwl
