@@ -76,7 +76,7 @@
 - [x] Target <span>#</span>70 - Froggy
 - [x] Target <span>#</span>71 - Elephant
 - [x] Target <span>#</span>72 - Sheep
-- [ ] Target <span>#</span>73 - Happy Tiger
+- [x] Target <span>#</span>73 - Happy Tiger
 - [ ] Target <span>#</span>74 - Danger Noodle
 - [ ] Target <span>#</span>75 - Hippo
 - [ ] Target <span>#</span>76 - Beeee
