@@ -7,3 +7,13 @@
 html {
   background-color: var(--gray100);
 }
+
+/* hide scrollbars, keeping scroll functionality */
+:root::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
