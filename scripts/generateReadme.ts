@@ -43,11 +43,11 @@ async function generateReadme() {
       `${checklistSection}\n`
 
     fs.writeFileSync(`${readmeFilePath}`, readmeContent)
-
-    console.log('Readme file created')
   } catch (error) {
     throw Error(`generateReadme: ${error}`)
   }
+
+  console.log('Readme file created')
 }
 
 generateReadme()

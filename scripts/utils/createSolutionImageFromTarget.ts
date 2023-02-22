@@ -16,12 +16,12 @@ export async function createSolutionImageFromTarget({
   solution,
   id,
 }: Target) {
+  console.log(`Creating ${title}...`)
+
   const solutionFilePath = `${solutionsFolderPath}/${Number(id)}.png`
   const solutionHtml = getHtmlFromSolution(solution)
   const src = `data:text/html,${encodeURIComponent(solutionHtml)}`
   const style = 'background:white;width:400px;height:300px;border:0;outline:0'
-
-  console.log(`Creating ${title}...`)
 
   try {
     const image = (await htmlToImage({
@@ -36,9 +36,9 @@ export async function createSolutionImageFromTarget({
     })) as Buffer
 
     fs.writeFileSync(solutionFilePath, image, 'base64')
-
-    console.log(`${title} created`)
   } catch (error) {
     throw Error(`createSolutionImageFromTarget: ${error}`)
   }
+
+  console.log(`${title} created`)
 }

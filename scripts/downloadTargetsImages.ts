@@ -24,11 +24,11 @@ async function downloadTargetImage(targetFileName: string) {
       image,
       'base64',
     )
-
-    console.log(`${targetFileName} downloaded successfully`)
   } catch (error) {
     throw Error(`downloadTargetImage(${targetFileName}): ${error}`)
   }
+
+  console.log(`${targetFileName} downloaded successfully`)
 }
 
 async function downloadTargetsImages() {

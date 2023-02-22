@@ -52,11 +52,11 @@ async function generateChangedSolutionsImages() {
 
       await createSolutionImageFromTarget(target)
     }
-
-    console.log('Changed Solutions generated')
   } catch (error) {
     throw Error(`generateChangedSolutionsImages: ${error}`)
   }
+
+  console.log('Changed Solutions generated')
 }
 
 deleteFolder({

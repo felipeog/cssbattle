@@ -1,9 +1,9 @@
 import puppeteer from 'puppeteer'
 
 export async function fetchStatistics({ username }: { username: string }) {
-  try {
-    console.log(`Fetching ${username} statistics...`)
+  console.log(`Fetching ${username} statistics...`)
 
+  try {
     const browser = await puppeteer.launch()
     const page = await browser.newPage()
 

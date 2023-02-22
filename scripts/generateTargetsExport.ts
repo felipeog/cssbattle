@@ -22,11 +22,11 @@ function generateTargetsExport() {
 
   try {
     fs.writeFileSync(targetsExportFilePath, exportFileContent)
-
-    console.log('Export file created')
   } catch (error) {
     throw Error(`generateTargetsExport: ${error}`)
   }
+
+  console.log('Export file created')
 }
 
 generateTargetsExport()
