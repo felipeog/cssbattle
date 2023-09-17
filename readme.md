@@ -2,11 +2,6 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Statistics
-
-- Global Rank: 1115th / 275360
-- Total Score: 45476.32
-- Targets Played: 73/140
 
 ## Checklist
 
