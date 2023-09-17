@@ -105,3 +105,69 @@
 - [ ] Target <span>#</span>98 - Candle
 - [ ] Target <span>#</span>99 - Gift Box
 - [ ] Target <span>#</span>100 - CSSBattle
+- [ ] Target <span>#</span>101 - Sharingan
+- [ ] Target <span>#</span>102 - One Piece
+- [ ] Target <span>#</span>103 - Super Saiyan
+- [ ] Target <span>#</span>104 - Amegakure
+- [ ] Target <span>#</span>105 - Ryuk
+- [ ] Target <span>#</span>106 - Ryuk's Apple
+- [ ] Target <span>#</span>107 - Sealing Wand
+- [ ] Target <span>#</span>108 - Clow Card
+- [ ] Target <span>#</span>109 - Curtain
+- [ ] Target <span>#</span>110 - Sunrays
+- [ ] Target <span>#</span>111 - Rain Drops
+- [ ] Target <span>#</span>112 - Chevron
+- [ ] Target <span>#</span>113 - Black Light
+- [ ] Target <span>#</span>114 - Negative Box
+- [ ] Target <span>#</span>115 - Droplet
+- [ ] Target <span>#</span>116 - Headphones
+- [ ] Target <span>#</span>117 - Arineo
+- [ ] Target <span>#</span>118 - Donkey Kong
+- [ ] Target <span>#</span>119 - Pacman
+- [ ] Target <span>#</span>120 - Tank
+- [ ] Target <span>#</span>121 - Duck Hunt
+- [ ] Target <span>#</span>122 - Tetris
+- [ ] Target <span>#</span>123 - Snake
+- [ ] Target <span>#</span>124 - Space Invaders
+- [ ] Target <span>#</span>125 - Root Learn
+- [ ] Target <span>#</span>126 - Letter A
+- [ ] Target <span>#</span>127 - Letter I
+- [ ] Target <span>#</span>128 - Letter N
+- [ ] Target <span>#</span>129 - Letter B
+- [ ] Target <span>#</span>130 - Letter O
+- [ ] Target <span>#</span>131 - Letter W
+- [ ] Target <span>#</span>132 - Letter S
+- [ ] Target <span>#</span>133 - Spiral
+- [ ] Target <span>#</span>134 - Wig
+- [ ] Target <span>#</span>135 - Spikes
+- [ ] Target <span>#</span>136 - Alien Eye
+- [ ] Target <span>#</span>137 - Elbow
+- [ ] Target <span>#</span>138 - Lotus
+- [ ] Target <span>#</span>139 - Lamp
+- [ ] Target <span>#</span>140 - Eclipse
+- [ ] Target <span>#</span>141 - Third Eye
+- [ ] Target <span>#</span>142 - Curtains
+- [ ] Target <span>#</span>143 - Simply Circle
+- [ ] Target <span>#</span>144 - Long Heart
+- [ ] Target <span>#</span>145 - Spotlight
+- [ ] Target <span>#</span>146 - Streaks
+- [ ] Target <span>#</span>147 - Splash
+- [ ] Target <span>#</span>148 - Eight
+- [ ] Target <span>#</span>149 - Earthworm
+- [ ] Target <span>#</span>150 - Finger Heart
+- [ ] Target <span>#</span>151 - Pawn
+- [ ] Target <span>#</span>152 - Rook
+- [ ] Target <span>#</span>153 - Checkers
+- [ ] Target <span>#</span>154 - Poker Chip
+- [ ] Target <span>#</span>155 - Snakes & Ladders
+- [ ] Target <span>#</span>156 - Chinese Checkers
+- [ ] Target <span>#</span>157 - Monopoly
+- [ ] Target <span>#</span>158 - Clubs
+- [ ] Target <span>#</span>159 - Portal
+- [ ] Target <span>#</span>160 - Donut
+- [ ] Target <span>#</span>161 - Converge
+- [ ] Target <span>#</span>162 - Upwards
+- [ ] Target <span>#</span>163 - Missing Piece
+- [ ] Target <span>#</span>164 - Rangoli
+- [ ] Target <span>#</span>165 - Pyramid
+- [ ] Target <span>#</span>166 - Flow
