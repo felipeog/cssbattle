@@ -3,7 +3,8 @@
     "jsx": "react-jsx",
     "target": "es2021",
     "moduleResolution": "node",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   },
   "include": ["src/**/*"],
   "exclude": [".parcel-cache", "dist", "node_modules"]
