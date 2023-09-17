@@ -8,11 +8,12 @@ const targetsFolderPath = path.resolve(__dirname, '../src/targets')
 
 function getEmptyTargetContent(target: string, index: number) {
   const targetId = String(index).padStart(3, '0')
+  const parsedName = target.replace("'", "\\'")
 
   return (
     `export default {\n` +
     `  id: '${targetId}',\n` +
-    `  title: 'Target #${index} - ${target}',\n` +
+    `  title: 'Target #${index} - ${parsedName}',\n` +
     `  url: 'https://cssbattle.dev/play/${index}',\n` +
     `  solution: '',\n` +
     `}\n`
