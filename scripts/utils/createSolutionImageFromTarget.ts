@@ -28,6 +28,7 @@ export async function createSolutionImageFromTarget({
       html: `<iframe src="${src}" style="${style}" />`,
       encoding: 'base64',
       puppeteerArgs: {
+        headless: 'chrome',
         defaultViewport: {
           width: TARGET_DIMENSIONS.WIDTH + 16,
           height: TARGET_DIMENSIONS.HEIGHT,
