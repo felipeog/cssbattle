@@ -98,7 +98,7 @@
 - [ ] Target <span>#</span>91 - Reflection
 - [ ] Target <span>#</span>92 - Squeeze
 - [ ] Target <span>#</span>93 - Great Wall
-- [ ] Target <span>#</span>94 - Ripples
+- [x] Target <span>#</span>94 - Ripples
 - [ ] Target <span>#</span>95 - Pokeball
 - [ ] Target <span>#</span>96 - Mandala
 - [ ] Target <span>#</span>97 - Snowman
