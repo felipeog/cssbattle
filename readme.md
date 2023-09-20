@@ -88,7 +88,7 @@
 - [ ] Target <span>#</span>81 - Odoo
 - [ ] Target <span>#</span>82 - Diamond Cut
 - [ ] Target <span>#</span>83 - Supernova
-- [ ] Target <span>#</span>84 - Junction
+- [x] Target <span>#</span>84 - Junction
 - [ ] Target <span>#</span>85 - Pythagoras
 - [ ] Target <span>#</span>86 - Stairway
 - [ ] Target <span>#</span>87 - Building Blocks
