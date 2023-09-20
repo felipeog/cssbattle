@@ -1,7 +1,7 @@
 import { HTMLAttributes } from 'react'
 import classNames from 'classnames'
 
-import { Target } from '../../types'
+import { Target } from 'shared/types'
 import * as styles from './index.module.css'
 
 export type EmptyCardProps = HTMLAttributes<HTMLDivElement> &

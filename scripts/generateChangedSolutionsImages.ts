@@ -1,16 +1,13 @@
 import { exec } from 'child_process'
-import * as path from 'path'
 
-import { SOLVED_TARGETS } from '../src/consts/solvedTargets'
-import { deleteFolder } from './utils/deleteFolder'
-import { createFolder } from './utils/createFolder'
-import { createSolutionImageFromTarget } from './utils/createSolutionImageFromTarget'
+import { SOLVED_TARGETS } from 'shared/consts/solvedTargets'
+import { deleteFolder } from 'scripts/utils/deleteFolder'
+import { createFolder } from 'scripts/utils/createFolder'
+import { createSolutionImageFromTarget } from 'scripts/utils/createSolutionImageFromTarget'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const targetsFolderPath = path.resolve(__dirname, '../src/targets')
-const solutionsFolderPath = path.resolve(
-  __dirname,
-  '../src/tests/solutionsImages',
-)
+const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
+const solutionsFolderPath = `${SHARED_FOLDER_PATH}/solutionsImages`
 
 function getChangedSolutionsIds(): Promise<string[]> {
   const validStatuses = ['M', 'A', '?']

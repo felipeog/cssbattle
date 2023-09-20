@@ -1,5 +1,6 @@
 import * as fs from 'fs'
-import * as path from 'path'
+
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
 type Target = {
   id: number
@@ -23,7 +24,7 @@ async function scrapeTargetsInformation(
 
   if (matches.some((match) => !match)) {
     fs.writeFileSync(
-      path.resolve(__dirname, `../shared/targets.json`),
+      `${SHARED_FOLDER_PATH}/targetsInfo.json`,
       JSON.stringify(targets),
       'utf-8',
     )

@@ -1,13 +1,11 @@
 import * as path from 'path'
 
-import { SOLVED_TARGETS } from '../src/consts/solvedTargets'
-import { createFolder } from './utils/createFolder'
-import { createSolutionImageFromTarget } from './utils/createSolutionImageFromTarget'
+import { SOLVED_TARGETS } from 'shared/consts/solvedTargets'
+import { createFolder } from 'scripts/utils/createFolder'
+import { createSolutionImageFromTarget } from 'scripts/utils/createSolutionImageFromTarget'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const solutionsFolderPath = path.resolve(
-  __dirname,
-  '../src/tests/solutionsImages',
-)
+const solutionsFolderPath = `${SHARED_FOLDER_PATH}/solutionsImages`
 
 async function generateAllSolutionsImages() {
   console.log('Generating all Solutions')
