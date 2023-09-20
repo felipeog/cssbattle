@@ -1,12 +1,12 @@
 import { PNG } from 'pngjs'
 import * as fs from 'fs'
-import * as path from 'path'
 import * as pixelmatch from 'pixelmatch'
 
-import { SOLVED_TARGETS } from '../consts/solvedTargets'
-import { TARGET_DIMENSIONS } from '../consts/targetDimensions'
+import { SOLVED_TARGETS } from 'shared/consts/solvedTargets'
+import { TARGET_DIMENSIONS } from 'shared/consts/targetDimensions'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const solutionsImagesFolderPath = path.resolve(__dirname, './solutionsImages')
+const solutionsImagesFolderPath = `${SHARED_FOLDER_PATH}/solutionsImages`
 const maximumPixelsMismatch =
   TARGET_DIMENSIONS.WIDTH * TARGET_DIMENSIONS.HEIGHT * 0.001
 
@@ -47,8 +47,8 @@ function getTargetsToTest() {
 describe.each(getTargetsToTest())('$title pixels mismatch', ({ id }) => {
   const fileName = `${Number(id)}.png`
   const pixelsMismatch = getPixelsMismatch(
-    path.resolve(__dirname, `./targetsImages/${fileName}`),
-    path.resolve(__dirname, `./solutionsImages/${fileName}`),
+    `${SHARED_FOLDER_PATH}/targetsImages/${fileName}`,
+    `${SHARED_FOLDER_PATH}/solutionsImages/${fileName}`,
   )
 
   it(`${pixelsMismatch} should be less than ${maximumPixelsMismatch}`, () => {

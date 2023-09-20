@@ -1,6 +1,6 @@
 import { IframeHTMLAttributes } from 'react'
 
-import { getHtmlFromSolution } from '../../utils/getHtmlFromSolution'
+import { getHtmlFromSolution } from 'shared/utils/getHtmlFromSolution'
 
 export type IFrameProps = IframeHTMLAttributes<HTMLIFrameElement> & {
   solution: string

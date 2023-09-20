@@ -1,9 +1,9 @@
 import * as fs from 'fs'
 import * as path from 'path'
 
-import * as targetsMap from '../src/targets'
+import * as targetsMap from 'shared/targets'
 
-const readmeFolderPath = path.resolve(__dirname, '../')
+const readmeFolderPath = path.resolve(__dirname, '..')
 const readmeFilePath = `${readmeFolderPath}/readme.md`
 const readmeHeader =
   `# [CSSBattle](https://cssbattle.dev)\n` +

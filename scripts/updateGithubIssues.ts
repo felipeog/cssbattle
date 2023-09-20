@@ -2,18 +2,15 @@
 
 import { PNG } from 'pngjs'
 import * as fs from 'fs'
-import * as path from 'path'
 import * as pixelmatch from 'pixelmatch'
 
-import { SOLVED_TARGETS } from '../src/consts/solvedTargets'
-import { TARGET_DIMENSIONS } from '../src/consts/targetDimensions'
-import { octokit } from './services/octokit'
+import { SOLVED_TARGETS } from 'shared/consts/solvedTargets'
+import { TARGET_DIMENSIONS } from 'shared/consts/targetDimensions'
+import { octokit } from 'scripts/services/octokit'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
 // TODO: move to `shared` (used by tests and scripts)
-const solutionsImagesFolderPath = path.resolve(
-  __dirname,
-  '../src/tests/solutionsImages',
-)
+const solutionsImagesFolderPath = `${SHARED_FOLDER_PATH}/solutionsImages`
 
 // TODO: move to `shared` (used by tests and scripts)
 function getPngFile(filePath: string) {
@@ -74,8 +71,8 @@ async function updateGithubIssues() {
   const targetsWithMismatch = solvedTargets.map((target) => {
     const fileName = `${Number(target.id)}.png`
     const pixelsMismatch = getPixelsMismatch(
-      path.resolve(__dirname, `../src/tests/targetsImages/${fileName}`),
-      path.resolve(__dirname, `../src/tests/solutionsImages/${fileName}`),
+      `${SHARED_FOLDER_PATH}/targetsImages/${fileName}`,
+      `${SHARED_FOLDER_PATH}/solutionsImages/${fileName}`,
     )
 
     return {

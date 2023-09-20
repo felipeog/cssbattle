@@ -1,7 +1,7 @@
 import * as fs from 'fs'
-import * as path from 'path'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const targetsFolderPath = path.resolve(__dirname, '../src/targets')
+const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
 const targetsExportFilePath = `${targetsFolderPath}/index.ts`
 
 function generateTargetsExport() {

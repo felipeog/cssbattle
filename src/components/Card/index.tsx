@@ -1,8 +1,8 @@
 import { HTMLAttributes } from 'react'
 
+import { Target } from 'shared/types'
+import { TARGET_DIMENSIONS } from 'shared/consts/targetDimensions'
 import { IFrame } from '../IFrame'
-import { Target } from '../../types'
-import { TARGET_DIMENSIONS } from '../../consts/targetDimensions'
 import * as styles from './index.module.css'
 
 export type CardProps = HTMLAttributes<HTMLDivElement> & Target

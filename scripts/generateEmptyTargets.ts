@@ -1,10 +1,10 @@
 import * as fs from 'fs'
-import * as path from 'path'
 
 import { createFolder } from './utils/createFolder'
-import * as targets from '../shared/targets.json'
+import * as targets from 'shared/targetsInfo.json'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const targetsFolderPath = path.resolve(__dirname, '../src/targets')
+const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
 
 function getEmptyTargetContent(target: string, index: number) {
   const targetId = String(index).padStart(3, '0')

@@ -1,15 +1,12 @@
 import * as fs from 'fs'
-import * as path from 'path'
 import htmlToImage from 'node-html-to-image'
 
-import { getHtmlFromSolution } from '../../src/utils/getHtmlFromSolution'
-import { Target } from '../../src/types'
-import { TARGET_DIMENSIONS } from '../../src/consts/targetDimensions'
+import { getHtmlFromSolution } from 'shared/utils/getHtmlFromSolution'
+import { Target } from 'shared/types'
+import { TARGET_DIMENSIONS } from 'shared/consts/targetDimensions'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const solutionsFolderPath = path.resolve(
-  __dirname,
-  '../../src/tests/solutionsImages',
-)
+const solutionsFolderPath = `${SHARED_FOLDER_PATH}/solutionsImages`
 
 export async function createSolutionImageFromTarget({
   title,

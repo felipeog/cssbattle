@@ -1,11 +1,15 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
-    "target": "es2021",
-    "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "resolveJsonModule": true
+    "baseUrl": "./",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "es2021"
   },
-  "include": ["src/**/*"],
-  "exclude": [".parcel-cache", "dist", "node_modules"]
+  "exclude": [".parcel-cache", "dist", "node_modules"],
+  "include": ["scripts/**/*", "shared/**/*", "src/**/*", "tests/**/*"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
 }

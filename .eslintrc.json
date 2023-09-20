@@ -19,7 +19,7 @@
         "eslint:recommended",
         "plugin:@typescript-eslint/recommended"
       ],
-      "files": ["./src", "./scripts"]
+      "files": ["./scripts", "./shared", "./src", "./tests"]
     },
     {
       "extends": ["plugin:react/recommended"],
@@ -30,7 +30,7 @@
     },
     {
       "extends": ["plugin:jest/all"],
-      "files": ["./src/tests/**/*.spec.ts"]
+      "files": ["./tests/**/*.spec.ts"]
     }
   ]
 }

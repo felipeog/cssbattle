@@ -1,13 +1,10 @@
 import * as fs from 'fs'
-import * as path from 'path'
 import axios, { AxiosResponse } from 'axios'
 
-import { createFolder } from './utils/createFolder'
+import { createFolder } from 'scripts/utils/createFolder'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
-const targetsImagesFolderPath = path.resolve(
-  __dirname,
-  '../src/tests/targetsImages',
-)
+const targetsImagesFolderPath = `${SHARED_FOLDER_PATH}/targetsImages`
 
 async function downloadTargetsImages(index = 1) {
   const targetFileName = `${index}.png`
@@ -45,7 +42,7 @@ function saveTargetImage(targetFileName: string, data: AxiosResponse['data']) {
   const image = Buffer.from(data, 'binary').toString('base64')
 
   fs.writeFileSync(
-    path.resolve(__dirname, `../src/tests/targetsImages/${targetFileName}`),
+    `${SHARED_FOLDER_PATH}/targetsImages/${targetFileName}`,
     image,
     'base64',
   )
