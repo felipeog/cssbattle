@@ -141,13 +141,13 @@
 - [ ] Target <span>#</span>134 - Wig
 - [ ] Target <span>#</span>135 - Spikes
 - [ ] Target <span>#</span>136 - Alien Eye
-- [ ] Target <span>#</span>137 - Elbow
+- [x] Target <span>#</span>137 - Elbow
 - [ ] Target <span>#</span>138 - Lotus
 - [ ] Target <span>#</span>139 - Lamp
 - [ ] Target <span>#</span>140 - Eclipse
 - [ ] Target <span>#</span>141 - Third Eye
 - [ ] Target <span>#</span>142 - Curtains
-- [ ] Target <span>#</span>143 - Simply Circle
+- [x] Target <span>#</span>143 - Simply Circle
 - [ ] Target <span>#</span>144 - Long Heart
 - [ ] Target <span>#</span>145 - Spotlight
 - [ ] Target <span>#</span>146 - Streaks
