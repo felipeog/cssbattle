@@ -113,7 +113,7 @@
 - [ ] Target <span>#</span>106 - Ryuk's Apple
 - [ ] Target <span>#</span>107 - Sealing Wand
 - [ ] Target <span>#</span>108 - Clow Card
-- [ ] Target <span>#</span>109 - Curtain
+- [x] Target <span>#</span>109 - Curtain
 - [ ] Target <span>#</span>110 - Sunrays
 - [ ] Target <span>#</span>111 - Rain Drops
 - [ ] Target <span>#</span>112 - Chevron
