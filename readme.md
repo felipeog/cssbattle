@@ -146,7 +146,7 @@
 - [ ] Target <span>#</span>139 - Lamp
 - [ ] Target <span>#</span>140 - Eclipse
 - [ ] Target <span>#</span>141 - Third Eye
-- [ ] Target <span>#</span>142 - Curtains
+- [x] Target <span>#</span>142 - Curtains
 - [x] Target <span>#</span>143 - Simply Circle
 - [ ] Target <span>#</span>144 - Long Heart
 - [ ] Target <span>#</span>145 - Spotlight
