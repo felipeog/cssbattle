@@ -1,11 +1,14 @@
-name: Test
+name: Update issues
 
 on:
-  pull_request:
+  push:
     branches: [master]
 
+env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
 jobs:
-  test:
+  update-issues:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -13,4 +16,4 @@ jobs:
         with:
           node-version: 16.x
       - run: npm ci
-      - run: npm test
+      - run: npm run update-github-issues
