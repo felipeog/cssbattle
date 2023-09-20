@@ -6,7 +6,6 @@
   "license": "ISC",
   "scripts": {
     "build": "parcel build",
-    "create-github-issues": "npm run generate-all-solutions-images && ts-node ./scripts/createGithubIssues.ts",
     "download-targets-images": "ts-node ./scripts/downloadTargetsImages.ts",
     "generate-all-solutions-images": "ts-node ./scripts/generateAllSolutionsImages.ts",
     "generate-changed-solutions-images": "ts-node ./scripts/generateChangedSolutionsImages.ts",
@@ -17,8 +16,11 @@
     "prepare": "husky install",
     "start": "parcel --no-cache --open",
     "test:changed": "npm run generate-changed-solutions-images && jest",
+    "test:dev": "jest",
     "test": "npm run generate-all-solutions-images && jest",
-    "ts-node": "ts-node"
+    "ts-node": "ts-node",
+    "update-github-issues:dev": "ts-node ./scripts/updateGithubIssues.ts",
+    "update-github-issues": "npm run generate-all-solutions-images && ts-node ./scripts/updateGithubIssues.ts"
   },
   "dependencies": {
     "classnames": "^2.3.1",
