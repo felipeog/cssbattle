@@ -5,11 +5,8 @@
   "author": "https://github.com/felipeog",
   "license": "ISC",
   "scripts": {
-    "start": "parcel --no-cache --open",
     "build": "parcel build",
-    "test": "npm run generate-all-solutions-images && jest",
-    "test:changed": "npm run generate-changed-solutions-images && jest",
-    "ts-node": "ts-node",
+    "create-github-issues": "npm run generate-all-solutions-images && ts-node ./scripts/createGithubIssues.ts",
     "download-targets-images": "ts-node ./scripts/downloadTargetsImages.ts",
     "generate-all-solutions-images": "ts-node ./scripts/generateAllSolutionsImages.ts",
     "generate-changed-solutions-images": "ts-node ./scripts/generateChangedSolutionsImages.ts",
@@ -17,7 +14,11 @@
     "generate-readme": "ts-node ./scripts/generateReadme.ts",
     "generate-targets-export": "ts-node ./scripts/generateTargetsExport.ts",
     "lint-staged": "lint-staged",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "start": "parcel --no-cache --open",
+    "test:changed": "npm run generate-changed-solutions-images && jest",
+    "test": "npm run generate-all-solutions-images && jest",
+    "ts-node": "ts-node"
   },
   "dependencies": {
     "classnames": "^2.3.1",
@@ -34,6 +35,7 @@
     "@typescript-eslint/eslint-plugin": "^5.11.0",
     "@typescript-eslint/parser": "^5.11.0",
     "axios": "^0.26.1",
+    "dotenv": "^16.3.1",
     "eslint": "^8.8.0",
     "eslint-plugin-jest": "^26.1.1",
     "eslint-plugin-react": "^7.28.0",
@@ -41,6 +43,7 @@
     "jest": "^27.5.1",
     "lint-staged": "^12.3.3",
     "node-html-to-image": "^4.0.0",
+    "octokit": "^3.1.0",
     "parcel": "^2.2.1",
     "parcel-plugin-static-files-copy": "^2.6.0",
     "pixelmatch": "^5.2.1",
