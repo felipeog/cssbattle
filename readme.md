@@ -138,7 +138,7 @@
 - [ ] Target <span>#</span>131 - Letter W
 - [ ] Target <span>#</span>132 - Letter S
 - [ ] Target <span>#</span>133 - Spiral
-- [ ] Target <span>#</span>134 - Wig
+- [x] Target <span>#</span>134 - Wig
 - [ ] Target <span>#</span>135 - Spikes
 - [ ] Target <span>#</span>136 - Alien Eye
 - [x] Target <span>#</span>137 - Elbow
@@ -159,7 +159,7 @@
 - [ ] Target <span>#</span>152 - Rook
 - [ ] Target <span>#</span>153 - Checkers
 - [ ] Target <span>#</span>154 - Poker Chip
-- [ ] Target <span>#</span>155 - Snakes & Ladders
+- [x] Target <span>#</span>155 - Snakes & Ladders
 - [ ] Target <span>#</span>156 - Chinese Checkers
 - [ ] Target <span>#</span>157 - Monopoly
 - [ ] Target <span>#</span>158 - Clubs
