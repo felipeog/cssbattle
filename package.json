@@ -14,6 +14,7 @@
     "generate-targets-export": "ts-node ./scripts/generateTargetsExport.ts",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
+    "scrape-targets-info": "ts-node ./scripts/scrapeTargetsInformation.ts",
     "start": "parcel --no-cache --open",
     "test:changed": "npm run generate-changed-solutions-images && jest",
     "test:dev": "jest",

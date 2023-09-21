@@ -25,7 +25,7 @@ async function scrapeTargetsInformation(
   if (matches.some((match) => !match)) {
     fs.writeFileSync(
       `${SHARED_FOLDER_PATH}/targetsInfo.json`,
-      JSON.stringify(targets),
+      JSON.stringify(targets, null, 2),
       'utf-8',
     )
 
