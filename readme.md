@@ -85,7 +85,7 @@
 - [ ] Target <span>#</span>78 - Ukulele
 - [ ] Target <span>#</span>79 - Tambourine
 - [ ] Target <span>#</span>80 - Piano
-- [ ] Target <span>#</span>81 - Odoo
+- [x] Target <span>#</span>81 - Odoo
 - [ ] Target <span>#</span>82 - Diamond Cut
 - [ ] Target <span>#</span>83 - Supernova
 - [x] Target <span>#</span>84 - Junction
@@ -134,7 +134,7 @@
 - [ ] Target <span>#</span>127 - Letter I
 - [ ] Target <span>#</span>128 - Letter N
 - [ ] Target <span>#</span>129 - Letter B
-- [ ] Target <span>#</span>130 - Letter O
+- [x] Target <span>#</span>130 - Letter O
 - [ ] Target <span>#</span>131 - Letter W
 - [ ] Target <span>#</span>132 - Letter S
 - [ ] Target <span>#</span>133 - Spiral
@@ -163,7 +163,7 @@
 - [ ] Target <span>#</span>156 - Chinese Checkers
 - [ ] Target <span>#</span>157 - Monopoly
 - [ ] Target <span>#</span>158 - Clubs
-- [ ] Target <span>#</span>159 - Portal
+- [x] Target <span>#</span>159 - Portal
 - [ ] Target <span>#</span>160 - Donut
 - [ ] Target <span>#</span>161 - Converge
 - [ ] Target <span>#</span>162 - Upwards
