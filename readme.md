@@ -149,7 +149,7 @@
 - [x] Target <span>#</span>142 - Curtains
 - [x] Target <span>#</span>143 - Simply Circle
 - [ ] Target <span>#</span>144 - Long Heart
-- [ ] Target <span>#</span>145 - Spotlight
+- [x] Target <span>#</span>145 - Spotlight
 - [x] Target <span>#</span>146 - Streaks
 - [ ] Target <span>#</span>147 - Splash
 - [ ] Target <span>#</span>148 - Eight
@@ -164,7 +164,7 @@
 - [ ] Target <span>#</span>157 - Monopoly
 - [ ] Target <span>#</span>158 - Clubs
 - [x] Target <span>#</span>159 - Portal
-- [ ] Target <span>#</span>160 - Donut
+- [x] Target <span>#</span>160 - Donut
 - [ ] Target <span>#</span>161 - Converge
 - [ ] Target <span>#</span>162 - Upwards
 - [ ] Target <span>#</span>163 - Missing Piece
