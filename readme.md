@@ -120,7 +120,7 @@
 - [ ] Target <span>#</span>113 - Black Light
 - [ ] Target <span>#</span>114 - Negative Box
 - [ ] Target <span>#</span>115 - Droplet
-- [ ] Target <span>#</span>116 - Headphones
+- [x] Target <span>#</span>116 - Headphones
 - [ ] Target <span>#</span>117 - Arineo
 - [ ] Target <span>#</span>118 - Donkey Kong
 - [ ] Target <span>#</span>119 - Pacman
@@ -150,7 +150,7 @@
 - [x] Target <span>#</span>143 - Simply Circle
 - [ ] Target <span>#</span>144 - Long Heart
 - [ ] Target <span>#</span>145 - Spotlight
-- [ ] Target <span>#</span>146 - Streaks
+- [x] Target <span>#</span>146 - Streaks
 - [ ] Target <span>#</span>147 - Splash
 - [ ] Target <span>#</span>148 - Eight
 - [ ] Target <span>#</span>149 - Earthworm
