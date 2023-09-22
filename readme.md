@@ -2,8 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-
-## Checklist
+## Checklist (91/166)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom

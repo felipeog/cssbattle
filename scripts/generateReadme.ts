@@ -3,6 +3,12 @@ import * as path from 'path'
 
 import * as targetsMap from 'shared/targets'
 
+const targets = Object.values(targetsMap)
+const totalCount = targets.length
+const solvedCount = targets.reduce(
+  (sum, target) => (Boolean(target.solution.length) ? sum + 1 : sum),
+  0,
+)
 const readmeFolderPath = path.resolve(__dirname, '..')
 const readmeFilePath = `${readmeFolderPath}/readme.md`
 const readmeHeader =
@@ -16,10 +22,9 @@ async function generateReadme() {
   }
 
   try {
-    const targets = Object.values(targetsMap)
     const checklistSection = targets
       .map((target) => {
-        const isDone = !!target.solution.length
+        const isDone = Boolean(target.solution.length)
         const formattedTitle = target.title.replace('#', '<span>#</span>')
 
         return `- [${isDone ? 'x' : ' '}] ${formattedTitle}`
@@ -27,8 +32,7 @@ async function generateReadme() {
       .join('\n')
     const readmeContent =
       `${readmeHeader}\n` +
-      `\n` +
-      `## Checklist\n` +
+      `## Checklist (${solvedCount}/${totalCount})\n` +
       `\n` +
       `${checklistSection}\n`
 
