@@ -96,7 +96,7 @@
 - [ ] Target <span>#</span>89 - Summit
 - [ ] Target <span>#</span>90 - Eclipse
 - [ ] Target <span>#</span>91 - Reflection
-- [ ] Target <span>#</span>92 - Squeeze
+- [x] Target <span>#</span>92 - Squeeze
 - [ ] Target <span>#</span>93 - Great Wall
 - [x] Target <span>#</span>94 - Ripples
 - [ ] Target <span>#</span>95 - Pokeball
@@ -140,7 +140,7 @@
 - [ ] Target <span>#</span>133 - Spiral
 - [x] Target <span>#</span>134 - Wig
 - [ ] Target <span>#</span>135 - Spikes
-- [ ] Target <span>#</span>136 - Alien Eye
+- [x] Target <span>#</span>136 - Alien Eye
 - [x] Target <span>#</span>137 - Elbow
 - [ ] Target <span>#</span>138 - Lotus
 - [ ] Target <span>#</span>139 - Lamp
