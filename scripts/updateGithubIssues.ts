@@ -1,53 +1,9 @@
 // https://docs.github.com/en/rest/issues/issues?apiVersion=2022-11-28#about-issues
 
-import { PNG } from 'pngjs'
-import * as fs from 'fs'
-import * as pixelmatch from 'pixelmatch'
-
 import { SOLVED_TARGETS } from 'shared/consts/solvedTargets'
-import { TARGET_DIMENSIONS } from 'shared/consts/targetDimensions'
 import { octokit } from 'scripts/services/octokit'
 import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
-
-// TODO: move to `shared` (used by tests and scripts)
-const solutionsImagesFolderPath = `${SHARED_FOLDER_PATH}/solutionsImages`
-
-// TODO: move to `shared` (used by tests and scripts)
-function getPngFile(filePath: string) {
-  return PNG.sync.read(fs.readFileSync(filePath))
-}
-
-// TODO: move to `shared` (used by tests and scripts)
-function getPixelsMismatch(
-  currentTargetFileName: string,
-  expectedTargetFileName: string,
-) {
-  const current = getPngFile(currentTargetFileName)
-  const expected = getPngFile(expectedTargetFileName)
-  const pixelsMismatch = pixelmatch(
-    current.data,
-    expected.data,
-    null,
-    TARGET_DIMENSIONS.WIDTH,
-    TARGET_DIMENSIONS.HEIGHT,
-  )
-
-  return pixelsMismatch
-}
-
-// TODO: move to `shared` (used by tests and scripts)
-function getSolvedTargets() {
-  const solutionsIds = fs
-    .readdirSync(solutionsImagesFolderPath)
-    .map((solutionImageFileName) =>
-      solutionImageFileName.replace('.png', '').padStart(3, '0'),
-    )
-  const solvedTargets = SOLVED_TARGETS.filter(({ id }) =>
-    solutionsIds.includes(id),
-  )
-
-  return solvedTargets
-}
+import { getPixelsMismatch } from 'shared/utils/getPixelsMismatch'
 
 async function updateGithubIssues() {
   // get current issues
@@ -66,9 +22,8 @@ async function updateGithubIssues() {
   )
   const issues = issuesResponse?.data ?? []
 
-  // get solved targets
-  const solvedTargets = getSolvedTargets()
-  const targetsWithMismatch = solvedTargets.map((target) => {
+  // get mismatch
+  const targetsWithMismatch = SOLVED_TARGETS.map((target) => {
     const fileName = `${Number(target.id)}.png`
     const pixelsMismatch = getPixelsMismatch(
       `${SHARED_FOLDER_PATH}/targetsImages/${fileName}`,
