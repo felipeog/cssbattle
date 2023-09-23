@@ -3,22 +3,9 @@ import * as fs from 'fs'
 import { createFolder } from './utils/createFolder'
 import * as targets from 'shared/targetsInfo.json'
 import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
+import { TargetInfo } from 'shared/types'
 
 const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
-
-function getEmptyTargetContent(target: string, index: number) {
-  const targetId = String(index).padStart(3, '0')
-  const parsedName = target.replace("'", "\\'")
-
-  return (
-    `export default {\n` +
-    `  id: '${targetId}',\n` +
-    `  title: 'Target #${index} - ${parsedName}',\n` +
-    `  url: 'https://cssbattle.dev/play/${index}',\n` +
-    `  solution: '',\n` +
-    `}\n`
-  )
-}
 
 function generateEmptyTargets() {
   targets.forEach((target, index) => {
@@ -34,11 +21,25 @@ function generateEmptyTargets() {
 
     fs.writeFileSync(
       `${targetsFolderPath}/${targetFileName}`,
-      getEmptyTargetContent(target.name, index + 1),
+      getEmptyTargetContent(target),
     )
 
     console.log(`${target.name} created`)
   })
+}
+
+function getEmptyTargetContent(target: TargetInfo) {
+  const targetId = String(target.id).padStart(3, '0')
+  const parsedName = target.name.replace("'", "\\'")
+
+  return (
+    `export default {\n` +
+    `  id: '${targetId}',\n` +
+    `  title: 'Target #${target.id} - ${parsedName}',\n` +
+    `  url: 'https://cssbattle.dev/play/${target.id}',\n` +
+    `  solution: '',\n` +
+    `}\n`
+  )
 }
 
 createFolder({
