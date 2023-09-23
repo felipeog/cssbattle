@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (91/170)
+## Checklist (95/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -170,7 +170,7 @@
 - [ ] Target <span>#</span>164 - Rangoli
 - [ ] Target <span>#</span>165 - Pyramid
 - [ ] Target <span>#</span>166 - Flow
-- [ ] Target <span>#</span>167 - React India
-- [ ] Target <span>#</span>168 - Carpet
-- [ ] Target <span>#</span>169 - Abstract Plate
-- [ ] Target <span>#</span>170 - Party Hat
+- [x] Target <span>#</span>167 - React India
+- [x] Target <span>#</span>168 - Carpet
+- [x] Target <span>#</span>169 - Abstract Plate
+- [x] Target <span>#</span>170 - Party Hat
