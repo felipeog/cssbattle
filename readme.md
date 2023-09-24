@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (103/170)
+## Checklist (105/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -116,8 +116,8 @@
 - [ ] Target <span>#</span>110 - Sunrays
 - [ ] Target <span>#</span>111 - Rain Drops
 - [ ] Target <span>#</span>112 - Chevron
-- [ ] Target <span>#</span>113 - Black Light
-- [ ] Target <span>#</span>114 - Negative Box
+- [x] Target <span>#</span>113 - Black Light
+- [x] Target <span>#</span>114 - Negative Box
 - [ ] Target <span>#</span>115 - Droplet
 - [x] Target <span>#</span>116 - Headphones
 - [ ] Target <span>#</span>117 - Arineo
