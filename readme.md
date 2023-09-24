@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (101/170)
+## Checklist (103/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -134,11 +134,11 @@
 - [ ] Target <span>#</span>128 - Letter N
 - [ ] Target <span>#</span>129 - Letter B
 - [x] Target <span>#</span>130 - Letter O
-- [ ] Target <span>#</span>131 - Letter W
+- [x] Target <span>#</span>131 - Letter W
 - [ ] Target <span>#</span>132 - Letter S
 - [ ] Target <span>#</span>133 - Spiral
 - [x] Target <span>#</span>134 - Wig
-- [ ] Target <span>#</span>135 - Spikes
+- [x] Target <span>#</span>135 - Spikes
 - [x] Target <span>#</span>136 - Alien Eye
 - [x] Target <span>#</span>137 - Elbow
 - [ ] Target <span>#</span>138 - Lotus
