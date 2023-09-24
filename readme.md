@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (95/170)
+## Checklist (97/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -83,12 +83,12 @@
 - [ ] Target <span>#</span>77 - Notes
 - [ ] Target <span>#</span>78 - Ukulele
 - [ ] Target <span>#</span>79 - Tambourine
-- [ ] Target <span>#</span>80 - Piano
+- [x] Target <span>#</span>80 - Piano
 - [x] Target <span>#</span>81 - Odoo
 - [ ] Target <span>#</span>82 - Diamond Cut
 - [ ] Target <span>#</span>83 - Supernova
 - [x] Target <span>#</span>84 - Junction
-- [ ] Target <span>#</span>85 - Pythagoras
+- [x] Target <span>#</span>85 - Pythagoras
 - [ ] Target <span>#</span>86 - Stairway
 - [ ] Target <span>#</span>87 - Building Blocks
 - [ ] Target <span>#</span>88 - Tight Corner
