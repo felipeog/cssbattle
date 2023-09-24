@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (97/170)
+## Checklist (99/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -147,7 +147,7 @@
 - [ ] Target <span>#</span>141 - Third Eye
 - [x] Target <span>#</span>142 - Curtains
 - [x] Target <span>#</span>143 - Simply Circle
-- [ ] Target <span>#</span>144 - Long Heart
+- [x] Target <span>#</span>144 - Long Heart
 - [x] Target <span>#</span>145 - Spotlight
 - [x] Target <span>#</span>146 - Streaks
 - [ ] Target <span>#</span>147 - Splash
@@ -164,7 +164,7 @@
 - [ ] Target <span>#</span>158 - Clubs
 - [x] Target <span>#</span>159 - Portal
 - [x] Target <span>#</span>160 - Donut
-- [ ] Target <span>#</span>161 - Converge
+- [x] Target <span>#</span>161 - Converge
 - [ ] Target <span>#</span>162 - Upwards
 - [ ] Target <span>#</span>163 - Missing Piece
 - [ ] Target <span>#</span>164 - Rangoli
