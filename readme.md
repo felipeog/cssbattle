@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (99/170)
+## Checklist (101/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -165,8 +165,8 @@
 - [x] Target <span>#</span>159 - Portal
 - [x] Target <span>#</span>160 - Donut
 - [x] Target <span>#</span>161 - Converge
-- [ ] Target <span>#</span>162 - Upwards
-- [ ] Target <span>#</span>163 - Missing Piece
+- [x] Target <span>#</span>162 - Upwards
+- [x] Target <span>#</span>163 - Missing Piece
 - [ ] Target <span>#</span>164 - Rangoli
 - [ ] Target <span>#</span>165 - Pyramid
 - [ ] Target <span>#</span>166 - Flow
