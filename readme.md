@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (105/170)
+## Checklist (107/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -91,7 +91,7 @@
 - [x] Target <span>#</span>85 - Pythagoras
 - [ ] Target <span>#</span>86 - Stairway
 - [ ] Target <span>#</span>87 - Building Blocks
-- [ ] Target <span>#</span>88 - Tight Corner
+- [x] Target <span>#</span>88 - Tight Corner
 - [ ] Target <span>#</span>89 - Summit
 - [ ] Target <span>#</span>90 - Eclipse
 - [ ] Target <span>#</span>91 - Reflection
@@ -152,7 +152,7 @@
 - [x] Target <span>#</span>146 - Streaks
 - [ ] Target <span>#</span>147 - Splash
 - [ ] Target <span>#</span>148 - Eight
-- [ ] Target <span>#</span>149 - Earthworm
+- [x] Target <span>#</span>149 - Earthworm
 - [ ] Target <span>#</span>150 - Finger Heart
 - [ ] Target <span>#</span>151 - Pawn
 - [ ] Target <span>#</span>152 - Rook
