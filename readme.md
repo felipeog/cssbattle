@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (111/170)
+## Checklist (113/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -80,9 +80,9 @@
 - [x] Target <span>#</span>74 - Danger Noodle
 - [ ] Target <span>#</span>75 - Hippo
 - [ ] Target <span>#</span>76 - Beeee
-- [ ] Target <span>#</span>77 - Notes
+- [x] Target <span>#</span>77 - Notes
 - [ ] Target <span>#</span>78 - Ukulele
-- [ ] Target <span>#</span>79 - Tambourine
+- [x] Target <span>#</span>79 - Tambourine
 - [x] Target <span>#</span>80 - Piano
 - [x] Target <span>#</span>81 - Odoo
 - [x] Target <span>#</span>82 - Diamond Cut
