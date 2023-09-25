@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (109/170)
+## Checklist (111/170)
 
 - [x] Target <span>#</span>1 - Simply Square
 - [x] Target <span>#</span>2 - Carrom
@@ -85,7 +85,7 @@
 - [ ] Target <span>#</span>79 - Tambourine
 - [x] Target <span>#</span>80 - Piano
 - [x] Target <span>#</span>81 - Odoo
-- [ ] Target <span>#</span>82 - Diamond Cut
+- [x] Target <span>#</span>82 - Diamond Cut
 - [ ] Target <span>#</span>83 - Supernova
 - [x] Target <span>#</span>84 - Junction
 - [x] Target <span>#</span>85 - Pythagoras
@@ -93,7 +93,7 @@
 - [ ] Target <span>#</span>87 - Building Blocks
 - [x] Target <span>#</span>88 - Tight Corner
 - [ ] Target <span>#</span>89 - Summit
-- [ ] Target <span>#</span>90 - Eclipse
+- [x] Target <span>#</span>90 - Eclipse
 - [ ] Target <span>#</span>91 - Reflection
 - [x] Target <span>#</span>92 - Squeeze
 - [ ] Target <span>#</span>93 - Great Wall
