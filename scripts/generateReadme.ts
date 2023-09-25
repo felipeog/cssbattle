@@ -1,5 +1,6 @@
 import * as fs from 'fs'
 import * as path from 'path'
+import puppeteer from 'puppeteer'
 
 import * as targetsMap from 'shared/targets'
 
@@ -11,10 +12,6 @@ const solvedCount = targets.reduce(
 )
 const readmeFolderPath = path.resolve(__dirname, '..')
 const readmeFilePath = `${readmeFolderPath}/readme.md`
-const readmeHeader =
-  `# [CSSBattle](https://cssbattle.dev)\n` +
-  `\n` +
-  `[@felipeog](https://cssbattle.dev/player/felipeog)\n`
 
 async function generateReadme() {
   if (fs.existsSync(readmeFilePath)) {
@@ -22,16 +19,28 @@ async function generateReadme() {
   }
 
   try {
+    const stats = await scrapeUserStats()
+    const headerSection =
+      `# [CSSBattle](https://cssbattle.dev)\n` +
+      `\n` +
+      `- Profile: [@felipeog](https://cssbattle.dev/player/felipeog)\n` +
+      stats.reduce(
+        (previous, current) =>
+          `${previous}- ${current.label}: ${current.value}\n`,
+        '',
+      )
     const checklistSection = targets
       .map((target) => {
         const isDone = Boolean(target.solution.length)
         const formattedTitle = target.title.replace('#', '<span>#</span>')
 
-        return `- [${isDone ? 'x' : ' '}] ${formattedTitle}`
+        return `- [${
+          isDone ? 'x' : ' '
+        }] [${formattedTitle}](./shared/targets/${target.id}.ts)`
       })
       .join('\n')
     const readmeContent =
-      `${readmeHeader}\n` +
+      `${headerSection}\n` +
       `## Checklist (${solvedCount}/${totalCount})\n` +
       `\n` +
       `${checklistSection}\n`
@@ -42,6 +51,36 @@ async function generateReadme() {
   }
 
   console.log('Readme file created')
+}
+
+async function scrapeUserStats() {
+  console.log('Scraping user stats...')
+
+  const browser = await puppeteer.launch({ headless: 'new' })
+  const page = await browser.newPage()
+
+  await page.goto('https://cssbattle.dev/player/felipeog')
+
+  const stats = await page.evaluate(() => {
+    const battleStatCards = document.querySelectorAll(
+      '#__next > div.page-wrapper > div.content-wrapper > div.page-content.false > div > div:nth-child(1) > div.hstack.hstack--responsive > div:nth-child(1) > div > div > div:nth-child(2) [class^=Panel_panel]',
+    )
+
+    return Array.from(battleStatCards).map((card) => {
+      const [valueSpan, labelSpan] = card.querySelectorAll('span')
+
+      return {
+        label: labelSpan.textContent,
+        value: valueSpan.textContent,
+      }
+    })
+  })
+
+  await browser.close()
+
+  console.log('Stats: ', stats)
+
+  return stats
 }
 
 generateReadme()
