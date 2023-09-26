@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 454
-- Targets played: 115
-- Total score: 72067.50
+- Global rank: 444
+- Targets played: 117
+- Total score: 73272.70
 
-## Checklist (115/170)
+## Checklist (117/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -81,8 +81,8 @@
 - [x] [Target <span>#</span>72 - Sheep](./shared/targets/072.ts)
 - [x] [Target <span>#</span>73 - Happy Tiger](./shared/targets/073.ts)
 - [x] [Target <span>#</span>74 - Danger Noodle](./shared/targets/074.ts)
-- [ ] [Target <span>#</span>75 - Hippo](./shared/targets/075.ts)
-- [ ] [Target <span>#</span>76 - Beeee](./shared/targets/076.ts)
+- [x] [Target <span>#</span>75 - Hippo](./shared/targets/075.ts)
+- [x] [Target <span>#</span>76 - Beeee](./shared/targets/076.ts)
 - [x] [Target <span>#</span>77 - Notes](./shared/targets/077.ts)
 - [ ] [Target <span>#</span>78 - Ukulele](./shared/targets/078.ts)
 - [x] [Target <span>#</span>79 - Tambourine](./shared/targets/079.ts)
