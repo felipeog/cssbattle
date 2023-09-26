@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 444
-- Targets played: 117
-- Total score: 73272.70
+- Global rank: 424
+- Targets played: 119
+- Total score: 74484.94
 
-## Checklist (117/170)
+## Checklist (119/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -84,12 +84,12 @@
 - [x] [Target <span>#</span>75 - Hippo](./shared/targets/075.ts)
 - [x] [Target <span>#</span>76 - Beeee](./shared/targets/076.ts)
 - [x] [Target <span>#</span>77 - Notes](./shared/targets/077.ts)
-- [ ] [Target <span>#</span>78 - Ukulele](./shared/targets/078.ts)
+- [x] [Target <span>#</span>78 - Ukulele](./shared/targets/078.ts)
 - [x] [Target <span>#</span>79 - Tambourine](./shared/targets/079.ts)
 - [x] [Target <span>#</span>80 - Piano](./shared/targets/080.ts)
 - [x] [Target <span>#</span>81 - Odoo](./shared/targets/081.ts)
 - [x] [Target <span>#</span>82 - Diamond Cut](./shared/targets/082.ts)
-- [ ] [Target <span>#</span>83 - Supernova](./shared/targets/083.ts)
+- [x] [Target <span>#</span>83 - Supernova](./shared/targets/083.ts)
 - [x] [Target <span>#</span>84 - Junction](./shared/targets/084.ts)
 - [x] [Target <span>#</span>85 - Pythagoras](./shared/targets/085.ts)
 - [ ] [Target <span>#</span>86 - Stairway](./shared/targets/086.ts)
