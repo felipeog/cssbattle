@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 481
-- Targets played: 113
-- Total score: 70846.30
+- Global rank: 454
+- Targets played: 115
+- Total score: 72067.50
 
-## Checklist (113/170)
+## Checklist (115/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -97,12 +97,12 @@
 - [x] [Target <span>#</span>88 - Tight Corner](./shared/targets/088.ts)
 - [ ] [Target <span>#</span>89 - Summit](./shared/targets/089.ts)
 - [x] [Target <span>#</span>90 - Eclipse](./shared/targets/090.ts)
-- [ ] [Target <span>#</span>91 - Reflection](./shared/targets/091.ts)
+- [x] [Target <span>#</span>91 - Reflection](./shared/targets/091.ts)
 - [x] [Target <span>#</span>92 - Squeeze](./shared/targets/092.ts)
 - [ ] [Target <span>#</span>93 - Great Wall](./shared/targets/093.ts)
 - [x] [Target <span>#</span>94 - Ripples](./shared/targets/094.ts)
 - [ ] [Target <span>#</span>95 - Pokeball](./shared/targets/095.ts)
-- [ ] [Target <span>#</span>96 - Mandala](./shared/targets/096.ts)
+- [x] [Target <span>#</span>96 - Mandala](./shared/targets/096.ts)
 - [ ] [Target <span>#</span>97 - Snowman](./shared/targets/097.ts)
 - [ ] [Target <span>#</span>98 - Candle](./shared/targets/098.ts)
 - [ ] [Target <span>#</span>99 - Gift Box](./shared/targets/099.ts)
