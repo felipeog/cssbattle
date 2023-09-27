@@ -1,11 +1,8 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 424
-- Targets played: 119
-- Total score: 74484.94
 
-## Checklist (119/170)
+## Checklist (121/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -92,8 +89,8 @@
 - [x] [Target <span>#</span>83 - Supernova](./shared/targets/083.ts)
 - [x] [Target <span>#</span>84 - Junction](./shared/targets/084.ts)
 - [x] [Target <span>#</span>85 - Pythagoras](./shared/targets/085.ts)
-- [ ] [Target <span>#</span>86 - Stairway](./shared/targets/086.ts)
-- [ ] [Target <span>#</span>87 - Building Blocks](./shared/targets/087.ts)
+- [x] [Target <span>#</span>86 - Stairway](./shared/targets/086.ts)
+- [x] [Target <span>#</span>87 - Building Blocks](./shared/targets/087.ts)
 - [x] [Target <span>#</span>88 - Tight Corner](./shared/targets/088.ts)
 - [ ] [Target <span>#</span>89 - Summit](./shared/targets/089.ts)
 - [x] [Target <span>#</span>90 - Eclipse](./shared/targets/090.ts)
