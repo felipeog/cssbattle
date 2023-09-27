@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (121/170)
+## Checklist (123/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -92,11 +92,11 @@
 - [x] [Target <span>#</span>86 - Stairway](./shared/targets/086.ts)
 - [x] [Target <span>#</span>87 - Building Blocks](./shared/targets/087.ts)
 - [x] [Target <span>#</span>88 - Tight Corner](./shared/targets/088.ts)
-- [ ] [Target <span>#</span>89 - Summit](./shared/targets/089.ts)
+- [x] [Target <span>#</span>89 - Summit](./shared/targets/089.ts)
 - [x] [Target <span>#</span>90 - Eclipse](./shared/targets/090.ts)
 - [x] [Target <span>#</span>91 - Reflection](./shared/targets/091.ts)
 - [x] [Target <span>#</span>92 - Squeeze](./shared/targets/092.ts)
-- [ ] [Target <span>#</span>93 - Great Wall](./shared/targets/093.ts)
+- [x] [Target <span>#</span>93 - Great Wall](./shared/targets/093.ts)
 - [x] [Target <span>#</span>94 - Ripples](./shared/targets/094.ts)
 - [ ] [Target <span>#</span>95 - Pokeball](./shared/targets/095.ts)
 - [x] [Target <span>#</span>96 - Mandala](./shared/targets/096.ts)
