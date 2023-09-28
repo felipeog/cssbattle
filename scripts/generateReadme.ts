@@ -64,7 +64,7 @@ async function scrapeUserStats() {
   await page.goto('https://cssbattle.dev/player/felipeog')
   await page.waitForSelector(statsSelector)
 
-  const stats = await page.evaluate(() => {
+  const stats = await page.evaluate((statsSelector) => {
     const battleStatCards = document.querySelectorAll(statsSelector)
 
     return Array.from(battleStatCards).map((card) => {
@@ -75,7 +75,7 @@ async function scrapeUserStats() {
         value: valueSpan.textContent,
       }
     })
-  })
+  }, statsSelector)
 
   await browser.close()
 
