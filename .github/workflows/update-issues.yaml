@@ -15,5 +15,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-      - run: npm ci
-      - run: npm run update-github-issues
+      - run: |
+          npm ci
+          npm run update-github-issues
