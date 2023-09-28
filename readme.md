@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 336
-- Targets played: 128
-- Total score: 79982.16
+- Global rank: 322
+- Targets played: 130
+- Total score: 81217.85
 
-## Checklist (128/170)
+## Checklist (130/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -117,11 +117,11 @@
 - [ ] [Target <span>#</span>108 - Clow Card](./shared/targets/108.ts)
 - [x] [Target <span>#</span>109 - Curtain](./shared/targets/109.ts)
 - [ ] [Target <span>#</span>110 - Sunrays](./shared/targets/110.ts)
-- [ ] [Target <span>#</span>111 - Rain Drops](./shared/targets/111.ts)
+- [x] [Target <span>#</span>111 - Rain Drops](./shared/targets/111.ts)
 - [ ] [Target <span>#</span>112 - Chevron](./shared/targets/112.ts)
 - [x] [Target <span>#</span>113 - Black Light](./shared/targets/113.ts)
 - [x] [Target <span>#</span>114 - Negative Box](./shared/targets/114.ts)
-- [ ] [Target <span>#</span>115 - Droplet](./shared/targets/115.ts)
+- [x] [Target <span>#</span>115 - Droplet](./shared/targets/115.ts)
 - [x] [Target <span>#</span>116 - Headphones](./shared/targets/116.ts)
 - [ ] [Target <span>#</span>117 - Arineo](./shared/targets/117.ts)
 - [ ] [Target <span>#</span>118 - Donkey Kong](./shared/targets/118.ts)
