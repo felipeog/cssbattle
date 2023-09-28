@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 358
-- Targets played: 126
-- Total score: 78769.36
+- Global rank: 336
+- Targets played: 128
+- Total score: 79982.16
 
-## Checklist (126/170)
+## Checklist (128/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -105,8 +105,8 @@
 - [x] [Target <span>#</span>96 - Mandala](./shared/targets/096.ts)
 - [x] [Target <span>#</span>97 - Snowman](./shared/targets/097.ts)
 - [x] [Target <span>#</span>98 - Candle](./shared/targets/098.ts)
-- [ ] [Target <span>#</span>99 - Gift Box](./shared/targets/099.ts)
-- [ ] [Target <span>#</span>100 - CSSBattle](./shared/targets/100.ts)
+- [x] [Target <span>#</span>99 - Gift Box](./shared/targets/099.ts)
+- [x] [Target <span>#</span>100 - CSSBattle](./shared/targets/100.ts)
 - [ ] [Target <span>#</span>101 - Sharingan](./shared/targets/101.ts)
 - [ ] [Target <span>#</span>102 - One Piece](./shared/targets/102.ts)
 - [ ] [Target <span>#</span>103 - Super Saiyan](./shared/targets/103.ts)
