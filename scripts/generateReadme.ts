@@ -58,13 +58,14 @@ async function scrapeUserStats() {
 
   const browser = await puppeteer.launch({ headless: 'new' })
   const page = await browser.newPage()
+  const statsSelector =
+    '#__next > div.page-wrapper > div.content-wrapper > div.page-content.false > div > div:nth-child(1) > div.hstack.hstack--responsive > div:nth-child(1) > div > div > div:nth-child(2) [class^=Panel_panel]'
 
   await page.goto('https://cssbattle.dev/player/felipeog')
+  await page.waitForSelector(statsSelector)
 
   const stats = await page.evaluate(() => {
-    const battleStatCards = document.querySelectorAll(
-      '#__next > div.page-wrapper > div.content-wrapper > div.page-content.false > div > div:nth-child(1) > div.hstack.hstack--responsive > div:nth-child(1) > div > div > div:nth-child(2) [class^=Panel_panel]',
-    )
+    const battleStatCards = document.querySelectorAll(statsSelector)
 
     return Array.from(battleStatCards).map((card) => {
       const [valueSpan, labelSpan] = card.querySelectorAll('span')
