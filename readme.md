@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 295
-- Targets played: 134
-- Total score: 83609.59
+- Global rank: 278
+- Targets played: 136
+- Total score: 84822.95
 
-## Checklist (134/170)
+## Checklist (136/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -111,8 +111,8 @@
 - [x] [Target <span>#</span>102 - One Piece](./shared/targets/102.ts)
 - [x] [Target <span>#</span>103 - Super Saiyan](./shared/targets/103.ts)
 - [x] [Target <span>#</span>104 - Amegakure](./shared/targets/104.ts)
-- [ ] [Target <span>#</span>105 - Ryuk](./shared/targets/105.ts)
-- [ ] [Target <span>#</span>106 - Ryuk's Apple](./shared/targets/106.ts)
+- [x] [Target <span>#</span>105 - Ryuk](./shared/targets/105.ts)
+- [x] [Target <span>#</span>106 - Ryuk's Apple](./shared/targets/106.ts)
 - [ ] [Target <span>#</span>107 - Sealing Wand](./shared/targets/107.ts)
 - [ ] [Target <span>#</span>108 - Clow Card](./shared/targets/108.ts)
 - [x] [Target <span>#</span>109 - Curtain](./shared/targets/109.ts)
