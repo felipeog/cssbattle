@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 250
-- Targets played: 140
-- Total score: 87291.84
+- Global rank: 243
+- Targets played: 142
+- Total score: 88555.28
 
-## Checklist (140/170)
+## Checklist (142/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -144,10 +144,10 @@
 - [x] [Target <span>#</span>135 - Spikes](./shared/targets/135.ts)
 - [x] [Target <span>#</span>136 - Alien Eye](./shared/targets/136.ts)
 - [x] [Target <span>#</span>137 - Elbow](./shared/targets/137.ts)
-- [ ] [Target <span>#</span>138 - Lotus](./shared/targets/138.ts)
+- [x] [Target <span>#</span>138 - Lotus](./shared/targets/138.ts)
 - [x] [Target <span>#</span>139 - Lamp](./shared/targets/139.ts)
 - [ ] [Target <span>#</span>140 - Eclipse](./shared/targets/140.ts)
-- [ ] [Target <span>#</span>141 - Third Eye](./shared/targets/141.ts)
+- [x] [Target <span>#</span>141 - Third Eye](./shared/targets/141.ts)
 - [x] [Target <span>#</span>142 - Curtains](./shared/targets/142.ts)
 - [x] [Target <span>#</span>143 - Simply Circle](./shared/targets/143.ts)
 - [x] [Target <span>#</span>144 - Long Heart](./shared/targets/144.ts)
