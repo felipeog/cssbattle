@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 268
-- Targets played: 138
-- Total score: 86025.73
+- Global rank: 250
+- Targets played: 140
+- Total score: 87291.84
 
-## Checklist (138/170)
+## Checklist (140/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -116,9 +116,9 @@
 - [x] [Target <span>#</span>107 - Sealing Wand](./shared/targets/107.ts)
 - [x] [Target <span>#</span>108 - Clow Card](./shared/targets/108.ts)
 - [x] [Target <span>#</span>109 - Curtain](./shared/targets/109.ts)
-- [ ] [Target <span>#</span>110 - Sunrays](./shared/targets/110.ts)
+- [x] [Target <span>#</span>110 - Sunrays](./shared/targets/110.ts)
 - [x] [Target <span>#</span>111 - Rain Drops](./shared/targets/111.ts)
-- [ ] [Target <span>#</span>112 - Chevron](./shared/targets/112.ts)
+- [x] [Target <span>#</span>112 - Chevron](./shared/targets/112.ts)
 - [x] [Target <span>#</span>113 - Black Light](./shared/targets/113.ts)
 - [x] [Target <span>#</span>114 - Negative Box](./shared/targets/114.ts)
 - [x] [Target <span>#</span>115 - Droplet](./shared/targets/115.ts)
