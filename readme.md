@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 215
-- Targets played: 146
-- Total score: 91018.63
+- Global rank: 203
+- Targets played: 148
+- Total score: 92269.42
 
-## Checklist (146/170)
+## Checklist (148/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -133,8 +133,8 @@
 - [ ] [Target <span>#</span>124 - Space Invaders](./shared/targets/124.ts)
 - [x] [Target <span>#</span>125 - Root Learn](./shared/targets/125.ts)
 - [x] [Target <span>#</span>126 - Letter A](./shared/targets/126.ts)
-- [ ] [Target <span>#</span>127 - Letter I](./shared/targets/127.ts)
-- [ ] [Target <span>#</span>128 - Letter N](./shared/targets/128.ts)
+- [x] [Target <span>#</span>127 - Letter I](./shared/targets/127.ts)
+- [x] [Target <span>#</span>128 - Letter N](./shared/targets/128.ts)
 - [x] [Target <span>#</span>129 - Letter B](./shared/targets/129.ts)
 - [x] [Target <span>#</span>130 - Letter O](./shared/targets/130.ts)
 - [x] [Target <span>#</span>131 - Letter W](./shared/targets/131.ts)
