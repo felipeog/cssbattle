@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 203
-- Targets played: 148
-- Total score: 92269.42
+- Global rank: 197
+- Targets played: 150
+- Total score: 93528.46
 
-## Checklist (148/170)
+## Checklist (150/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -138,7 +138,7 @@
 - [x] [Target <span>#</span>129 - Letter B](./shared/targets/129.ts)
 - [x] [Target <span>#</span>130 - Letter O](./shared/targets/130.ts)
 - [x] [Target <span>#</span>131 - Letter W](./shared/targets/131.ts)
-- [ ] [Target <span>#</span>132 - Letter S](./shared/targets/132.ts)
+- [x] [Target <span>#</span>132 - Letter S](./shared/targets/132.ts)
 - [ ] [Target <span>#</span>133 - Spiral](./shared/targets/133.ts)
 - [x] [Target <span>#</span>134 - Wig](./shared/targets/134.ts)
 - [x] [Target <span>#</span>135 - Spikes](./shared/targets/135.ts)
@@ -146,7 +146,7 @@
 - [x] [Target <span>#</span>137 - Elbow](./shared/targets/137.ts)
 - [x] [Target <span>#</span>138 - Lotus](./shared/targets/138.ts)
 - [x] [Target <span>#</span>139 - Lamp](./shared/targets/139.ts)
-- [ ] [Target <span>#</span>140 - Eclipse](./shared/targets/140.ts)
+- [x] [Target <span>#</span>140 - Eclipse](./shared/targets/140.ts)
 - [x] [Target <span>#</span>141 - Third Eye](./shared/targets/141.ts)
 - [x] [Target <span>#</span>142 - Curtains](./shared/targets/142.ts)
 - [x] [Target <span>#</span>143 - Simply Circle](./shared/targets/143.ts)
