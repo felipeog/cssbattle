@@ -18,3 +18,11 @@ jobs:
       - run: |
           npm ci
           npm run update-github-issues
+      - uses: actions/upload-artifact@v3
+        with:
+          name: targets-images
+          path: shared/targetsImages
+      - uses: actions/upload-artifact@v3
+        with:
+          name: solutions-images
+          path: shared/solutionsImages
