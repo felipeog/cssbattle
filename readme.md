@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 179
-- Targets played: 153
-- Total score: 95469.71
+- Global rank: 166
+- Targets played: 155
+- Total score: 96676.14
 
-## Checklist (153/170)
+## Checklist (155/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -123,7 +123,7 @@
 - [x] [Target <span>#</span>114 - Negative Box](./shared/targets/114.ts)
 - [x] [Target <span>#</span>115 - Droplet](./shared/targets/115.ts)
 - [x] [Target <span>#</span>116 - Headphones](./shared/targets/116.ts)
-- [ ] [Target <span>#</span>117 - Arineo](./shared/targets/117.ts)
+- [x] [Target <span>#</span>117 - Arineo](./shared/targets/117.ts)
 - [ ] [Target <span>#</span>118 - Donkey Kong](./shared/targets/118.ts)
 - [ ] [Target <span>#</span>119 - Pacman](./shared/targets/119.ts)
 - [ ] [Target <span>#</span>120 - Tank](./shared/targets/120.ts)
@@ -139,7 +139,7 @@
 - [x] [Target <span>#</span>130 - Letter O](./shared/targets/130.ts)
 - [x] [Target <span>#</span>131 - Letter W](./shared/targets/131.ts)
 - [x] [Target <span>#</span>132 - Letter S](./shared/targets/132.ts)
-- [ ] [Target <span>#</span>133 - Spiral](./shared/targets/133.ts)
+- [x] [Target <span>#</span>133 - Spiral](./shared/targets/133.ts)
 - [x] [Target <span>#</span>134 - Wig](./shared/targets/134.ts)
 - [x] [Target <span>#</span>135 - Spikes](./shared/targets/135.ts)
 - [x] [Target <span>#</span>136 - Alien Eye](./shared/targets/136.ts)
