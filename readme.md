@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 197
-- Targets played: 150
-- Total score: 93528.46
+- Global rank: 179
+- Targets played: 153
+- Total score: 95469.71
 
-## Checklist (150/170)
+## Checklist (153/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -153,10 +153,10 @@
 - [x] [Target <span>#</span>144 - Long Heart](./shared/targets/144.ts)
 - [x] [Target <span>#</span>145 - Spotlight](./shared/targets/145.ts)
 - [x] [Target <span>#</span>146 - Streaks](./shared/targets/146.ts)
-- [ ] [Target <span>#</span>147 - Splash](./shared/targets/147.ts)
-- [ ] [Target <span>#</span>148 - Eight](./shared/targets/148.ts)
+- [x] [Target <span>#</span>147 - Splash](./shared/targets/147.ts)
+- [x] [Target <span>#</span>148 - Eight](./shared/targets/148.ts)
 - [x] [Target <span>#</span>149 - Earthworm](./shared/targets/149.ts)
-- [ ] [Target <span>#</span>150 - Finger Heart](./shared/targets/150.ts)
+- [x] [Target <span>#</span>150 - Finger Heart](./shared/targets/150.ts)
 - [x] [Target <span>#</span>151 - Pawn](./shared/targets/151.ts)
 - [ ] [Target <span>#</span>152 - Rook](./shared/targets/152.ts)
 - [ ] [Target <span>#</span>153 - Checkers](./shared/targets/153.ts)
