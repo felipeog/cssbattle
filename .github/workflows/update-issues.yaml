@@ -10,19 +10,30 @@ env:
 jobs:
   update-issues:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v3
+      - name: 'Checkout'
+        uses: actions/checkout@v4
+
+      - name: 'Setup Node.js'
+        uses: actions/setup-node@v3
         with:
           node-version: 18.x
-      - run: |
-          npm ci
-          npm run update-github-issues
-      - uses: actions/upload-artifact@v3
+
+      - name: 'Clean install dependencies'
+        run: npm ci
+
+      - name: 'Update issues'
+        run: npm run update-github-issues
+
+      - name: 'Upload targets images'
+        uses: actions/upload-artifact@v3
         with:
           name: targets-images
           path: shared/targetsImages
-      - uses: actions/upload-artifact@v3
+
+      - name: 'Upload solutions images'
+        uses: actions/upload-artifact@v3
         with:
           name: solutions-images
           path: shared/solutionsImages
