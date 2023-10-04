@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 166
-- Targets played: 155
-- Total score: 96676.14
+- Global rank: 156
+- Targets played: 157
+- Total score: 97881.52
 
-## Checklist (155/170)
+## Checklist (157/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -162,8 +162,8 @@
 - [ ] [Target <span>#</span>153 - Checkers](./shared/targets/153.ts)
 - [ ] [Target <span>#</span>154 - Poker Chip](./shared/targets/154.ts)
 - [x] [Target <span>#</span>155 - Snakes & Ladders](./shared/targets/155.ts)
-- [ ] [Target <span>#</span>156 - Chinese Checkers](./shared/targets/156.ts)
-- [ ] [Target <span>#</span>157 - Monopoly](./shared/targets/157.ts)
+- [x] [Target <span>#</span>156 - Chinese Checkers](./shared/targets/156.ts)
+- [x] [Target <span>#</span>157 - Monopoly](./shared/targets/157.ts)
 - [x] [Target <span>#</span>158 - Clubs](./shared/targets/158.ts)
 - [x] [Target <span>#</span>159 - Portal](./shared/targets/159.ts)
 - [x] [Target <span>#</span>160 - Donut](./shared/targets/160.ts)
