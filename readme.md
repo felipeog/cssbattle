@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 137
-- Targets played: 160
-- Total score: 99696.39
+- Global rank: 120
+- Targets played: 163
+- Total score: 101526.52
 
-## Checklist (160/170)
+## Checklist (163/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -170,9 +170,9 @@
 - [x] [Target <span>#</span>161 - Converge](./shared/targets/161.ts)
 - [x] [Target <span>#</span>162 - Upwards](./shared/targets/162.ts)
 - [x] [Target <span>#</span>163 - Missing Piece](./shared/targets/163.ts)
-- [ ] [Target <span>#</span>164 - Rangoli](./shared/targets/164.ts)
-- [ ] [Target <span>#</span>165 - Pyramid](./shared/targets/165.ts)
-- [ ] [Target <span>#</span>166 - Flow](./shared/targets/166.ts)
+- [x] [Target <span>#</span>164 - Rangoli](./shared/targets/164.ts)
+- [x] [Target <span>#</span>165 - Pyramid](./shared/targets/165.ts)
+- [x] [Target <span>#</span>166 - Flow](./shared/targets/166.ts)
 - [x] [Target <span>#</span>167 - React India](./shared/targets/167.ts)
 - [x] [Target <span>#</span>168 - Carpet](./shared/targets/168.ts)
 - [x] [Target <span>#</span>169 - Abstract Plate](./shared/targets/169.ts)
