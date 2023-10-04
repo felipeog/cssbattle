@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 120
-- Targets played: 163
-- Total score: 101526.52
+- Global rank: 104
+- Targets played: 165
+- Total score: 102743.29
 
-## Checklist (163/170)
+## Checklist (165/170)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -128,8 +128,8 @@
 - [ ] [Target <span>#</span>119 - Pacman](./shared/targets/119.ts)
 - [ ] [Target <span>#</span>120 - Tank](./shared/targets/120.ts)
 - [ ] [Target <span>#</span>121 - Duck Hunt](./shared/targets/121.ts)
-- [ ] [Target <span>#</span>122 - Tetris](./shared/targets/122.ts)
-- [ ] [Target <span>#</span>123 - Snake](./shared/targets/123.ts)
+- [x] [Target <span>#</span>122 - Tetris](./shared/targets/122.ts)
+- [x] [Target <span>#</span>123 - Snake](./shared/targets/123.ts)
 - [ ] [Target <span>#</span>124 - Space Invaders](./shared/targets/124.ts)
 - [x] [Target <span>#</span>125 - Root Learn](./shared/targets/125.ts)
 - [x] [Target <span>#</span>126 - Letter A](./shared/targets/126.ts)
