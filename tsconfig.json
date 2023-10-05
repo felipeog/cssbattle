@@ -8,7 +8,7 @@
     "target": "es2021"
   },
   "exclude": [".parcel-cache", "dist", "node_modules"],
-  "include": ["scripts/**/*", "shared/**/*", "src/**/*", "tests/**/*"],
+  "include": ["scripts/**/*", "shared/**/*", "src/**/*"],
   "ts-node": {
     "require": ["tsconfig-paths/register"]
   }
