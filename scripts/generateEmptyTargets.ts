@@ -2,7 +2,7 @@ import * as fs from 'fs'
 
 import { createFolder } from './utils/createFolder'
 import * as targets from 'shared/targetsInfo.json'
-import { SHARED_FOLDER_PATH } from 'scripts/consts/sharedFolderPath'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
 export type TargetInfo = {
   id: number

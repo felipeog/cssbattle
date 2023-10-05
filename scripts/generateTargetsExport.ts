@@ -1,5 +1,5 @@
 import * as fs from 'fs'
-import { SHARED_FOLDER_PATH } from 'scripts/consts/sharedFolderPath'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
 const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
 const targetsExportFilePath = `${targetsFolderPath}/index.ts`

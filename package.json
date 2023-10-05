@@ -6,7 +6,6 @@
   "license": "ISC",
   "scripts": {
     "build": "parcel build",
-    "download-targets-images": "ts-node ./scripts/downloadTargetsImages.ts",
     "generate-empty-targets": "ts-node ./scripts/generateEmptyTargets.ts",
     "generate-readme": "ts-node ./scripts/generateReadme.ts",
     "generate-targets-export": "ts-node ./scripts/generateTargetsExport.ts",

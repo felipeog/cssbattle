@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 
-import { SHARED_FOLDER_PATH } from 'scripts/consts/sharedFolderPath'
+import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
 type Target = {
   id: number
