@@ -2,7 +2,7 @@ import * as fs from 'fs'
 import axios from 'axios'
 
 import { createFolder } from 'scripts/utils/createFolder'
-import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
+import { SHARED_FOLDER_PATH } from 'scripts/consts/sharedFolderPath'
 import * as targets from 'shared/targetsInfo.json'
 
 const targetsImagesFolderPath = `${SHARED_FOLDER_PATH}/targetsImages`

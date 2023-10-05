@@ -1,4 +1,4 @@
-import { TARGETS_MAP } from 'shared/consts/targetsMap'
+import { TARGETS_MAP } from 'src/consts/targetsMap'
 import { GitHubButton } from './components/GitHubButton'
 import { List } from './components/List'
 

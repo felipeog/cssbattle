@@ -1,7 +1,7 @@
 import { HTMLAttributes } from 'react'
 
 import { Target } from 'shared/types'
-import { TARGET_DIMENSIONS } from 'shared/consts/targetDimensions'
+import { TARGET_DIMENSIONS } from 'src/consts/targetDimensions'
 import { IFrame } from '../IFrame'
 import * as styles from './index.module.css'
 
