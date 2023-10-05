@@ -1,6 +1,12 @@
 import { IframeHTMLAttributes } from 'react'
 
-import { getHtmlFromSolution } from 'shared/utils/getHtmlFromSolution'
+export function getHtmlFromSolution(solution: string) {
+  const head = '<head><style>body{overflow:hidden}</style></head>'
+  const body = `<body>${solution}</body>`
+  const html = `<html>${head}${body}</html>`
+
+  return html
+}
 
 export type IFrameProps = IframeHTMLAttributes<HTMLIFrameElement> & {
   solution: string

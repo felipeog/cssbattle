@@ -1,6 +1,4 @@
 dist
 node_modules
-shared/solutionsImages/*.png
 .DS_Store
 .parcel-cache
-.env

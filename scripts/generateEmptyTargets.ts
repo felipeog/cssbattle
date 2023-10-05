@@ -3,7 +3,12 @@ import * as fs from 'fs'
 import { createFolder } from './utils/createFolder'
 import * as targets from 'shared/targetsInfo.json'
 import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
-import { TargetInfo } from 'shared/types'
+
+export type TargetInfo = {
+  id: number
+  name: string
+  image: string
+}
 
 const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
 

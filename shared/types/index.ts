@@ -4,9 +4,3 @@ export type Target = {
   url: string
   solution: string
 }
-
-export type TargetInfo = {
-  id: number
-  name: string
-  image: string
-}
