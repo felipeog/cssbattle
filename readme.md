@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 64
+- Global rank: 197
 - Targets played: 170
-- Total score: 105783.66
+- Total score: 105931.33
 
-## Checklist (170/170)
+## Checklist (170/202)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -177,3 +177,35 @@
 - [x] [Target <span>#</span>168 - Carpet](./shared/targets/168.ts)
 - [x] [Target <span>#</span>169 - Abstract Plate](./shared/targets/169.ts)
 - [x] [Target <span>#</span>170 - Party Hat](./shared/targets/170.ts)
+- [ ] [Target <span>#</span>171 - Pumpkin](./shared/targets/171.ts)
+- [ ] [Target <span>#</span>172 - Crossbones](./shared/targets/172.ts)
+- [ ] [Target <span>#</span>173 - Hockey Mask](./shared/targets/173.ts)
+- [ ] [Target <span>#</span>174 - Witch's Hat](./shared/targets/174.ts)
+- [ ] [Target <span>#</span>175 - Evil Cat](./shared/targets/175.ts)
+- [ ] [Target <span>#</span>176 - Castlevania](./shared/targets/176.ts)
+- [ ] [Target <span>#</span>177 - Frankenstein](./shared/targets/177.ts)
+- [ ] [Target <span>#</span>178 - Candy](./shared/targets/178.ts)
+- [ ] [Target <span>#</span>179 - Tanzania](./shared/targets/179.ts)
+- [ ] [Target <span>#</span>180 - Kuwait](./shared/targets/180.ts)
+- [ ] [Target <span>#</span>181 - Iceland](./shared/targets/181.ts)
+- [ ] [Target <span>#</span>182 - Bahrain](./shared/targets/182.ts)
+- [ ] [Target <span>#</span>183 - Brazil](./shared/targets/183.ts)
+- [ ] [Target <span>#</span>184 - India](./shared/targets/184.ts)
+- [ ] [Target <span>#</span>185 - South Korea](./shared/targets/185.ts)
+- [ ] [Target <span>#</span>186 - Guernsey](./shared/targets/186.ts)
+- [ ] [Target <span>#</span>187 - Striped Triangle](./shared/targets/187.ts)
+- [ ] [Target <span>#</span>188 - Icecream Sticks](./shared/targets/188.ts)
+- [ ] [Target <span>#</span>189 - Triangle Hook](./shared/targets/189.ts)
+- [ ] [Target <span>#</span>190 - Power Chip](./shared/targets/190.ts)
+- [ ] [Target <span>#</span>191 - Modern Fence](./shared/targets/191.ts)
+- [ ] [Target <span>#</span>192 - Abstract Firefly](./shared/targets/192.ts)
+- [ ] [Target <span>#</span>193 - Galver](./shared/targets/193.ts)
+- [ ] [Target <span>#</span>194 - Fountain](./shared/targets/194.ts)
+- [ ] [Target <span>#</span>195 - LookAway](./shared/targets/195.ts)
+- [ ] [Target <span>#</span>196 - Tree](./shared/targets/196.ts)
+- [ ] [Target <span>#</span>197 - Crystal](./shared/targets/197.ts)
+- [ ] [Target <span>#</span>198 - Walls](./shared/targets/198.ts)
+- [ ] [Target <span>#</span>199 - Antenna](./shared/targets/199.ts)
+- [ ] [Target <span>#</span>200 - Lantern](./shared/targets/200.ts)
+- [ ] [Target <span>#</span>201 - Triple Zero](./shared/targets/201.ts)
+- [ ] [Target <span>#</span>202 - Steering Wheel](./shared/targets/202.ts)

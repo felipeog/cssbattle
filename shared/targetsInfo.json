@@ -848,5 +848,165 @@
     "id": 170,
     "name": "Party Hat",
     "image": "/targets/170.png"
+  },
+  {
+    "id": 171,
+    "name": "Pumpkin",
+    "image": "/targets/171.png"
+  },
+  {
+    "id": 172,
+    "name": "Crossbones",
+    "image": "/targets/172.png"
+  },
+  {
+    "id": 173,
+    "name": "Hockey Mask",
+    "image": "/targets/173.png"
+  },
+  {
+    "id": 174,
+    "name": "Witch's Hat",
+    "image": "/targets/174.png"
+  },
+  {
+    "id": 175,
+    "name": "Evil Cat",
+    "image": "/targets/175.png"
+  },
+  {
+    "id": 176,
+    "name": "Castlevania",
+    "image": "/targets/176.png"
+  },
+  {
+    "id": 177,
+    "name": "Frankenstein",
+    "image": "/targets/177.png"
+  },
+  {
+    "id": 178,
+    "name": "Candy",
+    "image": "/targets/178.png"
+  },
+  {
+    "id": 179,
+    "name": "Tanzania",
+    "image": "/targets/179.png"
+  },
+  {
+    "id": 180,
+    "name": "Kuwait",
+    "image": "/targets/180.png"
+  },
+  {
+    "id": 181,
+    "name": "Iceland",
+    "image": "/targets/181.png"
+  },
+  {
+    "id": 182,
+    "name": "Bahrain",
+    "image": "/targets/182.png"
+  },
+  {
+    "id": 183,
+    "name": "Brazil",
+    "image": "/targets/183.png"
+  },
+  {
+    "id": 184,
+    "name": "India",
+    "image": "/targets/184.png"
+  },
+  {
+    "id": 185,
+    "name": "South Korea",
+    "image": "/targets/185.png"
+  },
+  {
+    "id": 186,
+    "name": "Guernsey",
+    "image": "/targets/186.png"
+  },
+  {
+    "id": 187,
+    "name": "Striped Triangle",
+    "image": "/targets/187.png"
+  },
+  {
+    "id": 188,
+    "name": "Icecream Sticks",
+    "image": "/targets/188.png"
+  },
+  {
+    "id": 189,
+    "name": "Triangle Hook",
+    "image": "/targets/189.png"
+  },
+  {
+    "id": 190,
+    "name": "Power Chip",
+    "image": "/targets/190.png"
+  },
+  {
+    "id": 191,
+    "name": "Modern Fence",
+    "image": "/targets/191.png"
+  },
+  {
+    "id": 192,
+    "name": "Abstract Firefly",
+    "image": "/targets/192.png"
+  },
+  {
+    "id": 193,
+    "name": "Galver",
+    "image": "/targets/193.png"
+  },
+  {
+    "id": 194,
+    "name": "Fountain",
+    "image": "/targets/194.png"
+  },
+  {
+    "id": 195,
+    "name": "LookAway",
+    "image": "/targets/195.png"
+  },
+  {
+    "id": 196,
+    "name": "Tree",
+    "image": "/targets/196.png"
+  },
+  {
+    "id": 197,
+    "name": "Crystal",
+    "image": "/targets/197.png"
+  },
+  {
+    "id": 198,
+    "name": "Walls",
+    "image": "/targets/198.png"
+  },
+  {
+    "id": 199,
+    "name": "Antenna",
+    "image": "/targets/199.png"
+  },
+  {
+    "id": 200,
+    "name": "Lantern",
+    "image": "/targets/200.png"
+  },
+  {
+    "id": 201,
+    "name": "Triple Zero",
+    "image": "/targets/201.png"
+  },
+  {
+    "id": 202,
+    "name": "Steering Wheel",
+    "image": "/targets/202.png"
   }
 ]

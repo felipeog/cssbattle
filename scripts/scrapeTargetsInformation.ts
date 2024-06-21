@@ -8,6 +8,7 @@ type Target = {
   image: string
 }
 
+// TODO: skip existing targets
 async function scrapeTargetsInformation(
   index: number = 1,
   targets: Target[] = [],
