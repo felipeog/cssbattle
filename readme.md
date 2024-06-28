@@ -1,11 +1,11 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Global rank: 185
-- Targets played: 172
-- Total score: 107138.54
+- Global rank: 176
+- Targets played: 174
+- Total score: 108348.50
 
-## Checklist (172/202)
+## Checklist (174/202)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -179,8 +179,8 @@
 - [x] [Target <span>#</span>170 - Party Hat](./shared/targets/170.ts)
 - [x] [Target <span>#</span>171 - Pumpkin](./shared/targets/171.ts)
 - [x] [Target <span>#</span>172 - Crossbones](./shared/targets/172.ts)
-- [ ] [Target <span>#</span>173 - Hockey Mask](./shared/targets/173.ts)
-- [ ] [Target <span>#</span>174 - Witch's Hat](./shared/targets/174.ts)
+- [x] [Target <span>#</span>173 - Hockey Mask](./shared/targets/173.ts)
+- [x] [Target <span>#</span>174 - Witch's Hat](./shared/targets/174.ts)
 - [ ] [Target <span>#</span>175 - Evil Cat](./shared/targets/175.ts)
 - [ ] [Target <span>#</span>176 - Castlevania](./shared/targets/176.ts)
 - [ ] [Target <span>#</span>177 - Frankenstein](./shared/targets/177.ts)
