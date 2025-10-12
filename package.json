@@ -12,7 +12,7 @@
     "lint-staged": "lint-staged",
     "prepare": "husky install",
     "scrape-targets-info": "ts-node ./scripts/scrapeTargetsInformation.ts",
-    "start": "parcel --no-cache --open",
+    "start": "parcel",
     "ts-node": "ts-node"
   },
   "dependencies": {
