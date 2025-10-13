@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (178/246)
+## Checklist (180/246)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -182,8 +182,8 @@
 - [x] [Target <span>#</span>176 - Castlevania](./shared/targets/176.ts)
 - [x] [Target <span>#</span>177 - Frankenstein](./shared/targets/177.ts)
 - [x] [Target <span>#</span>178 - Candy](./shared/targets/178.ts)
-- [ ] [Target <span>#</span>179 - Tanzania](./shared/targets/179.ts)
-- [ ] [Target <span>#</span>180 - Kuwait](./shared/targets/180.ts)
+- [x] [Target <span>#</span>179 - Tanzania](./shared/targets/179.ts)
+- [x] [Target <span>#</span>180 - Kuwait](./shared/targets/180.ts)
 - [ ] [Target <span>#</span>181 - Iceland](./shared/targets/181.ts)
 - [ ] [Target <span>#</span>182 - Bahrain](./shared/targets/182.ts)
 - [ ] [Target <span>#</span>183 - Brazil](./shared/targets/183.ts)
