@@ -11,6 +11,7 @@ export type EmptyCardProps = HTMLAttributes<HTMLDivElement> &
   }
 
 export function EmptyCard({
+  id,
   title,
   isInLastColumn,
   isInLastRow,
@@ -24,6 +25,7 @@ export function EmptyCard({
 
   return (
     <div
+      id={id}
       className={classNames('EmptyCard', styles.container)}
       style={getBorderStyle()}
     >

@@ -6,6 +6,7 @@
 
 html {
   background-color: var(--gray100);
+  scroll-behavior: smooth;
 }
 
 /* hide scrollbars, keeping scroll functionality */

@@ -26,9 +26,11 @@ async function generateReadme() {
       const isDone = Boolean(target.solution.length)
       const formattedTitle = target.title.replace('#', '<span>#</span>')
 
-      return `- [${isDone ? 'x' : ' '}] [${formattedTitle}](./shared/targets/${
+      return `- [${
+        isDone ? 'x' : ' '
+      }] ${formattedTitle} | [Solution](./shared/targets/${
         target.id
-      }.ts)`
+      }.ts) | [Preview](https://felipeog-cssbattle.netlify.app#${target.id})`
     })
     .join('\n')
   const readmeContent =

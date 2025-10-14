@@ -7,9 +7,9 @@ import * as styles from './index.module.css'
 
 export type CardProps = HTMLAttributes<HTMLDivElement> & Target
 
-export function Card({ solution, title }: CardProps) {
+export function Card({ id, solution, title }: CardProps) {
   return (
-    <div className="Card" title={title}>
+    <div id={id} className="Card" title={title}>
       <IFrame
         className={styles.iframe}
         width={TARGET_DIMENSIONS.WIDTH}
