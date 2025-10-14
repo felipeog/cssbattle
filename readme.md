@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (186/246)
+## Checklist (190/246)
 
 - [x] [Target <span>#</span>1 - Simply Square](./shared/targets/001.ts)
 - [x] [Target <span>#</span>2 - Carrom](./shared/targets/002.ts)
@@ -246,7 +246,7 @@
 - [ ] [Target <span>#</span>240 - Snapshot](./shared/targets/240.ts)
 - [ ] [Target <span>#</span>241 - Mint Typewriter](./shared/targets/241.ts)
 - [ ] [Target <span>#</span>242 - Orbital Tiles](./shared/targets/242.ts)
-- [ ] [Target <span>#</span>243 - Corn](./shared/targets/243.ts)
-- [ ] [Target <span>#</span>244 - Medusa](./shared/targets/244.ts)
-- [ ] [Target <span>#</span>245 - Knot](./shared/targets/245.ts)
-- [ ] [Target <span>#</span>246 - Limbs](./shared/targets/246.ts)
+- [x] [Target <span>#</span>243 - Corn](./shared/targets/243.ts)
+- [x] [Target <span>#</span>244 - Medusa](./shared/targets/244.ts)
+- [x] [Target <span>#</span>245 - Knot](./shared/targets/245.ts)
+- [x] [Target <span>#</span>246 - Limbs](./shared/targets/246.ts)
