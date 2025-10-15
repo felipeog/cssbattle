@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (194/246)
+## Checklist (196/246)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -194,8 +194,8 @@
 - [x] Target <span>#</span>188 - Icecream Sticks | [Solution](./shared/targets/188.ts) | [Preview](https://felipeog-cssbattle.netlify.app#188)
 - [x] Target <span>#</span>189 - Triangle Hook | [Solution](./shared/targets/189.ts) | [Preview](https://felipeog-cssbattle.netlify.app#189)
 - [x] Target <span>#</span>190 - Power Chip | [Solution](./shared/targets/190.ts) | [Preview](https://felipeog-cssbattle.netlify.app#190)
-- [ ] Target <span>#</span>191 - Modern Fence | [Solution](./shared/targets/191.ts) | [Preview](https://felipeog-cssbattle.netlify.app#191)
-- [ ] Target <span>#</span>192 - Abstract Firefly | [Solution](./shared/targets/192.ts) | [Preview](https://felipeog-cssbattle.netlify.app#192)
+- [x] Target <span>#</span>191 - Modern Fence | [Solution](./shared/targets/191.ts) | [Preview](https://felipeog-cssbattle.netlify.app#191)
+- [x] Target <span>#</span>192 - Abstract Firefly | [Solution](./shared/targets/192.ts) | [Preview](https://felipeog-cssbattle.netlify.app#192)
 - [ ] Target <span>#</span>193 - Galver | [Solution](./shared/targets/193.ts) | [Preview](https://felipeog-cssbattle.netlify.app#193)
 - [ ] Target <span>#</span>194 - Fountain | [Solution](./shared/targets/194.ts) | [Preview](https://felipeog-cssbattle.netlify.app#194)
 - [ ] Target <span>#</span>195 - LookAway | [Solution](./shared/targets/195.ts) | [Preview](https://felipeog-cssbattle.netlify.app#195)
