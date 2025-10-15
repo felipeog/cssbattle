@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (192/246)
+## Checklist (194/246)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -192,8 +192,8 @@
 - [x] Target <span>#</span>186 - Guernsey | [Solution](./shared/targets/186.ts) | [Preview](https://felipeog-cssbattle.netlify.app#186)
 - [x] Target <span>#</span>187 - Striped Triangle | [Solution](./shared/targets/187.ts) | [Preview](https://felipeog-cssbattle.netlify.app#187)
 - [x] Target <span>#</span>188 - Icecream Sticks | [Solution](./shared/targets/188.ts) | [Preview](https://felipeog-cssbattle.netlify.app#188)
-- [ ] Target <span>#</span>189 - Triangle Hook | [Solution](./shared/targets/189.ts) | [Preview](https://felipeog-cssbattle.netlify.app#189)
-- [ ] Target <span>#</span>190 - Power Chip | [Solution](./shared/targets/190.ts) | [Preview](https://felipeog-cssbattle.netlify.app#190)
+- [x] Target <span>#</span>189 - Triangle Hook | [Solution](./shared/targets/189.ts) | [Preview](https://felipeog-cssbattle.netlify.app#189)
+- [x] Target <span>#</span>190 - Power Chip | [Solution](./shared/targets/190.ts) | [Preview](https://felipeog-cssbattle.netlify.app#190)
 - [ ] Target <span>#</span>191 - Modern Fence | [Solution](./shared/targets/191.ts) | [Preview](https://felipeog-cssbattle.netlify.app#191)
 - [ ] Target <span>#</span>192 - Abstract Firefly | [Solution](./shared/targets/192.ts) | [Preview](https://felipeog-cssbattle.netlify.app#192)
 - [ ] Target <span>#</span>193 - Galver | [Solution](./shared/targets/193.ts) | [Preview](https://felipeog-cssbattle.netlify.app#193)
