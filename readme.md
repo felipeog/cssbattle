@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (202/246)
+## Checklist (204/246)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -202,8 +202,8 @@
 - [x] Target <span>#</span>196 - Tree | [Solution](./shared/targets/196.ts) | [Preview](https://felipeog-cssbattle.netlify.app#196)
 - [x] Target <span>#</span>197 - Crystal | [Solution](./shared/targets/197.ts) | [Preview](https://felipeog-cssbattle.netlify.app#197)
 - [x] Target <span>#</span>198 - Walls | [Solution](./shared/targets/198.ts) | [Preview](https://felipeog-cssbattle.netlify.app#198)
-- [ ] Target <span>#</span>199 - Antenna | [Solution](./shared/targets/199.ts) | [Preview](https://felipeog-cssbattle.netlify.app#199)
-- [ ] Target <span>#</span>200 - Lantern | [Solution](./shared/targets/200.ts) | [Preview](https://felipeog-cssbattle.netlify.app#200)
+- [x] Target <span>#</span>199 - Antenna | [Solution](./shared/targets/199.ts) | [Preview](https://felipeog-cssbattle.netlify.app#199)
+- [x] Target <span>#</span>200 - Lantern | [Solution](./shared/targets/200.ts) | [Preview](https://felipeog-cssbattle.netlify.app#200)
 - [ ] Target <span>#</span>201 - Triple Zero | [Solution](./shared/targets/201.ts) | [Preview](https://felipeog-cssbattle.netlify.app#201)
 - [ ] Target <span>#</span>202 - Steering Wheel | [Solution](./shared/targets/202.ts) | [Preview](https://felipeog-cssbattle.netlify.app#202)
 - [ ] Target <span>#</span>203 - Wolverine | [Solution](./shared/targets/203.ts) | [Preview](https://felipeog-cssbattle.netlify.app#203)
