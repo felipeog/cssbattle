@@ -1228,5 +1228,15 @@
     "id": 246,
     "name": "Limbs",
     "image": "/targets/246.png"
+  },
+  {
+    "id": 247,
+    "name": "LEDs",
+    "image": "/targets/247.png"
+  },
+  {
+    "id": 248,
+    "name": "Bolt",
+    "image": "/targets/248.png"
   }
 ]
