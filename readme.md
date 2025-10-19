@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (206/248)
+## Checklist (208/248)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -204,8 +204,8 @@
 - [x] Target <span>#</span>198 - Walls | [Solution](./shared/targets/198.ts) | [Preview](https://felipeog-cssbattle.netlify.app#198)
 - [x] Target <span>#</span>199 - Antenna | [Solution](./shared/targets/199.ts) | [Preview](https://felipeog-cssbattle.netlify.app#199)
 - [x] Target <span>#</span>200 - Lantern | [Solution](./shared/targets/200.ts) | [Preview](https://felipeog-cssbattle.netlify.app#200)
-- [ ] Target <span>#</span>201 - Triple Zero | [Solution](./shared/targets/201.ts) | [Preview](https://felipeog-cssbattle.netlify.app#201)
-- [ ] Target <span>#</span>202 - Steering Wheel | [Solution](./shared/targets/202.ts) | [Preview](https://felipeog-cssbattle.netlify.app#202)
+- [x] Target <span>#</span>201 - Triple Zero | [Solution](./shared/targets/201.ts) | [Preview](https://felipeog-cssbattle.netlify.app#201)
+- [x] Target <span>#</span>202 - Steering Wheel | [Solution](./shared/targets/202.ts) | [Preview](https://felipeog-cssbattle.netlify.app#202)
 - [ ] Target <span>#</span>203 - Wolverine | [Solution](./shared/targets/203.ts) | [Preview](https://felipeog-cssbattle.netlify.app#203)
 - [ ] Target <span>#</span>204 - Deadpool | [Solution](./shared/targets/204.ts) | [Preview](https://felipeog-cssbattle.netlify.app#204)
 - [ ] Target <span>#</span>205 - Magneto's helmet | [Solution](./shared/targets/205.ts) | [Preview](https://felipeog-cssbattle.netlify.app#205)
