@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (204/248)
+## Checklist (206/248)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -250,5 +250,5 @@
 - [x] Target <span>#</span>244 - Medusa | [Solution](./shared/targets/244.ts) | [Preview](https://felipeog-cssbattle.netlify.app#244)
 - [x] Target <span>#</span>245 - Knot | [Solution](./shared/targets/245.ts) | [Preview](https://felipeog-cssbattle.netlify.app#245)
 - [x] Target <span>#</span>246 - Limbs | [Solution](./shared/targets/246.ts) | [Preview](https://felipeog-cssbattle.netlify.app#246)
-- [ ] Target <span>#</span>247 - LEDs | [Solution](./shared/targets/247.ts) | [Preview](https://felipeog-cssbattle.netlify.app#247)
-- [ ] Target <span>#</span>248 - Bolt | [Solution](./shared/targets/248.ts) | [Preview](https://felipeog-cssbattle.netlify.app#248)
+- [x] Target <span>#</span>247 - LEDs | [Solution](./shared/targets/247.ts) | [Preview](https://felipeog-cssbattle.netlify.app#247)
+- [x] Target <span>#</span>248 - Bolt | [Solution](./shared/targets/248.ts) | [Preview](https://felipeog-cssbattle.netlify.app#248)
