@@ -1,6 +1,7 @@
 import * as fs from 'fs'
 
 import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
+import * as targets from 'shared/targetsInfo.json'
 
 type Target = {
   id: number
@@ -8,7 +9,6 @@ type Target = {
   image: string
 }
 
-// TODO: skip existing targets
 async function scrapeTargetsInformation(
   index: number = 1,
   targets: Target[] = [],
@@ -52,4 +52,4 @@ async function scrapeTargetsInformation(
   scrapeTargetsInformation(index + 1, newTargets)
 }
 
-scrapeTargetsInformation()
+scrapeTargetsInformation(targets.length + 1, targets)
