@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (210/248)
+## Checklist (212/248)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -208,8 +208,8 @@
 - [x] Target <span>#</span>202 - Steering Wheel | [Solution](./shared/targets/202.ts) | [Preview](https://felipeog-cssbattle.netlify.app#202)
 - [x] Target <span>#</span>203 - Wolverine | [Solution](./shared/targets/203.ts) | [Preview](https://felipeog-cssbattle.netlify.app#203)
 - [x] Target <span>#</span>204 - Deadpool | [Solution](./shared/targets/204.ts) | [Preview](https://felipeog-cssbattle.netlify.app#204)
-- [ ] Target <span>#</span>205 - Magneto's helmet | [Solution](./shared/targets/205.ts) | [Preview](https://felipeog-cssbattle.netlify.app#205)
-- [ ] Target <span>#</span>206 - Punisher | [Solution](./shared/targets/206.ts) | [Preview](https://felipeog-cssbattle.netlify.app#206)
+- [x] Target <span>#</span>205 - Magneto's helmet | [Solution](./shared/targets/205.ts) | [Preview](https://felipeog-cssbattle.netlify.app#205)
+- [x] Target <span>#</span>206 - Punisher | [Solution](./shared/targets/206.ts) | [Preview](https://felipeog-cssbattle.netlify.app#206)
 - [ ] Target <span>#</span>207 - Green Lantern logo | [Solution](./shared/targets/207.ts) | [Preview](https://felipeog-cssbattle.netlify.app#207)
 - [ ] Target <span>#</span>208 - Hulk fist | [Solution](./shared/targets/208.ts) | [Preview](https://felipeog-cssbattle.netlify.app#208)
 - [ ] Target <span>#</span>209 - Iron man | [Solution](./shared/targets/209.ts) | [Preview](https://felipeog-cssbattle.netlify.app#209)
