@@ -35,17 +35,17 @@ async function generateReadme() {
           const isDone = Boolean(target.solution.length)
           const formattedTitle = target.title.replace('#', '<span>#</span>')
 
-          return `- [${
-            isDone ? 'x' : ' '
-          }] ${formattedTitle} | [Solution](./shared/targets/${
+          return `| ${
+            isDone ? '✅' : '❌'
+          } | ${formattedTitle} | [Solution](./shared/targets/${
             target.id
           }.ts) | [Preview](https://felipeog-cssbattle.netlify.app#${
             target.id
-          })`
+          }) |`
         })
         .join('\n')
 
-      return `\n**${formattedTitle}**\n\n${battle.desciption}\n\n${targetsList}`
+      return `\n**${formattedTitle}**\n\n${battle.desciption}\n\n| Complete | Target | Solution | Preview |\n| --- | --- | --- | --- |\n${targetsList}`
     })
     .join('\n')
   const readmeContent =
