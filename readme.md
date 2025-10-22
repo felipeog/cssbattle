@@ -2,7 +2,7 @@
 
 [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (220/248)
+## Checklist (222/248)
 
 **Battle <span>#</span>1 - Pilot Battle**
 
@@ -448,8 +448,8 @@ Fun 4 weeks to create 8 targets!
 | ✅ | Target <span>#</span>212 - Fibonacci peacock | [Solution](./shared/targets/212.ts) | [Preview](https://felipeog-cssbattle.netlify.app#212) |
 | ✅ | Target <span>#</span>213 - Boat | [Solution](./shared/targets/213.ts) | [Preview](https://felipeog-cssbattle.netlify.app#213) |
 | ✅ | Target <span>#</span>214 - Newspaper | [Solution](./shared/targets/214.ts) | [Preview](https://felipeog-cssbattle.netlify.app#214) |
-| ❌ | Target <span>#</span>215 - Staggered checks | [Solution](./shared/targets/215.ts) | [Preview](https://felipeog-cssbattle.netlify.app#215) |
-| ❌ | Target <span>#</span>216 - Pies | [Solution](./shared/targets/216.ts) | [Preview](https://felipeog-cssbattle.netlify.app#216) |
+| ✅ | Target <span>#</span>215 - Staggered checks | [Solution](./shared/targets/215.ts) | [Preview](https://felipeog-cssbattle.netlify.app#215) |
+| ✅ | Target <span>#</span>216 - Pies | [Solution](./shared/targets/216.ts) | [Preview](https://felipeog-cssbattle.netlify.app#216) |
 | ❌ | Target <span>#</span>217 - Maze | [Solution](./shared/targets/217.ts) | [Preview](https://felipeog-cssbattle.netlify.app#217) |
 | ❌ | Target <span>#</span>218 - 3D | [Solution](./shared/targets/218.ts) | [Preview](https://felipeog-cssbattle.netlify.app#218) |
 
