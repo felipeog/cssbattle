@@ -2,7 +2,7 @@
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
 
-## Checklist (218/248)
+## Checklist (220/248)
 
 - [x] Target <span>#</span>1 - Simply Square | [Solution](./shared/targets/001.ts) | [Preview](https://felipeog-cssbattle.netlify.app#001)
 - [x] Target <span>#</span>2 - Carrom | [Solution](./shared/targets/002.ts) | [Preview](https://felipeog-cssbattle.netlify.app#002)
@@ -216,8 +216,8 @@
 - [x] Target <span>#</span>210 - Black widow logo | [Solution](./shared/targets/210.ts) | [Preview](https://felipeog-cssbattle.netlify.app#210)
 - [x] Target <span>#</span>211 - CSS Weekly | [Solution](./shared/targets/211.ts) | [Preview](https://felipeog-cssbattle.netlify.app#211)
 - [x] Target <span>#</span>212 - Fibonacci peacock | [Solution](./shared/targets/212.ts) | [Preview](https://felipeog-cssbattle.netlify.app#212)
-- [ ] Target <span>#</span>213 - Boat | [Solution](./shared/targets/213.ts) | [Preview](https://felipeog-cssbattle.netlify.app#213)
-- [ ] Target <span>#</span>214 - Newspaper | [Solution](./shared/targets/214.ts) | [Preview](https://felipeog-cssbattle.netlify.app#214)
+- [x] Target <span>#</span>213 - Boat | [Solution](./shared/targets/213.ts) | [Preview](https://felipeog-cssbattle.netlify.app#213)
+- [x] Target <span>#</span>214 - Newspaper | [Solution](./shared/targets/214.ts) | [Preview](https://felipeog-cssbattle.netlify.app#214)
 - [ ] Target <span>#</span>215 - Staggered checks | [Solution](./shared/targets/215.ts) | [Preview](https://felipeog-cssbattle.netlify.app#215)
 - [ ] Target <span>#</span>216 - Pies | [Solution](./shared/targets/216.ts) | [Preview](https://felipeog-cssbattle.netlify.app#216)
 - [ ] Target <span>#</span>217 - Maze | [Solution](./shared/targets/217.ts) | [Preview](https://felipeog-cssbattle.netlify.app#217)
