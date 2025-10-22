@@ -34,7 +34,7 @@ function generateTargetFiles() {
 }
 
 function getFileContent(target: TargetInfo) {
-  const parsedName = target.name.replace("'", "\\'")
+  const parsedName = target.name.replaceAll("'", "\\'")
 
   return (
     `export default {\n` +

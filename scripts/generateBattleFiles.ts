@@ -35,8 +35,8 @@ function generateBattleFiles() {
 }
 
 function getFileContent(battle: BattleInfo) {
-  const parsedName = battle.name.replace("'", "\\'")
-  const parsedDescription = battle.description.replace("'", "\\'")
+  const parsedName = battle.name.replaceAll("'", "\\'")
+  const parsedDescription = battle.description.replaceAll("'", "\\'")
 
   return (
     `export default {\n` +
