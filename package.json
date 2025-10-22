@@ -5,15 +5,17 @@
   "author": "https://github.com/felipeog",
   "license": "ISC",
   "scripts": {
+    "start": "parcel",
     "build": "parcel build",
-    "generate-empty-targets": "ts-node ./scripts/generateEmptyTargets.ts",
     "generate-readme": "ts-node ./scripts/generateReadme.ts",
-    "generate-targets-export": "ts-node ./scripts/generateTargetsExport.ts",
+    "generate-target-files": "ts-node ./scripts/generateTargetFiles.ts",
+    "generate-target-exports": "ts-node ./scripts/generateTargetExports.ts",
+    "generate-battle-files": "ts-node ./scripts/generateBattleFiles.ts",
+    "generate-battle-exports": "ts-node ./scripts/generateBattleExports.ts",
+    "scrape-targets-information": "ts-node ./scripts/scrapeTargetsInformation.ts",
+    "scrape-battles-information": "ts-node ./scripts/scrapeBattlesInformation.ts",
     "lint-staged": "lint-staged",
     "prepare": "husky install",
-    "scrape-battles-information": "ts-node ./scripts/scrapeBattlesInformation.ts",
-    "scrape-targets-information": "ts-node ./scripts/scrapeTargetsInformation.ts",
-    "start": "parcel",
     "ts-node": "ts-node"
   },
   "dependencies": {

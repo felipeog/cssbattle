@@ -12,9 +12,9 @@ export type TargetInfo = {
 
 const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
 
-function generateEmptyTargets() {
-  targets.forEach((target, index) => {
-    const targetFileName = `${String(index + 1).padStart(3, '0')}.ts`
+function generateTargetFiles() {
+  targets.forEach((target) => {
+    const targetFileName = `${target.id}.ts`
     const targetFilePath = `${targetsFolderPath}/${targetFileName}`
 
     if (fs.existsSync(targetFilePath)) {
@@ -26,20 +26,19 @@ function generateEmptyTargets() {
 
     fs.writeFileSync(
       `${targetsFolderPath}/${targetFileName}`,
-      getEmptyTargetContent(target),
+      getFileContent(target),
     )
 
     console.log(`${target.name} created`)
   })
 }
 
-function getEmptyTargetContent(target: TargetInfo) {
-  const targetId = String(target.id).padStart(3, '0')
+function getFileContent(target: TargetInfo) {
   const parsedName = target.name.replace("'", "\\'")
 
   return (
     `export default {\n` +
-    `  id: '${targetId}',\n` +
+    `  id: ${target.id},\n` +
     `  title: 'Target #${target.id} - ${parsedName}',\n` +
     `  url: 'https://cssbattle.dev/play/${target.id}',\n` +
     `  solution: '',\n` +
@@ -51,4 +50,4 @@ createFolder({
   path: targetsFolderPath,
   label: 'Targets',
 })
-generateEmptyTargets()
+generateTargetFiles()

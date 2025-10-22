@@ -20,7 +20,7 @@ async function generateReadme() {
   const headerSection =
     `# [CSSBattle](https://cssbattle.dev)\n` +
     `\n` +
-    `- Profile: [@felipeog](https://cssbattle.dev/player/felipeog)\n`
+    `[@felipeog](https://cssbattle.dev/player/felipeog)\n`
   const checklistSection = targets
     .map((target) => {
       const isDone = Boolean(target.solution.length)

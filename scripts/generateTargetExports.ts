@@ -4,12 +4,16 @@ import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 const targetsFolderPath = `${SHARED_FOLDER_PATH}/targets`
 const targetsExportFilePath = `${targetsFolderPath}/index.ts`
 
-function generateTargetsExport() {
+const numericCollator = new Intl.Collator(undefined, { numeric: true })
+
+function generateTargetExports() {
   if (fs.existsSync(targetsExportFilePath)) {
     console.log('Export file already exists, overwriting...')
   }
 
-  const fileNames = fs.readdirSync(targetsFolderPath)
+  const fileNames = fs
+    .readdirSync(targetsFolderPath)
+    .sort(numericCollator.compare)
   const exportFileContent = fileNames.reduce((fileContent, fileName) => {
     const formattedFileName = fileName.replace('.ts', '')
 
@@ -23,10 +27,10 @@ function generateTargetsExport() {
   try {
     fs.writeFileSync(targetsExportFilePath, exportFileContent)
   } catch (error) {
-    throw Error(`generateTargetsExport: ${error}`)
+    throw Error(`generateTargetExports: ${error}`)
   }
 
   console.log('Export file created')
 }
 
-generateTargetsExport()
+generateTargetExports()
