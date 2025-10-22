@@ -36,12 +36,13 @@ function generateBattleFiles() {
 
 function getFileContent(battle: BattleInfo) {
   const parsedName = battle.name.replace("'", "\\'")
+  const parsedDescription = battle.description.replace("'", "\\'")
 
   return (
     `export default {\n` +
     `  id: ${battle.id},\n` +
     `  title: 'Battle #${battle.id} - ${parsedName}',\n` +
-    `  desciption: '${battle.description}',\n` +
+    `  desciption: '${parsedDescription}',\n` +
     `  url: 'https://cssbattle.dev/battle/${battle.id}',\n` +
     `  targets: [${battle.targets.join(', ')}],\n` +
     `}\n`
