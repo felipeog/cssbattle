@@ -25,7 +25,8 @@ async function generateReadme() {
   const headerSection =
     `# [CSSBattle](https://cssbattle.dev)\n` +
     `\n` +
-    `[@felipeog](https://cssbattle.dev/player/felipeog)\n`
+    `- Profile: [@felipeog](https://cssbattle.dev/player/felipeog)\n` +
+    `- Progress: ${solvedCount}/${totalCount}\n`
   const checklistSection = battles
     .map((battle) => {
       const formattedTitle = battle.title.replace('#', '<span>#</span>')
@@ -44,14 +45,30 @@ async function generateReadme() {
           }) |`
         })
         .join('\n')
+      const totalTargets = battle.targets.length
+      const solvedTargets = battle.targets.reduce((acc, cur) => {
+        const target = targetsMap[`target${cur}`]
+        const isDone = Boolean(target.solution.length)
 
-      return `\n**${formattedTitle}**\n\n${battle.desciption}\n\n| Complete | Target | Solution | Preview |\n| --- | --- | --- | --- |\n${targetsList}`
+        if (isDone) return acc + 1
+        return acc
+      }, 0)
+
+      return (
+        `\n` +
+        `**${formattedTitle}**\n` +
+        `\n` +
+        `- Description: ${battle.desciption}\n` +
+        `- Progress: ${solvedTargets}/${totalTargets}\n` +
+        `\n` +
+        `| Complete | Target | Solution | Preview |\n` +
+        `| --- | --- | --- | --- |\n` +
+        `${targetsList}`
+      )
     })
     .join('\n')
   const readmeContent =
-    `${headerSection}\n` +
-    `## Checklist (${solvedCount}/${totalCount})\n` +
-    `${checklistSection}\n`
+    `${headerSection}\n` + `## Battles and targets\n` + `${checklistSection}\n`
 
   fs.writeFileSync(`${readmeFilePath}`, readmeContent)
 
