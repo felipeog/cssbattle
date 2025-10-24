@@ -1,7 +1,7 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Progress: 226/248
+- Progress: 228/248
 
 ## Battles and targets
 
@@ -490,14 +490,14 @@
 **Battle <span>#</span>34 - Border**
 
 - Description: Fun 4 weeks to create 8 targets!
-- Progress: 2/8
+- Progress: 4/8
 
 | Complete | Target                               | Solution                            | Preview                                               |
 | -------- | ------------------------------------ | ----------------------------------- | ----------------------------------------------------- |
 | ✅       | Target <span>#</span>219 - CodePen   | [Solution](./shared/targets/219.ts) | [Preview](https://felipeog-cssbattle.netlify.app#219) |
 | ✅       | Target <span>#</span>220 - Building  | [Solution](./shared/targets/220.ts) | [Preview](https://felipeog-cssbattle.netlify.app#220) |
-| ❌       | Target <span>#</span>221 - Entangled | [Solution](./shared/targets/221.ts) | [Preview](https://felipeog-cssbattle.netlify.app#221) |
-| ❌       | Target <span>#</span>222 - Rocket    | [Solution](./shared/targets/222.ts) | [Preview](https://felipeog-cssbattle.netlify.app#222) |
+| ✅       | Target <span>#</span>221 - Entangled | [Solution](./shared/targets/221.ts) | [Preview](https://felipeog-cssbattle.netlify.app#221) |
+| ✅       | Target <span>#</span>222 - Rocket    | [Solution](./shared/targets/222.ts) | [Preview](https://felipeog-cssbattle.netlify.app#222) |
 | ❌       | Target <span>#</span>223 - UFO       | [Solution](./shared/targets/223.ts) | [Preview](https://felipeog-cssbattle.netlify.app#223) |
 | ❌       | Target <span>#</span>224 - Levelled  | [Solution](./shared/targets/224.ts) | [Preview](https://felipeog-cssbattle.netlify.app#224) |
 | ❌       | Target <span>#</span>225 - Spark     | [Solution](./shared/targets/225.ts) | [Preview](https://felipeog-cssbattle.netlify.app#225) |
