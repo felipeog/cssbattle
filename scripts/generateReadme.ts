@@ -58,7 +58,7 @@ async function generateReadme() {
         `\n` +
         `**${formattedTitle}**\n` +
         `\n` +
-        `- Description: ${battle.desciption}\n` +
+        `- Description: ${battle.description}\n` +
         `- Progress: ${solvedTargets}/${totalTargets}\n` +
         `\n` +
         `| Complete | Target | Solution | Preview |\n` +

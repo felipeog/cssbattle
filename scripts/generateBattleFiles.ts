@@ -1,7 +1,7 @@
 import * as fs from 'fs'
 
 import { createFolder } from './utils/createFolder'
-import * as battles from 'shared/battlesInfo.json'
+import * as battlesInfo from 'shared/battlesInfo.json'
 import { SHARED_FOLDER_PATH } from 'shared/consts/sharedFolderPath'
 
 export type BattleInfo = {
@@ -14,15 +14,9 @@ export type BattleInfo = {
 const battlesFolderPath = `${SHARED_FOLDER_PATH}/battles`
 
 function generateBattleFiles() {
-  battles.forEach((battle) => {
+  battlesInfo.forEach((battle) => {
     const battleFileName = `${battle.id}.ts`
-    const battleFilePath = `${battlesFolderPath}/${battleFileName}`
 
-    if (fs.existsSync(battleFilePath)) {
-      return console.log(`${battle.name} already exists, skipping...`)
-    }
-
-    console.log(`${battle.name} does not exist`)
     console.log(`Creating ${battle.name}...`)
 
     fs.writeFileSync(
@@ -42,7 +36,7 @@ function getFileContent(battle: BattleInfo) {
     `export default {\n` +
     `  id: ${battle.id},\n` +
     `  title: 'Battle #${battle.id} - ${parsedName}',\n` +
-    `  desciption: '${parsedDescription}',\n` +
+    `  description: '${parsedDescription}',\n` +
     `  url: 'https://cssbattle.dev/battle/${battle.id}',\n` +
     `  targets: [${battle.targets.join(', ')}],\n` +
     `}\n`
