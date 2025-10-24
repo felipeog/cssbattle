@@ -21,6 +21,7 @@ async function scrapeTargetsInformation(
     text.match(/"id":.+?,/g),
     text.match(/"name":.+?,/g),
     text.match(/"image":.+?,/g),
+    text.match(/"colors":.+?}/g),
   ]
 
   if (matches.some((match) => !match)) {
@@ -38,9 +39,9 @@ async function scrapeTargetsInformation(
     const next = current![0]
 
     if (isLast) {
-      const nextWithoutComma = next.slice(0, -1)
+      const nextWithoutFlag = next.slice(0, -1)
 
-      return previous + nextWithoutComma + '}'
+      return previous + nextWithoutFlag + '}'
     }
 
     return previous + next

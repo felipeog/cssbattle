@@ -2,1241 +2,2454 @@
   {
     "id": 1,
     "name": "Simply Square",
-    "image": "/targets/1.png"
+    "image": "/targets/1.png",
+    "colors": [
+      "#5d3a3a",
+      "#b5e0ba"
+    ]
   },
   {
     "id": 2,
     "name": "Carrom",
-    "image": "/targets/2.png"
+    "image": "/targets/2.png",
+    "colors": [
+      "#62374e",
+      "#fdc57b"
+    ]
   },
   {
     "id": 3,
     "name": "Push Button",
-    "image": "/targets/3.png"
+    "image": "/targets/3.png",
+    "colors": [
+      "#6592CF",
+      "#243D83",
+      "#EEB850"
+    ]
   },
   {
     "id": 4,
     "name": "Ups n Downs",
-    "image": "/targets/4.png"
+    "image": "/targets/4.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D"
+    ]
   },
   {
     "id": 5,
     "name": "Acid Rain",
-    "image": "/targets/5.png"
+    "image": "/targets/5.png",
+    "colors": [
+      "#0B2429",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 6,
     "name": "Missing Slice",
-    "image": "/targets/6.png"
+    "image": "/targets/6.png",
+    "colors": [
+      "#E3516E",
+      "#F7F3D7",
+      "#51B5A9",
+      "#FADE8B"
+    ]
   },
   {
     "id": 7,
     "name": "Leafy Trail",
-    "image": "/targets/7.png"
+    "image": "/targets/7.png",
+    "colors": [
+      "#0B2429",
+      "#F3AC3C",
+      "#998235",
+      "#1A4341"
+    ]
   },
   {
     "id": 8,
     "name": "Forking Crazy",
-    "image": "/targets/8.png"
+    "image": "/targets/8.png",
+    "colors": [
+      "#6592CF",
+      "#060F55"
+    ]
   },
   {
     "id": 9,
     "name": "Tesseract",
-    "image": "/targets/9.png"
+    "image": "/targets/9.png",
+    "colors": [
+      "#222730",
+      "#4CAAB3",
+      "#393E46"
+    ]
   },
   {
     "id": 10,
     "name": "Cloaked Spirits",
-    "image": "/targets/10.png"
+    "image": "/targets/10.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D",
+      "#AA445F",
+      "#E38F66"
+    ]
   },
   {
     "id": 11,
     "name": "Eye of Sauron",
-    "image": "/targets/11.png"
+    "image": "/targets/11.png",
+    "colors": [
+      "#191210",
+      "#ECA03D",
+      "#84271C"
+    ]
   },
   {
     "id": 12,
     "name": "Wiggly Moustache",
-    "image": "/targets/12.png"
+    "image": "/targets/12.png",
+    "colors": [
+      "#F5D6B4",
+      "#D86F45"
+    ]
   },
   {
     "id": 13,
     "name": "Totally Triangle",
-    "image": "/targets/13.png"
+    "image": "/targets/13.png",
+    "colors": [
+      "#0B2429",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 14,
     "name": "Web Maker Logo",
-    "image": "/targets/14.png"
+    "image": "/targets/14.png",
+    "colors": [
+      "#F2F2B6",
+      "#FF6D00",
+      "#FD4602"
+    ]
   },
   {
     "id": 15,
     "name": "Overlap",
-    "image": "/targets/15.png"
+    "image": "/targets/15.png",
+    "colors": [
+      "#09042A",
+      "#7B3F61",
+      "#E78481"
+    ]
   },
   {
     "id": 16,
     "name": "Eye of the Tiger",
-    "image": "/targets/16.png"
+    "image": "/targets/16.png",
+    "colors": [
+      "#0B2429",
+      "#998235",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 17,
     "name": "Fidget Spinner",
-    "image": "/targets/17.png"
+    "image": "/targets/17.png",
+    "colors": [
+      "#09042A",
+      "#E78481",
+      "#F5BB9C"
+    ]
   },
   {
     "id": 18,
     "name": "Matrix",
-    "image": "/targets/18.png"
+    "image": "/targets/18.png",
+    "colors": [
+      "#5C434C",
+      "#F09462",
+      "#F5D6B4"
+    ]
   },
   {
     "id": 19,
     "name": "Cube",
-    "image": "/targets/19.png"
+    "image": "/targets/19.png",
+    "colors": [
+      "#0B2429",
+      "#F3AC3C",
+      "#998235",
+      "#1A4341"
+    ]
   },
   {
     "id": 20,
     "name": "Ticket",
-    "image": "/targets/20.png"
+    "image": "/targets/20.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D",
+      "#E38F66"
+    ]
   },
   {
     "id": 21,
     "name": "SitePoint Logo",
-    "image": "/targets/21.png"
+    "image": "/targets/21.png",
+    "colors": [
+      "#222",
+      "#F2994A",
+      "#2D9CDB"
+    ]
   },
   {
     "id": 22,
     "name": "Cloud",
-    "image": "/targets/22.png"
+    "image": "/targets/22.png",
+    "colors": [
+      "#F5D6B4",
+      "#D86F45"
+    ]
   },
   {
     "id": 23,
     "name": "Boxception",
-    "image": "/targets/23.png"
+    "image": "/targets/23.png",
+    "colors": [
+      "#F3AC3C",
+      "#1A4341",
+      "#998235"
+    ]
   },
   {
     "id": 24,
     "name": "Switches",
-    "image": "/targets/24.png"
+    "image": "/targets/24.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D",
+      "#AA445F",
+      "#E38F66"
+    ]
   },
   {
     "id": 25,
     "name": "Blossom",
-    "image": "/targets/25.png"
+    "image": "/targets/25.png",
+    "colors": [
+      "#998235",
+      "#1A4341",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 26,
     "name": "Smiley",
-    "image": "/targets/26.png"
+    "image": "/targets/26.png",
+    "colors": [
+      "#6592CF",
+      "#060F55"
+    ]
   },
   {
     "id": 27,
     "name": "Lock Up",
-    "image": "/targets/27.png"
+    "image": "/targets/27.png",
+    "colors": [
+      "#E38F66",
+      "#AA445F",
+      "#F7EC7D"
+    ]
   },
   {
     "id": 28,
     "name": "Cups & Balls",
-    "image": "/targets/28.png"
+    "image": "/targets/28.png",
+    "colors": [
+      "#1A4341",
+      "#998235",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 29,
     "name": "Suffocate",
-    "image": "/targets/29.png"
+    "image": "/targets/29.png",
+    "colors": [
+      "#F3AC3C",
+      "#1A4341"
+    ]
   },
   {
     "id": 30,
     "name": "Horizon",
-    "image": "/targets/30.png"
+    "image": "/targets/30.png",
+    "colors": [
+      "#F7EC7D",
+      "#E38F66",
+      "#AA445F",
+      "#62306D"
+    ]
   },
   {
     "id": 31,
     "name": "Equals",
-    "image": "/targets/31.png"
+    "image": "/targets/31.png",
+    "colors": [
+      "#AA445F",
+      "#F7EC7D",
+      "#E38F66"
+    ]
   },
   {
     "id": 32,
     "name": "Band-aid",
-    "image": "/targets/32.png"
+    "image": "/targets/32.png",
+    "colors": [
+      "#FFFFFF",
+      "#F3AC3C",
+      "#A3A368",
+      "#FBE18C"
+    ]
   },
   {
     "id": 33,
     "name": "Birdie",
-    "image": "/targets/33.png"
+    "image": "/targets/33.png",
+    "colors": [
+      "#1A4341",
+      "#998235",
+      "#F3AC3C",
+      "#0B2429"
+    ]
   },
   {
     "id": 34,
     "name": "Christmas Tree",
-    "image": "/targets/34.png"
+    "image": "/targets/34.png",
+    "colors": [
+      "#007065",
+      "#FFEECF",
+      "#F5C181",
+      "#00A79D"
+    ]
   },
   {
     "id": 35,
     "name": "Ice Cream",
-    "image": "/targets/35.png"
+    "image": "/targets/35.png",
+    "colors": [
+      "#293462",
+      "#FFF1C1",
+      "#FE5F55",
+      "#A64942"
+    ]
   },
   {
     "id": 36,
     "name": "Interleaved",
-    "image": "/targets/36.png"
+    "image": "/targets/36.png",
+    "colors": [
+      "#1A4341",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 37,
     "name": "Tunnel",
-    "image": "/targets/37.png"
+    "image": "/targets/37.png",
+    "colors": [
+      "#6592CF",
+      "#243D83"
+    ]
   },
   {
     "id": 38,
     "name": "Not Simply Square",
-    "image": "/targets/38.png"
+    "image": "/targets/38.png",
+    "colors": [
+      "#293462",
+      "#FFF1C1",
+      "#FE5F55",
+      "#A64942"
+    ]
   },
   {
     "id": 39,
     "name": "Sunset",
-    "image": "/targets/39.png"
+    "image": "/targets/39.png",
+    "colors": [
+      "#1A4341",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 40,
     "name": "Letter B",
-    "image": "/targets/40.png"
+    "image": "/targets/40.png",
+    "colors": [
+      "#6592CF",
+      "#243D83"
+    ]
   },
   {
     "id": 41,
     "name": "Fox Head",
-    "image": "/targets/41.png"
+    "image": "/targets/41.png",
+    "colors": [
+      "#293462",
+      "#FE5F55"
+    ]
   },
   {
     "id": 42,
     "name": "Baby",
-    "image": "/targets/42.png"
+    "image": "/targets/42.png",
+    "colors": [
+      "#293462",
+      "#FE5F55",
+      "#FFF1C1"
+    ]
   },
   {
     "id": 43,
     "name": "Wrench",
-    "image": "/targets/43.png"
+    "image": "/targets/43.png",
+    "colors": [
+      "#6592CF",
+      "#243D83"
+    ]
   },
   {
     "id": 44,
     "name": "Stripes",
-    "image": "/targets/44.png"
+    "image": "/targets/44.png",
+    "colors": [
+      "#1A4341",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 45,
     "name": "Magical Tree",
-    "image": "/targets/45.png"
+    "image": "/targets/45.png",
+    "colors": [
+      "#1A4341",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 46,
     "name": "Mountains",
-    "image": "/targets/46.png"
+    "image": "/targets/46.png",
+    "colors": [
+      "#293462",
+      "#FFF1C1",
+      "#FE5F55"
+    ]
   },
   {
     "id": 47,
     "name": "Corona Virus",
-    "image": "/targets/47.png"
+    "image": "/targets/47.png",
+    "colors": [
+      "#1A4341",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 48,
     "name": "Wash Your Hands",
-    "image": "/targets/48.png"
+    "image": "/targets/48.png",
+    "colors": [
+      "#293462",
+      "#FE5F55",
+      "#A64942"
+    ]
   },
   {
     "id": 49,
     "name": "Stay at Home",
-    "image": "/targets/49.png"
+    "image": "/targets/49.png",
+    "colors": [
+      "#6592CF",
+      "#243D83",
+      "#EEB850"
+    ]
   },
   {
     "id": 50,
     "name": "Use Hand Sanitizer",
-    "image": "/targets/50.png"
+    "image": "/targets/50.png",
+    "colors": [
+      "#1A4341",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 51,
     "name": "Wear a Mask",
-    "image": "/targets/51.png"
+    "image": "/targets/51.png",
+    "colors": [
+      "#293462",
+      "#FFF1C1",
+      "#FE5F55"
+    ]
   },
   {
     "id": 52,
     "name": "Break the Chain",
-    "image": "/targets/52.png"
+    "image": "/targets/52.png",
+    "colors": [
+      "#6592CF",
+      "#243D83",
+      "#EEB850"
+    ]
   },
   {
     "id": 53,
     "name": "Pastel Logo",
-    "image": "/targets/53.png"
+    "image": "/targets/53.png",
+    "colors": [
+      "#19191A",
+      "#4F77FF",
+      "#9AD5FF",
+      "#F9E492"
+    ]
   },
   {
     "id": 54,
     "name": "Black Lives Matter",
-    "image": "/targets/54.png"
+    "image": "/targets/54.png",
+    "colors": [
+      "#191919",
+      "#F9E492"
+    ]
   },
   {
     "id": 55,
     "name": "Windmill",
-    "image": "/targets/55.png"
+    "image": "/targets/55.png",
+    "colors": [
+      "#191919",
+      "#F9E492",
+      "#4F77FF"
+    ]
   },
   {
     "id": 56,
     "name": "Skull",
-    "image": "/targets/56.png"
+    "image": "/targets/56.png",
+    "colors": [
+      "#191919",
+      "#4F77FF"
+    ]
   },
   {
     "id": 57,
     "name": "Pillars",
-    "image": "/targets/57.png"
+    "image": "/targets/57.png",
+    "colors": [
+      "#191919",
+      "#4F77FF",
+      "#F9E492"
+    ]
   },
   {
     "id": 58,
     "name": "Rose",
-    "image": "/targets/58.png"
+    "image": "/targets/58.png",
+    "colors": [
+      "#191919",
+      "#4F77FF",
+      "#F9E492"
+    ]
   },
   {
     "id": 59,
     "name": "Earth",
-    "image": "/targets/59.png"
+    "image": "/targets/59.png",
+    "colors": [
+      "#191919",
+      "#4F77FF"
+    ]
   },
   {
     "id": 60,
     "name": "Evil Triangles",
-    "image": "/targets/60.png"
+    "image": "/targets/60.png",
+    "colors": [
+      "#191919",
+      "#4F77FF"
+    ]
   },
   {
     "id": 61,
     "name": "ImprovMX",
-    "image": "/targets/61.png"
+    "image": "/targets/61.png",
+    "colors": [
+      "#191919",
+      "#5DBCF9"
+    ]
   },
   {
     "id": 62,
     "name": "Sunset",
-    "image": "/targets/62.png"
+    "image": "/targets/62.png",
+    "colors": [
+      "#191919",
+      "#F2AD43",
+      "#E08027",
+      "#824B20",
+      "#FFF58F"
+    ]
   },
   {
     "id": 63,
     "name": "Command Key",
-    "image": "/targets/63.png"
+    "image": "/targets/63.png",
+    "colors": [
+      "#191919",
+      "#5DBCF9"
+    ]
   },
   {
     "id": 64,
     "name": "Door Knob",
-    "image": "/targets/64.png"
+    "image": "/targets/64.png",
+    "colors": [
+      "#191919",
+      "#E08027",
+      "#824B20",
+      "#FFF58F"
+    ]
   },
   {
     "id": 65,
     "name": "Max Volume",
-    "image": "/targets/65.png"
+    "image": "/targets/65.png",
+    "colors": [
+      "#191919",
+      "#5DBCF9"
+    ]
   },
   {
     "id": 66,
     "name": "Batmicky",
-    "image": "/targets/66.png"
+    "image": "/targets/66.png",
+    "colors": [
+      "#191919",
+      "#F2AD43"
+    ]
   },
   {
     "id": 67,
     "name": "Video Reel",
-    "image": "/targets/67.png"
+    "image": "/targets/67.png",
+    "colors": [
+      "#191919",
+      "#5DBCF9"
+    ]
   },
   {
     "id": 68,
     "name": "Bell",
-    "image": "/targets/68.png"
+    "image": "/targets/68.png",
+    "colors": [
+      "#191919",
+      "#E08027",
+      "#F2AD43",
+      "#824B20"
+    ]
   },
   {
     "id": 69,
     "name": "PushOwl",
-    "image": "/targets/69.png"
+    "image": "/targets/69.png",
+    "colors": [
+      "#191919",
+      "#E08027"
+    ],
+    "isOpen": true
   },
   {
     "id": 70,
     "name": "Froggy",
-    "image": "/targets/70.png"
+    "image": "/targets/70.png",
+    "colors": [
+      "#293462",
+      "#FE5F55",
+      "#A64942",
+      "#FFF1C1"
+    ]
   },
   {
     "id": 71,
     "name": "Elephant",
-    "image": "/targets/71.png"
+    "image": "/targets/71.png",
+    "colors": [
+      "#998235",
+      "#1A4341",
+      "#0B2429",
+      "#FFFFFF"
+    ],
+    "isOpen": true
   },
   {
     "id": 72,
     "name": "Sheep",
-    "image": "/targets/72.png"
+    "image": "/targets/72.png",
+    "colors": [
+      "#243D83",
+      "#6592CF"
+    ]
   },
   {
     "id": 73,
     "name": "Happy Tiger",
-    "image": "/targets/73.png"
+    "image": "/targets/73.png",
+    "colors": [
+      "#F3AC3C",
+      "#998235",
+      "#1A4341",
+      "#FFFFFF"
+    ],
+    "isOpen": true
   },
   {
     "id": 74,
     "name": "Danger Noodle",
-    "image": "/targets/74.png"
+    "image": "/targets/74.png",
+    "colors": [
+      "#191919",
+      "#E08027"
+    ]
   },
   {
     "id": 75,
     "name": "Hippo",
-    "image": "/targets/75.png"
+    "image": "/targets/75.png",
+    "colors": [
+      "#191919",
+      "#A64942",
+      "#FE5F55",
+      "#000000"
+    ]
   },
   {
     "id": 76,
     "name": "Beeee",
-    "image": "/targets/76.png"
+    "image": "/targets/76.png",
+    "colors": [
+      "#998235",
+      "#FFFFFF",
+      "#EFF33C",
+      "#191919"
+    ]
   },
   {
     "id": 77,
     "name": "Notes",
-    "image": "/targets/77.png"
+    "image": "/targets/77.png",
+    "colors": [
+      "#191919",
+      "#FE5F55",
+      "#A64942"
+    ]
   },
   {
     "id": 78,
     "name": "Ukulele",
-    "image": "/targets/78.png"
+    "image": "/targets/78.png",
+    "colors": [
+      "#F3AC3C",
+      "#998235",
+      "#1A4341"
+    ]
   },
   {
     "id": 79,
     "name": "Tambourine",
-    "image": "/targets/79.png"
+    "image": "/targets/79.png",
+    "colors": [
+      "#243D83",
+      "#6592CF"
+    ]
   },
   {
     "id": 80,
     "name": "Piano",
-    "image": "/targets/80.png"
+    "image": "/targets/80.png",
+    "colors": [
+      "#998235",
+      "#191919",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 81,
     "name": "Odoo",
-    "image": "/targets/81.png"
+    "image": "/targets/81.png",
+    "colors": [
+      "#191919",
+      "#714B67",
+      "#8F8F8F"
+    ]
   },
   {
     "id": 82,
     "name": "Diamond Cut",
-    "image": "/targets/82.png"
+    "image": "/targets/82.png",
+    "colors": [
+      "#F3AC3C",
+      "#998235",
+      "#1A4341"
+    ]
   },
   {
     "id": 83,
     "name": "Supernova",
-    "image": "/targets/83.png"
+    "image": "/targets/83.png",
+    "colors": [
+      "#243D83",
+      "#6592CF",
+      "#EEB850"
+    ]
   },
   {
     "id": 84,
     "name": "Junction",
-    "image": "/targets/84.png"
+    "image": "/targets/84.png",
+    "colors": [
+      "#191919",
+      "#A64942",
+      "#FE5F55"
+    ]
   },
   {
     "id": 85,
     "name": "Pythagoras",
-    "image": "/targets/85.png"
+    "image": "/targets/85.png",
+    "colors": [
+      "#D25B70",
+      "#F7F3DA",
+      "#F6DF96",
+      "#6CB3A9"
+    ]
   },
   {
     "id": 86,
     "name": "Stairway",
-    "image": "/targets/86.png"
+    "image": "/targets/86.png",
+    "colors": [
+      "#191919",
+      "#4F77FF"
+    ]
   },
   {
     "id": 87,
     "name": "Building Blocks",
-    "image": "/targets/87.png"
+    "image": "/targets/87.png",
+    "colors": [
+      "#F3AC3C",
+      "#1A4341"
+    ]
   },
   {
     "id": 88,
     "name": "Tight Corner",
-    "image": "/targets/88.png"
+    "image": "/targets/88.png",
+    "colors": [
+      "#F7F3DA",
+      "#D25B70"
+    ]
   },
   {
     "id": 89,
     "name": "Summit",
-    "image": "/targets/89.png"
+    "image": "/targets/89.png",
+    "colors": [
+      "#191919",
+      "#F9E492",
+      "#4F77FF"
+    ]
   },
   {
     "id": 90,
     "name": "Eclipse",
-    "image": "/targets/90.png"
+    "image": "/targets/90.png",
+    "colors": [
+      "#998235",
+      "#F3AC3C",
+      "#1A4341"
+    ]
   },
   {
     "id": 91,
     "name": "Reflection",
-    "image": "/targets/91.png"
+    "image": "/targets/91.png",
+    "colors": [
+      "#6CB3A9",
+      "#D25B70",
+      "#F6DF96"
+    ],
+    "isOpen": true
   },
   {
     "id": 92,
     "name": "Squeeze",
-    "image": "/targets/92.png"
+    "image": "/targets/92.png",
+    "colors": [
+      "#6592CF",
+      "#243D83"
+    ]
   },
   {
     "id": 93,
     "name": "Great Wall",
-    "image": "/targets/93.png"
+    "image": "/targets/93.png",
+    "colors": [
+      "#4F77FF",
+      "#191919",
+      "#F9E492",
+      "#D6B73F"
+    ]
   },
   {
     "id": 94,
     "name": "Ripples",
-    "image": "/targets/94.png"
+    "image": "/targets/94.png",
+    "colors": [
+      "#0E2E2C",
+      "#F3AC3C",
+      "#998235"
+    ]
   },
   {
     "id": 95,
     "name": "Pokeball",
-    "image": "/targets/95.png"
+    "image": "/targets/95.png",
+    "colors": [
+      "#6CB3A9",
+      "#D25B70",
+      "#FFFFFF",
+      "#781728",
+      "#F6DF96"
+    ]
   },
   {
     "id": 96,
     "name": "Mandala",
-    "image": "/targets/96.png"
+    "image": "/targets/96.png",
+    "colors": [
+      "#6592CF",
+      "#243D83"
+    ]
   },
   {
     "id": 97,
     "name": "Snowman",
-    "image": "/targets/97.png"
+    "image": "/targets/97.png",
+    "colors": [
+      "#AC474B",
+      "#FFFFFF",
+      "#0E1F2B",
+      "#FFA63F"
+    ]
   },
   {
     "id": 98,
     "name": "Candle",
-    "image": "/targets/98.png"
+    "image": "/targets/98.png",
+    "colors": [
+      "#14313E",
+      "#BA3E46",
+      "#F3695A",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 99,
     "name": "Gift Box",
-    "image": "/targets/99.png"
+    "image": "/targets/99.png",
+    "colors": [
+      "#AC474B",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 100,
     "name": "CSSBattle",
-    "image": "/targets/100.png"
+    "image": "/targets/100.png",
+    "colors": [
+      "#14313E",
+      "#FFDF00"
+    ],
+    "isOpen": true
   },
   {
     "id": 101,
     "name": "Sharingan",
-    "image": "/targets/101.png"
+    "image": "/targets/101.png",
+    "colors": [
+      "#161616",
+      "#A22015",
+      "#000000",
+      "#E96A23"
+    ]
   },
   {
     "id": 102,
     "name": "One Piece",
-    "image": "/targets/102.png"
+    "image": "/targets/102.png",
+    "colors": [
+      "#000000",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 103,
     "name": "Super Saiyan",
-    "image": "/targets/103.png"
+    "image": "/targets/103.png",
+    "colors": [
+      "#161616",
+      "#EBAE11",
+      "#FFFFFF",
+      "#FFDEB9"
+    ]
   },
   {
     "id": 104,
     "name": "Amegakure",
-    "image": "/targets/104.png"
+    "image": "/targets/104.png",
+    "colors": [
+      "#000000",
+      "#37385A",
+      "#9897AE",
+      "#C0C3DB"
+    ]
   },
   {
     "id": 105,
     "name": "Ryuk",
-    "image": "/targets/105.png"
+    "image": "/targets/105.png",
+    "colors": [
+      "#BAC7CE",
+      "#475862",
+      "#000000",
+      "#868A64",
+      "#5A6042",
+      "#4E2B24"
+    ]
   },
   {
     "id": 106,
     "name": "Ryuk's Apple",
-    "image": "/targets/106.png"
+    "image": "/targets/106.png",
+    "colors": [
+      "#000000",
+      "#D4392D"
+    ],
+    "isOpen": true
   },
   {
     "id": 107,
     "name": "Sealing Wand",
-    "image": "/targets/107.png"
+    "image": "/targets/107.png",
+    "colors": [
+      "#161616",
+      "#E96A23",
+      "#FFFFFF",
+      "#A22015"
+    ]
   },
   {
     "id": 108,
     "name": "Clow Card",
-    "image": "/targets/108.png"
+    "image": "/targets/108.png",
+    "colors": [
+      "#000000",
+      "#E96A23",
+      "#EBAE11"
+    ]
   },
   {
     "id": 109,
     "name": "Curtain",
-    "image": "/targets/109.png"
+    "image": "/targets/109.png",
+    "colors": [
+      "#191919",
+      "#F6E59C"
+    ]
   },
   {
     "id": 110,
     "name": "Sunrays",
-    "image": "/targets/110.png"
+    "image": "/targets/110.png",
+    "colors": [
+      "#D25B70",
+      "#F2E09F"
+    ]
   },
   {
     "id": 111,
     "name": "Rain Drops",
-    "image": "/targets/111.png"
+    "image": "/targets/111.png",
+    "colors": [
+      "#F3AC3C",
+      "#254241"
+    ],
+    "isOpen": true
   },
   {
     "id": 112,
     "name": "Chevron",
-    "image": "/targets/112.png"
+    "image": "/targets/112.png",
+    "colors": [
+      "#6592CF",
+      "#293D7E"
+    ]
   },
   {
     "id": 113,
     "name": "Black Light",
-    "image": "/targets/113.png"
+    "image": "/targets/113.png",
+    "colors": [
+      "#5776F6",
+      "#191919"
+    ]
   },
   {
     "id": 114,
     "name": "Negative Box",
-    "image": "/targets/114.png"
+    "image": "/targets/114.png",
+    "colors": [
+      "#172D2C",
+      "#E9AF53"
+    ]
   },
   {
     "id": 115,
     "name": "Droplet",
-    "image": "/targets/115.png"
+    "image": "/targets/115.png",
+    "colors": [
+      "#C36271",
+      "#F2E09F"
+    ]
   },
   {
     "id": 116,
     "name": "Headphones",
-    "image": "/targets/116.png"
+    "image": "/targets/116.png",
+    "colors": [
+      "#293D7E",
+      "#6E91CA"
+    ]
   },
   {
     "id": 117,
     "name": "Arineo",
-    "image": "/targets/117.png"
+    "image": "/targets/117.png",
+    "colors": [
+      "#FFFFFF",
+      "#0088CA",
+      "#2E2926"
+    ]
   },
   {
     "id": 118,
     "name": "Donkey Kong",
-    "image": "/targets/118.png"
+    "image": "/targets/118.png",
+    "colors": [
+      "#000000",
+      "#AF067C",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 119,
     "name": "Pacman",
-    "image": "/targets/119.png"
+    "image": "/targets/119.png",
+    "colors": [
+      "#000000",
+      "#E0E246",
+      "#C74E4E",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 120,
     "name": "Tank",
-    "image": "/targets/120.png"
+    "image": "/targets/120.png",
+    "colors": [
+      "#000000",
+      "#54C144",
+      "#C74E4E",
+      "#FFFFFF"
+    ],
+    "isOpen": true
   },
   {
     "id": 121,
     "name": "Duck Hunt",
-    "image": "/targets/121.png"
+    "image": "/targets/121.png",
+    "colors": [
+      "#1E92FF",
+      "#6F6100",
+      "#69D10A",
+      "#441A0A"
+    ]
   },
   {
     "id": 122,
     "name": "Tetris",
-    "image": "/targets/122.png"
+    "image": "/targets/122.png",
+    "colors": [
+      "#173889",
+      "#EE4F63",
+      "#2CE1EA",
+      "#F8DA37",
+      "#B069F7"
+    ]
   },
   {
     "id": 123,
     "name": "Snake",
-    "image": "/targets/123.png"
+    "image": "/targets/123.png",
+    "colors": [
+      "#C74E4E",
+      "#E0E246",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 124,
     "name": "Space Invaders",
-    "image": "/targets/124.png"
+    "image": "/targets/124.png",
+    "colors": [
+      "#071945",
+      "#B069F7",
+      "#F8DA37",
+      "#2CE1EA"
+    ]
   },
   {
     "id": 125,
     "name": "Root Learn",
-    "image": "/targets/125.png"
+    "image": "/targets/125.png",
+    "colors": [
+      "#EFF2F1",
+      "#1C1C1C"
+    ]
   },
   {
     "id": 126,
     "name": "Letter A",
-    "image": "/targets/126.png"
+    "image": "/targets/126.png",
+    "colors": [
+      "#62306D",
+      "#FEF9CA",
+      "#C5B732",
+      "#E38F66",
+      "#AA445F"
+    ]
   },
   {
     "id": 127,
     "name": "Letter I",
-    "image": "/targets/127.png"
+    "image": "/targets/127.png",
+    "colors": [
+      "#E3516E",
+      "#FADE8B"
+    ]
   },
   {
     "id": 128,
     "name": "Letter N",
-    "image": "/targets/128.png"
+    "image": "/targets/128.png",
+    "colors": [
+      "#998235",
+      "#0B2429",
+      "#FCBE5C"
+    ]
   },
   {
     "id": 129,
     "name": "Letter B",
-    "image": "/targets/129.png"
+    "image": "/targets/129.png",
+    "colors": [
+      "#6592CF",
+      "#515DBD",
+      "#2E3B9F",
+      "#060F55"
+    ]
   },
   {
     "id": 130,
     "name": "Letter O",
-    "image": "/targets/130.png"
+    "image": "/targets/130.png",
+    "colors": [
+      "#926927",
+      "#FFFFFF",
+      "#6D480A"
+    ],
+    "isOpen": true
   },
   {
     "id": 131,
     "name": "Letter W",
-    "image": "/targets/131.png"
+    "image": "/targets/131.png",
+    "colors": [
+      "#E38F66",
+      "#62306D",
+      "#FFFBDA"
+    ]
   },
   {
     "id": 132,
     "name": "Letter S",
-    "image": "/targets/132.png"
+    "image": "/targets/132.png",
+    "colors": [
+      "#4F77FF",
+      "#FFFFFF",
+      "#1038BF"
+    ]
   },
   {
     "id": 133,
     "name": "Spiral",
-    "image": "/targets/133.png"
+    "image": "/targets/133.png",
+    "colors": [
+      "#F5D6B4",
+      "#D86F45"
+    ]
   },
   {
     "id": 134,
     "name": "Wig",
-    "image": "/targets/134.png"
+    "image": "/targets/134.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D"
+    ]
   },
   {
     "id": 135,
     "name": "Spikes",
-    "image": "/targets/135.png"
+    "image": "/targets/135.png",
+    "colors": [
+      "#E3516E",
+      "#D9D9D9"
+    ]
   },
   {
     "id": 136,
     "name": "Alien Eye",
-    "image": "/targets/136.png"
+    "image": "/targets/136.png",
+    "colors": [
+      "#998235",
+      "#FCBE5C",
+      "#0B2429"
+    ]
   },
   {
     "id": 137,
     "name": "Elbow",
-    "image": "/targets/137.png"
+    "image": "/targets/137.png",
+    "colors": [
+      "#6592CF",
+      "#060F55"
+    ],
+    "isOpen": true
   },
   {
     "id": 138,
     "name": "Lotus",
-    "image": "/targets/138.png"
+    "image": "/targets/138.png",
+    "colors": [
+      "#926927",
+      "#6D480A",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 139,
     "name": "Lamp",
-    "image": "/targets/139.png"
+    "image": "/targets/139.png",
+    "colors": [
+      "#E38F66",
+      "#FFFBDA",
+      "#62306D"
+    ]
   },
   {
     "id": 140,
     "name": "Eclipse",
-    "image": "/targets/140.png"
+    "image": "/targets/140.png",
+    "colors": [
+      "#4F77FF",
+      "#1038BF",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 141,
     "name": "Third Eye",
-    "image": "/targets/141.png"
+    "image": "/targets/141.png",
+    "colors": [
+      "#E3516E",
+      "#D9D9D9"
+    ]
   },
   {
     "id": 142,
     "name": "Curtains",
-    "image": "/targets/142.png"
+    "image": "/targets/142.png",
+    "colors": [
+      "#4F77FF",
+      "#1038BF",
+      "#FFFFFF"
+    ],
+    "isOpen": true
   },
   {
     "id": 143,
     "name": "Simply Circle",
-    "image": "/targets/143.png"
+    "image": "/targets/143.png",
+    "colors": [
+      "#F5D6B4",
+      "#D86F45"
+    ]
   },
   {
     "id": 144,
     "name": "Long Heart",
-    "image": "/targets/144.png"
+    "image": "/targets/144.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D"
+    ]
   },
   {
     "id": 145,
     "name": "Spotlight",
-    "image": "/targets/145.png"
+    "image": "/targets/145.png",
+    "colors": [
+      "#E3516E",
+      "#D9D9D9"
+    ]
   },
   {
     "id": 146,
     "name": "Streaks",
-    "image": "/targets/146.png"
+    "image": "/targets/146.png",
+    "colors": [
+      "#998235",
+      "#FCBE5C",
+      "#0B2429"
+    ]
   },
   {
     "id": 147,
     "name": "Splash",
-    "image": "/targets/147.png"
+    "image": "/targets/147.png",
+    "colors": [
+      "#6592CF",
+      "#060F55"
+    ]
   },
   {
     "id": 148,
     "name": "Eight",
-    "image": "/targets/148.png"
+    "image": "/targets/148.png",
+    "colors": [
+      "#926927",
+      "#6D480A"
+    ],
+    "isOpen": true
   },
   {
     "id": 149,
     "name": "Earthworm",
-    "image": "/targets/149.png"
+    "image": "/targets/149.png",
+    "colors": [
+      "#E38F66",
+      "#FFFBDA"
+    ]
   },
   {
     "id": 150,
     "name": "Finger Heart",
-    "image": "/targets/150.png"
+    "image": "/targets/150.png",
+    "colors": [
+      "#4F77FF",
+      "#1038BF"
+    ]
   },
   {
     "id": 151,
     "name": "Pawn",
-    "image": "/targets/151.png"
+    "image": "/targets/151.png",
+    "colors": [
+      "#F5D6B4",
+      "#D86F45"
+    ]
   },
   {
     "id": 152,
     "name": "Rook",
-    "image": "/targets/152.png"
+    "image": "/targets/152.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D"
+    ]
   },
   {
     "id": 153,
     "name": "Checkers",
-    "image": "/targets/153.png"
+    "image": "/targets/153.png",
+    "colors": [
+      "#E3516E",
+      "#FADE8B"
+    ]
   },
   {
     "id": 154,
     "name": "Poker Chip",
-    "image": "/targets/154.png"
+    "image": "/targets/154.png",
+    "colors": [
+      "#998235",
+      "#FCBE5C",
+      "#0B2429"
+    ]
   },
   {
     "id": 155,
     "name": "Snakes & Ladders",
-    "image": "/targets/155.png"
+    "image": "/targets/155.png",
+    "colors": [
+      "#6592CF",
+      "#060F55"
+    ]
   },
   {
     "id": 156,
     "name": "Chinese Checkers",
-    "image": "/targets/156.png"
+    "image": "/targets/156.png",
+    "colors": [
+      "#926927",
+      "#F8B140"
+    ]
   },
   {
     "id": 157,
     "name": "Monopoly",
-    "image": "/targets/157.png"
+    "image": "/targets/157.png",
+    "colors": [
+      "#E38F66",
+      "#FFFBDA"
+    ]
   },
   {
     "id": 158,
     "name": "Clubs",
-    "image": "/targets/158.png"
+    "image": "/targets/158.png",
+    "colors": [
+      "#4F77FF",
+      "#1038BF"
+    ]
   },
   {
     "id": 159,
     "name": "Portal",
-    "image": "/targets/159.png"
+    "image": "/targets/159.png",
+    "colors": [
+      "#F5D6B4",
+      "#D86F45"
+    ]
   },
   {
     "id": 160,
     "name": "Donut",
-    "image": "/targets/160.png"
+    "image": "/targets/160.png",
+    "colors": [
+      "#62306D",
+      "#F7EC7D",
+      "#E38F66"
+    ]
   },
   {
     "id": 161,
     "name": "Converge",
-    "image": "/targets/161.png"
+    "image": "/targets/161.png",
+    "colors": [
+      "#E3516E",
+      "#FADE8B"
+    ]
   },
   {
     "id": 162,
     "name": "Upwards",
-    "image": "/targets/162.png"
+    "image": "/targets/162.png",
+    "colors": [
+      "#998235",
+      "#0B2429",
+      "#FCBE5C"
+    ]
   },
   {
     "id": 163,
     "name": "Missing Piece",
-    "image": "/targets/163.png"
+    "image": "/targets/163.png",
+    "colors": [
+      "#D669EC",
+      "#FDFBF8"
+    ]
   },
   {
     "id": 164,
     "name": "Rangoli",
-    "image": "/targets/164.png"
+    "image": "/targets/164.png",
+    "colors": [
+      "#66284A",
+      "#D86F45",
+      "#F0CD48",
+      "#D669EC",
+      "#FDFBF8"
+    ]
   },
   {
     "id": 165,
     "name": "Pyramid",
-    "image": "/targets/165.png"
+    "image": "/targets/165.png",
+    "colors": [
+      "#F0CD48",
+      "#66284A"
+    ]
   },
   {
     "id": 166,
     "name": "Flow",
-    "image": "/targets/166.png"
+    "image": "/targets/166.png",
+    "colors": [
+      "#D86F45",
+      "#FDFBF8"
+    ]
   },
   {
     "id": 167,
     "name": "React India",
-    "image": "/targets/167.png"
+    "image": "/targets/167.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2",
+      "#4FA07B",
+      "#DC6638",
+      "#73C6EA"
+    ]
   },
   {
     "id": 168,
     "name": "Carpet",
-    "image": "/targets/168.png"
+    "image": "/targets/168.png",
+    "colors": [
+      "#0D1335",
+      "#DC6638"
+    ]
   },
   {
     "id": 169,
     "name": "Abstract Plate",
-    "image": "/targets/169.png"
+    "image": "/targets/169.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2",
+      "#4FA07B"
+    ]
   },
   {
     "id": 170,
     "name": "Party Hat",
-    "image": "/targets/170.png"
+    "image": "/targets/170.png",
+    "colors": [
+      "#0D1335",
+      "#FBFAE2",
+      "#DC6638",
+      "#73C6EA"
+    ]
   },
   {
     "id": 171,
     "name": "Pumpkin",
-    "image": "/targets/171.png"
+    "image": "/targets/171.png",
+    "colors": [
+      "#784972",
+      "#F7FFCF"
+    ]
   },
   {
     "id": 172,
     "name": "Crossbones",
-    "image": "/targets/172.png"
+    "image": "/targets/172.png",
+    "colors": [
+      "#EFEB99",
+      "#8647E6"
+    ]
   },
   {
     "id": 173,
     "name": "Hockey Mask",
-    "image": "/targets/173.png"
+    "image": "/targets/173.png",
+    "colors": [
+      "#A5B5B4",
+      "#FFFFFF",
+      "#000000"
+    ]
   },
   {
     "id": 174,
     "name": "Witch's Hat",
-    "image": "/targets/174.png"
+    "image": "/targets/174.png",
+    "colors": [
+      "#F4DCBF",
+      "#30383F",
+      "#556D7F",
+      "#FBD038"
+    ]
   },
   {
     "id": 175,
     "name": "Evil Cat",
-    "image": "/targets/175.png"
+    "image": "/targets/175.png",
+    "colors": [
+      "#ED6A9D",
+      "#050044",
+      "#FFC100"
+    ]
   },
   {
     "id": 176,
     "name": "Castlevania",
-    "image": "/targets/176.png"
+    "image": "/targets/176.png",
+    "colors": [
+      "#A6D6AE",
+      "#3A0F09",
+      "#BB9213"
+    ]
   },
   {
     "id": 177,
     "name": "Frankenstein",
-    "image": "/targets/177.png"
+    "image": "/targets/177.png",
+    "colors": [
+      "#3C8D3F",
+      "#14F078",
+      "#1A1D2F",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 178,
     "name": "Candy",
-    "image": "/targets/178.png"
+    "image": "/targets/178.png",
+    "colors": [
+      "#CBE8DD",
+      "#007192"
+    ]
   },
   {
     "id": 179,
     "name": "Tanzania",
-    "image": "/targets/179.png"
+    "image": "/targets/179.png",
+    "colors": [
+      "#14A84A",
+      "#F8CD1E",
+      "#000000",
+      "#3B66B0"
+    ]
   },
   {
     "id": 180,
     "name": "Kuwait",
-    "image": "/targets/180.png"
+    "image": "/targets/180.png",
+    "colors": [
+      "#000000",
+      "#13AA4B",
+      "#FFFFFF",
+      "#EC1E25"
+    ]
   },
   {
     "id": 181,
     "name": "Iceland",
-    "image": "/targets/181.png"
+    "image": "/targets/181.png",
+    "colors": [
+      "#33499F",
+      "#DE3832",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 182,
     "name": "Bahrain",
-    "image": "/targets/182.png"
+    "image": "/targets/182.png",
+    "colors": [
+      "#DA291C",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 183,
     "name": "Brazil",
-    "image": "/targets/183.png"
+    "image": "/targets/183.png",
+    "colors": [
+      "#009B3A",
+      "#FEDF00",
+      "#FFFFFF",
+      "#002776"
+    ]
   },
   {
     "id": 184,
     "name": "India",
-    "image": "/targets/184.png"
+    "image": "/targets/184.png",
+    "colors": [
+      "#00007B",
+      "#3F8627",
+      "#F19E4B",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 185,
     "name": "South Korea",
-    "image": "/targets/185.png"
+    "image": "/targets/185.png",
+    "colors": [
+      "#CD2E3A",
+      "#0047A0",
+      "#FFFFFF",
+      "#000000"
+    ]
   },
   {
     "id": 186,
     "name": "Guernsey",
-    "image": "/targets/186.png"
+    "image": "/targets/186.png",
+    "colors": [
+      "#F9DD16",
+      "#E8112D",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 187,
     "name": "Striped Triangle",
-    "image": "/targets/187.png"
+    "image": "/targets/187.png",
+    "colors": [
+      "#40234B",
+      "#A94EA4"
+    ]
   },
   {
     "id": 188,
     "name": "Icecream Sticks",
-    "image": "/targets/188.png"
+    "image": "/targets/188.png",
+    "colors": [
+      "#FFFD9B",
+      "#969610",
+      "#646521"
+    ]
   },
   {
     "id": 189,
     "name": "Triangle Hook",
-    "image": "/targets/189.png"
+    "image": "/targets/189.png",
+    "colors": [
+      "#D669EC",
+      "#FDFBF8"
+    ]
   },
   {
     "id": 190,
     "name": "Power Chip",
-    "image": "/targets/190.png"
+    "image": "/targets/190.png",
+    "colors": [
+      "#E3516E",
+      "#FADE8B"
+    ]
   },
   {
     "id": 191,
     "name": "Modern Fence",
-    "image": "/targets/191.png"
+    "image": "/targets/191.png",
+    "colors": [
+      "#2F2E59",
+      "#EEECF6"
+    ]
   },
   {
     "id": 192,
     "name": "Abstract Firefly",
-    "image": "/targets/192.png"
+    "image": "/targets/192.png",
+    "colors": [
+      "#1D471D",
+      "#CCE58E"
+    ]
   },
   {
     "id": 193,
     "name": "Galver",
-    "image": "/targets/193.png"
+    "image": "/targets/193.png",
+    "colors": [
+      "#FCDDEB",
+      "#8B0051",
+      "#F180B6"
+    ]
   },
   {
     "id": 194,
     "name": "Fountain",
-    "image": "/targets/194.png"
+    "image": "/targets/194.png",
+    "colors": [
+      "#4FA07B",
+      "#0D1335"
+    ]
   },
   {
     "id": 195,
     "name": "LookAway",
-    "image": "/targets/195.png"
+    "image": "/targets/195.png",
+    "colors": [
+      "#F459E3",
+      "#E89A52",
+      "#F9C96C",
+      "#131313"
+    ]
   },
   {
     "id": 196,
     "name": "Tree",
-    "image": "/targets/196.png"
+    "image": "/targets/196.png",
+    "colors": [
+      "#90D3A6",
+      "#024817"
+    ]
   },
   {
     "id": 197,
     "name": "Crystal",
-    "image": "/targets/197.png"
+    "image": "/targets/197.png",
+    "colors": [
+      "#5F133F",
+      "#F075B0",
+      "#F7BED9"
+    ]
   },
   {
     "id": 198,
     "name": "Walls",
-    "image": "/targets/198.png"
+    "image": "/targets/198.png",
+    "colors": [
+      "#6867D4",
+      "#7BAFDE",
+      "#000039"
+    ]
   },
   {
     "id": 199,
     "name": "Antenna",
-    "image": "/targets/199.png"
+    "image": "/targets/199.png",
+    "colors": [
+      "#F48B26",
+      "#FEFF58"
+    ]
   },
   {
     "id": 200,
     "name": "Lantern",
-    "image": "/targets/200.png"
+    "image": "/targets/200.png",
+    "colors": [
+      "#FAD3E5",
+      "#8B0051"
+    ]
   },
   {
     "id": 201,
     "name": "Triple Zero",
-    "image": "/targets/201.png"
+    "image": "/targets/201.png",
+    "colors": [
+      "#998235",
+      "#FCBE5C",
+      "#0B2429"
+    ]
   },
   {
     "id": 202,
     "name": "Steering Wheel",
-    "image": "/targets/202.png"
+    "image": "/targets/202.png",
+    "colors": [
+      "#4F77FF",
+      "#1038BF"
+    ]
   },
   {
     "id": 203,
     "name": "Wolverine",
-    "image": "/targets/203.png"
+    "image": "/targets/203.png",
+    "colors": [
+      "#F3AC3C",
+      "#373794",
+      "#FFFFFF",
+      "#0E0E39"
+    ]
   },
   {
     "id": 204,
     "name": "Deadpool",
-    "image": "/targets/204.png"
+    "image": "/targets/204.png",
+    "colors": [
+      "#F3AC3C",
+      "#000000",
+      "#FFFFFF",
+      "#9F3333"
+    ]
   },
   {
     "id": 205,
     "name": "Magneto's helmet",
-    "image": "/targets/205.png"
+    "image": "/targets/205.png",
+    "colors": [
+      "#232323",
+      "#AF3A3A"
+    ]
   },
   {
     "id": 206,
     "name": "Punisher",
-    "image": "/targets/206.png"
+    "image": "/targets/206.png",
+    "colors": [
+      "#000000",
+      "#CAE5DC"
+    ]
   },
   {
     "id": 207,
     "name": "Green Lantern logo",
-    "image": "/targets/207.png"
+    "image": "/targets/207.png",
+    "colors": [
+      "#0E532F",
+      "#70CEAF"
+    ]
   },
   {
     "id": 208,
     "name": "Hulk fist",
-    "image": "/targets/208.png"
+    "image": "/targets/208.png",
+    "colors": [
+      "#107640",
+      "#161D1A"
+    ]
   },
   {
     "id": 209,
     "name": "Iron man",
-    "image": "/targets/209.png"
+    "image": "/targets/209.png",
+    "colors": [
+      "#F3AC3C",
+      "#FFFFFF",
+      "#BB2726"
+    ]
   },
   {
     "id": 210,
     "name": "Black widow logo",
-    "image": "/targets/210.png"
+    "image": "/targets/210.png",
+    "colors": [
+      "#151917",
+      "#D83A34"
+    ]
   },
   {
     "id": 211,
     "name": "CSS Weekly",
-    "image": "/targets/211.png"
+    "image": "/targets/211.png",
+    "colors": [
+      "#9B8170",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 212,
     "name": "Fibonacci peacock",
-    "image": "/targets/212.png"
+    "image": "/targets/212.png",
+    "colors": [
+      "#FFED99",
+      "#000000",
+      "#9F3333",
+      "#3F8627",
+      "#F48B26"
+    ]
   },
   {
     "id": 213,
     "name": "Boat",
-    "image": "/targets/213.png"
+    "image": "/targets/213.png",
+    "colors": [
+      "#EEF8FF",
+      "#4A7D7B",
+      "#8AB8B6"
+    ]
   },
   {
     "id": 214,
     "name": "Newspaper",
-    "image": "/targets/214.png"
+    "image": "/targets/214.png",
+    "colors": [
+      "#F8F8F8",
+      "#787885"
+    ]
   },
   {
     "id": 215,
     "name": "Staggered checks",
-    "image": "/targets/215.png"
+    "image": "/targets/215.png",
+    "colors": [
+      "#6867D4",
+      "#000039"
+    ]
   },
   {
     "id": 216,
     "name": "Pies",
-    "image": "/targets/216.png"
+    "image": "/targets/216.png",
+    "colors": [
+      "#37212D",
+      "#EE9B99",
+      "#BCE6E9",
+      "#76608A"
+    ]
   },
   {
     "id": 217,
     "name": "Maze",
-    "image": "/targets/217.png"
+    "image": "/targets/217.png",
+    "colors": [
+      "#202939",
+      "#556787",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 218,
     "name": "3D",
-    "image": "/targets/218.png"
+    "image": "/targets/218.png",
+    "colors": [
+      "#4C455B",
+      "#8AB8B6"
+    ]
   },
   {
     "id": 219,
     "name": "CodePen",
-    "image": "/targets/219.png"
+    "image": "/targets/219.png",
+    "colors": [
+      "#101724",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 220,
     "name": "Building",
-    "image": "/targets/220.png"
+    "image": "/targets/220.png",
+    "colors": [
+      "#67AED4",
+      "#0F2836",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 221,
     "name": "Entangled",
-    "image": "/targets/221.png"
+    "image": "/targets/221.png",
+    "colors": [
+      "#3F4869",
+      "#E25C57",
+      "#F4DA64"
+    ]
   },
   {
     "id": 222,
     "name": "Rocket",
-    "image": "/targets/222.png"
+    "image": "/targets/222.png",
+    "colors": [
+      "#B0E1FB",
+      "#C15965",
+      "#4B4D88"
+    ]
   },
   {
     "id": 223,
     "name": "UFO",
-    "image": "/targets/223.png"
+    "image": "/targets/223.png",
+    "colors": [
+      "#2F434E",
+      "#E25C57",
+      "#F3AC3C"
+    ]
   },
   {
     "id": 224,
     "name": "Levelled",
-    "image": "/targets/224.png"
+    "image": "/targets/224.png",
+    "colors": [
+      "#F8B140",
+      "#000000",
+      "#FFFFFF",
+      "#67AED4"
+    ]
   },
   {
     "id": 225,
     "name": "Spark",
-    "image": "/targets/225.png"
+    "image": "/targets/225.png",
+    "colors": [
+      "#343848",
+      "#E25C57",
+      "#F4DA64"
+    ]
   },
   {
     "id": 226,
     "name": "Bond",
-    "image": "/targets/226.png"
+    "image": "/targets/226.png",
+    "colors": [
+      "#558C90",
+      "#FFFFFF",
+      "#325853"
+    ]
   },
   {
     "id": 227,
     "name": "Balanced",
-    "image": "/targets/227.png"
+    "image": "/targets/227.png",
+    "colors": [
+      "#CF6939",
+      "#F9D081",
+      "#123747",
+      "#6D8971"
+    ]
   },
   {
     "id": 228,
     "name": "Another Tree",
-    "image": "/targets/228.png"
+    "image": "/targets/228.png",
+    "colors": [
+      "#D2F8FF",
+      "#072949",
+      "#3F8090"
+    ]
   },
   {
     "id": 229,
     "name": "Flower",
-    "image": "/targets/229.png"
+    "image": "/targets/229.png",
+    "colors": [
+      "#F4DCBF",
+      "#D95362"
+    ]
   },
   {
     "id": 230,
     "name": "Connection",
-    "image": "/targets/230.png"
+    "image": "/targets/230.png",
+    "colors": [
+      "#3F4869",
+      "#F4DA64"
+    ]
   },
   {
     "id": 231,
     "name": "Crosshair",
-    "image": "/targets/231.png"
+    "image": "/targets/231.png",
+    "colors": [
+      "#2F434E",
+      "#CF6939",
+      "#F8B140"
+    ]
   },
   {
     "id": 232,
     "name": "GAAD",
-    "image": "/targets/232.png"
+    "image": "/targets/232.png",
+    "colors": [
+      "#FDFFE9",
+      "#01385E",
+      "#81CAFE"
+    ]
   },
   {
     "id": 233,
     "name": "Pendulum",
-    "image": "/targets/233.png"
+    "image": "/targets/233.png",
+    "colors": [
+      "#F4DA64",
+      "#469DBA"
+    ]
   },
   {
     "id": 234,
     "name": "Pieces",
-    "image": "/targets/234.png"
+    "image": "/targets/234.png",
+    "colors": [
+      "#1FBCB5",
+      "#F9F8F4",
+      "#074760",
+      "#FFB43D"
+    ]
   },
   {
     "id": 235,
     "name": "Website",
-    "image": "/targets/235.png"
+    "image": "/targets/235.png",
+    "colors": [
+      "#FDFFE9",
+      "#ADB274",
+      "#555A2A"
+    ]
   },
   {
     "id": 236,
     "name": "Concentrate",
-    "image": "/targets/236.png"
+    "image": "/targets/236.png",
+    "colors": [
+      "#F8B140",
+      "#2F434E",
+      "#CF6939"
+    ]
   },
   {
     "id": 237,
     "name": "Round castle",
-    "image": "/targets/237.png"
+    "image": "/targets/237.png",
+    "colors": [
+      "#3F4869",
+      "#F4DA64",
+      "#E25C57"
+    ]
   },
   {
     "id": 238,
     "name": "Rising sun",
-    "image": "/targets/238.png"
+    "image": "/targets/238.png",
+    "colors": [
+      "#FEFF58",
+      "#D2F8FF",
+      "#CF6939",
+      "#000000"
+    ]
   },
   {
     "id": 239,
     "name": "Waves",
-    "image": "/targets/239.png"
+    "image": "/targets/239.png",
+    "colors": [
+      "#CEEDFF",
+      "#48BF7D"
+    ]
   },
   {
     "id": 240,
     "name": "Snapshot",
-    "image": "/targets/240.png"
+    "image": "/targets/240.png",
+    "colors": [
+      "#558C90",
+      "#325853",
+      "#F4DA64"
+    ]
   },
   {
     "id": 241,
     "name": "Mint Typewriter",
-    "image": "/targets/241.png"
+    "image": "/targets/241.png",
+    "colors": [
+      "#3D3824",
+      "#86C78D",
+      "#F7FFCF"
+    ]
   },
   {
     "id": 242,
     "name": "Orbital Tiles",
-    "image": "/targets/242.png"
+    "image": "/targets/242.png",
+    "colors": [
+      "#FDFFE9",
+      "#D95362",
+      "#2D3464"
+    ]
   },
   {
     "id": 243,
     "name": "Corn",
-    "image": "/targets/243.png"
+    "image": "/targets/243.png",
+    "colors": [
+      "#2F2F2F",
+      "#727272",
+      "#C1C1C1"
+    ]
   },
   {
     "id": 244,
     "name": "Medusa",
-    "image": "/targets/244.png"
+    "image": "/targets/244.png",
+    "colors": [
+      "#D9D9D9",
+      "#222222"
+    ]
   },
   {
     "id": 245,
     "name": "Knot",
-    "image": "/targets/245.png"
+    "image": "/targets/245.png",
+    "colors": [
+      "#FFFFFF",
+      "#000000"
+    ]
   },
   {
     "id": 246,
     "name": "Limbs",
-    "image": "/targets/246.png"
+    "image": "/targets/246.png",
+    "colors": [
+      "#333333",
+      "#EEEEEE"
+    ]
   },
   {
     "id": 247,
     "name": "LEDs",
-    "image": "/targets/247.png"
+    "image": "/targets/247.png",
+    "colors": [
+      "#606060",
+      "#FFFFFF"
+    ]
   },
   {
     "id": 248,
     "name": "Bolt",
-    "image": "/targets/248.png"
+    "image": "/targets/248.png",
+    "colors": [
+      "#FFFFFF",
+      "#444444"
+    ]
   }
 ]
