@@ -5,11 +5,13 @@ import { TARGET_DIMENSIONS } from 'src/consts/targetDimensions'
 import { IFrame } from '../IFrame'
 import * as styles from './index.module.css'
 
-export type CardProps = HTMLAttributes<HTMLDivElement> & Target
+export type CardProps = HTMLAttributes<HTMLDivElement> & { target: Target }
 
-export function Card({ id, solution, title }: CardProps) {
+export function Card({ target }: CardProps) {
+  const { id, solution, title } = target
+
   return (
-    <div id={id} className="Card" title={title}>
+    <div id={String(id)} className="Card" title={title}>
       <IFrame
         className={styles.iframe}
         width={TARGET_DIMENSIONS.WIDTH}

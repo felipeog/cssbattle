@@ -81,7 +81,7 @@ export function List({ targets }: ListProps) {
               <EmptyCard
                 isInLastColumn={isInLastColumn(index + 1)}
                 isInLastRow={isInLastRow(index + 1)}
-                {...target}
+                target={target}
               />
             </li>
           )
@@ -89,7 +89,7 @@ export function List({ targets }: ListProps) {
 
         return (
           <li key={target.id}>
-            <Card {...target} />
+            <Card target={target} />
           </li>
         )
       })}
