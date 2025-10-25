@@ -1,7 +1,7 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Progress: 232/248
+- Progress: 234/248
 
 ## Battles and targets
 
@@ -506,12 +506,12 @@
 **Battle <span>#</span>35 - Color**
 
 - Description: Fun 4 weeks to create 8 targets!
-- Progress: 0/8
+- Progress: 2/8
 
 | Complete | Target                                  | Solution                            | Preview                                               |
 | -------- | --------------------------------------- | ----------------------------------- | ----------------------------------------------------- |
-| ❌       | Target <span>#</span>227 - Balanced     | [Solution](./shared/targets/227.ts) | [Preview](https://felipeog-cssbattle.netlify.app#227) |
-| ❌       | Target <span>#</span>228 - Another Tree | [Solution](./shared/targets/228.ts) | [Preview](https://felipeog-cssbattle.netlify.app#228) |
+| ✅       | Target <span>#</span>227 - Balanced     | [Solution](./shared/targets/227.ts) | [Preview](https://felipeog-cssbattle.netlify.app#227) |
+| ✅       | Target <span>#</span>228 - Another Tree | [Solution](./shared/targets/228.ts) | [Preview](https://felipeog-cssbattle.netlify.app#228) |
 | ❌       | Target <span>#</span>229 - Flower       | [Solution](./shared/targets/229.ts) | [Preview](https://felipeog-cssbattle.netlify.app#229) |
 | ❌       | Target <span>#</span>230 - Connection   | [Solution](./shared/targets/230.ts) | [Preview](https://felipeog-cssbattle.netlify.app#230) |
 | ❌       | Target <span>#</span>231 - Crosshair    | [Solution](./shared/targets/231.ts) | [Preview](https://felipeog-cssbattle.netlify.app#231) |
