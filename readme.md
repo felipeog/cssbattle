@@ -1,7 +1,7 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Progress: 242/250
+- Progress: 244/250
 
 ## Battles and targets
 
@@ -522,12 +522,12 @@
 **Battle <span>#</span>36 - Transform**
 
 - Description: Fun 4 weeks to create 8 targets!
-- Progress: 0/8
+- Progress: 2/8
 
 | Complete | Target                                     | Solution                            | Preview                                               |
 | -------- | ------------------------------------------ | ----------------------------------- | ----------------------------------------------------- |
-| ❌       | Target <span>#</span>235 - Website         | [Solution](./shared/targets/235.ts) | [Preview](https://felipeog-cssbattle.netlify.app#235) |
-| ❌       | Target <span>#</span>236 - Concentrate     | [Solution](./shared/targets/236.ts) | [Preview](https://felipeog-cssbattle.netlify.app#236) |
+| ✅       | Target <span>#</span>235 - Website         | [Solution](./shared/targets/235.ts) | [Preview](https://felipeog-cssbattle.netlify.app#235) |
+| ✅       | Target <span>#</span>236 - Concentrate     | [Solution](./shared/targets/236.ts) | [Preview](https://felipeog-cssbattle.netlify.app#236) |
 | ❌       | Target <span>#</span>237 - Round castle    | [Solution](./shared/targets/237.ts) | [Preview](https://felipeog-cssbattle.netlify.app#237) |
 | ❌       | Target <span>#</span>238 - Rising sun      | [Solution](./shared/targets/238.ts) | [Preview](https://felipeog-cssbattle.netlify.app#238) |
 | ❌       | Target <span>#</span>239 - Waves           | [Solution](./shared/targets/239.ts) | [Preview](https://felipeog-cssbattle.netlify.app#239) |
