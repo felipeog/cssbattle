@@ -1,7 +1,7 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Progress: 240/250
+- Progress: 242/250
 
 ## Battles and targets
 
@@ -506,7 +506,7 @@
 **Battle <span>#</span>35 - Color**
 
 - Description: Fun 4 weeks to create 8 targets!
-- Progress: 6/8
+- Progress: 8/8
 
 | Complete | Target                                  | Solution                            | Preview                                               |
 | -------- | --------------------------------------- | ----------------------------------- | ----------------------------------------------------- |
@@ -516,8 +516,8 @@
 | ✅       | Target <span>#</span>230 - Connection   | [Solution](./shared/targets/230.ts) | [Preview](https://felipeog-cssbattle.netlify.app#230) |
 | ✅       | Target <span>#</span>231 - Crosshair    | [Solution](./shared/targets/231.ts) | [Preview](https://felipeog-cssbattle.netlify.app#231) |
 | ✅       | Target <span>#</span>232 - GAAD         | [Solution](./shared/targets/232.ts) | [Preview](https://felipeog-cssbattle.netlify.app#232) |
-| ❌       | Target <span>#</span>233 - Pendulum     | [Solution](./shared/targets/233.ts) | [Preview](https://felipeog-cssbattle.netlify.app#233) |
-| ❌       | Target <span>#</span>234 - Pieces       | [Solution](./shared/targets/234.ts) | [Preview](https://felipeog-cssbattle.netlify.app#234) |
+| ✅       | Target <span>#</span>233 - Pendulum     | [Solution](./shared/targets/233.ts) | [Preview](https://felipeog-cssbattle.netlify.app#233) |
+| ✅       | Target <span>#</span>234 - Pieces       | [Solution](./shared/targets/234.ts) | [Preview](https://felipeog-cssbattle.netlify.app#234) |
 
 **Battle <span>#</span>36 - Transform**
 
