@@ -2451,5 +2451,23 @@
       "#FFFFFF",
       "#444444"
     ]
+  },
+  {
+    "id": 249,
+    "name": "Letter R",
+    "image": "/targets/249.png",
+    "colors": [
+      "#2F2F2F",
+      "#D9D9D9"
+    ]
+  },
+  {
+    "id": 250,
+    "name": "Recursion",
+    "image": "/targets/250.png",
+    "colors": [
+      "#FFFFFF",
+      "#000000"
+    ]
   }
 ]

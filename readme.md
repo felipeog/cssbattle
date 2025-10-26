@@ -1,7 +1,7 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Progress: 238/248
+- Progress: 238/250
 
 ## Battles and targets
 
