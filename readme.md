@@ -1,7 +1,7 @@
 # [CSSBattle](https://cssbattle.dev)
 
 - Profile: [@felipeog](https://cssbattle.dev/player/felipeog)
-- Progress: 248/250
+- Progress: 250/250
 
 ## Battles and targets
 
@@ -522,7 +522,7 @@
 **Battle <span>#</span>36 - Transform**
 
 - Description: Fun 4 weeks to create 8 targets!
-- Progress: 6/8
+- Progress: 8/8
 
 | Complete | Target                                     | Solution                            | Preview                                               |
 | -------- | ------------------------------------------ | ----------------------------------- | ----------------------------------------------------- |
@@ -532,8 +532,8 @@
 | ✅       | Target <span>#</span>238 - Rising sun      | [Solution](./shared/targets/238.ts) | [Preview](https://felipeog-cssbattle.netlify.app#238) |
 | ✅       | Target <span>#</span>239 - Waves           | [Solution](./shared/targets/239.ts) | [Preview](https://felipeog-cssbattle.netlify.app#239) |
 | ✅       | Target <span>#</span>240 - Snapshot        | [Solution](./shared/targets/240.ts) | [Preview](https://felipeog-cssbattle.netlify.app#240) |
-| ❌       | Target <span>#</span>241 - Mint Typewriter | [Solution](./shared/targets/241.ts) | [Preview](https://felipeog-cssbattle.netlify.app#241) |
-| ❌       | Target <span>#</span>242 - Orbital Tiles   | [Solution](./shared/targets/242.ts) | [Preview](https://felipeog-cssbattle.netlify.app#242) |
+| ✅       | Target <span>#</span>241 - Mint Typewriter | [Solution](./shared/targets/241.ts) | [Preview](https://felipeog-cssbattle.netlify.app#241) |
+| ✅       | Target <span>#</span>242 - Orbital Tiles   | [Solution](./shared/targets/242.ts) | [Preview](https://felipeog-cssbattle.netlify.app#242) |
 
 **Battle <span>#</span>37 - Height**
 
